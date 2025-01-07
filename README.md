@@ -1,6 +1,6 @@
 # I'm MASAID ZEB  
 ### 🚀 ISTQB® certified Software Quality Assurance Engineer  
-
+# [📥Gateway to My Resume](https://drive.google.com/file/d/1cisS9BLn8OAqISYETm1-13nuBbc0NBZ1/view?usp=sharing)
 ---
 
 ## 👨‍💻 About Me  
@@ -8,7 +8,7 @@
 - 🧪 **Experience**: 1.5 years in QA, specializing in manual/automation testing, performance optimization, and defect management  
 - 🏆 **Certifications**:  
   - ISTQB® Certified Tester Foundation Level (CTFL) v4.0  
-  - Scrum Fundamentals Certified (SFC™)  
+  - Scrum Fundamentals Certified (SFC™)
 
 💡 *"Turning bugs into stepping stones for success!"*
 
