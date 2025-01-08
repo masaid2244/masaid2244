@@ -55,6 +55,15 @@
 - **Skills & Deliverables**:  
   - QA Engineering, PostgreSQL, Next.js  
 
+### 6️⃣ **[PEC EPE Portal - QA and Automation Testing](https://www.linkedin.com/in/masaid-sqa/details/projects/)**  
+- **Role**: QA Engineer  
+- **Description**: 🛠️ Conducted QA for PEC’s EPE Portal, enabling engineers to qualify as Professional Engineers (PE). Ensured seamless registration, CPD points tracking, and online exam workflows.  
+- **Skills & Deliverables**:  
+  - ✅ Manual Testing, Selenium (Python), JMeter  
+  - 🧰 Tools: Selenium, JMeter, MySQL, Postman  
+  - 📐 Techniques: Boundary Value Analysis (BVA), Use Case Testing, Regression Testing  
+  - 💡 Expertise: Agile, UAT, System Testing, Exploratory Testing, Automated Workflows  
+
 ---
 
 ## 🛠️ Skills Overview  
