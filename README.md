@@ -1,5 +1,27 @@
 # I'm MASAID ZEB  
 ### 🚀 ISTQB® certified Software Quality Assurance Engineer  
+---
+# Table of Contents
+- [👨‍💻 About Me](#-about-me)
+- [🌟 Key Projects](#-key-projects)
+  - [1️⃣ ERD Portal - Pakistan Engineering Council](#1️⃣-erd-portal---pakistan-engineering-council)
+  - [2️⃣ Automation (Selenium) - Engineer Renewal Application (PEC)](#2️⃣-automation-selenium---engineer-renewal-application-pec)
+  - [3️⃣ CPD Portal - Pakistan Engineering Council](#3️⃣-cpd-portal---pakistan-engineering-council)
+  - [4️⃣ ZATCA - Electronic Invoice System (Top Notepad)](#4️⃣-zatca---electronic-invoice-system-top-notepad)
+  - [5️⃣ The Entertainer - Voucher Management System](#5️⃣-the-entertainer---voucher-management-system)
+  - [6️⃣ PEC EPE Portal - QA and Automation Testing](#6️⃣-pec-epe-portal---qa-and-automation-testing)
+- [🛠️ Skills Overview](#️-skills-overview)
+  - [🎯 Testing Types & Methodologies](#-testing-types--methodologies)
+  - [🩺 Quality Assurance & Defect Management](#-quality-assurance--defect-management)
+  - [🚀 Development Processes](#-development-processes)
+  - [🧪 Testing Techniques](#-testing-techniques)
+- [📊 Certifications](#-certifications)
+  - [🏆 Key Certifications](#-key-certifications)
+  - [🎓 Skill-Based Certifications](#-skill-based-certifications)
+  - [📚 Additional Knowledge](#-additional-knowledge)
+
+
+
 # [📥Gateway to My Resume](https://drive.google.com/file/d/1cisS9BLn8OAqISYETm1-13nuBbc0NBZ1/view?usp=sharing)
 ---
 
