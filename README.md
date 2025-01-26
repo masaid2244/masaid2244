@@ -1,8 +1,9 @@
 # 🌟 Welcome to My Portfolio Repository! 🌟  
-
+---
 ### 👋 Hi, I'm **MASAID ZEB**  
 🚀 ISTQB® Certified Software Quality Assurance Engineer  
 
+---
 ---
 
 ### 🎯 **About This Repository**  
@@ -37,7 +38,8 @@ This portfolio serves as a dynamic, scalable, and professional representation of
 ⭐️ If you like this repository, consider giving it a **star**!  
 
 ---
-# Table of Contents
+---
+# 🚀 Explore My Journey and Projects
 - [👨‍💻 About Me](#-about-me)
 - [🌟 Key Projects](#-key-projects)
   - [1️⃣ ERD Portal - Pakistan Engineering Council](#1️⃣-erd-portal---pakistan-engineering-council)
@@ -59,9 +61,6 @@ This portfolio serves as a dynamic, scalable, and professional representation of
 - [🎯 Ready to Collaborate? Download My CV!](#-ready-to-collaborate-download-my-cv) 
 
 ---
-
-# [📥Gateway to My Resume](https://drive.google.com/file/d/1cisS9BLn8OAqISYETm1-13nuBbc0NBZ1/view?usp=sharing)
-
 ---
 
 ## 👨‍💻 About Me  
@@ -89,7 +88,7 @@ This portfolio serves as a dynamic, scalable, and professional representation of
 
 This phrase embodies my commitment to excellence in Software Quality Assurance, using my name as a testament to my skills and dedication. 🚀
 
-
+---
 ---
 
 ## 🌟 Key Projects  
@@ -143,6 +142,7 @@ This phrase embodies my commitment to excellence in Software Quality Assurance, 
   - 💡 Expertise: Agile, UAT, System Testing, Exploratory Testing, Automated Workflows  
 
 ---
+---
 
 ## 🛠️ Skills Overview  
 
@@ -171,6 +171,7 @@ This phrase embodies my commitment to excellence in Software Quality Assurance, 
 | Selenium (Pytest) 🧪 | JMeter 🌡️ | Postman 📮 | Git 🗂️ |  
 | MySQL 🗃️ | PyCharm 💻 | JIRA 📝 | Testworthy ✔️ |  
 
+---
 ---
 
 ## 📊 Certifications  
@@ -214,7 +215,9 @@ This phrase embodies my commitment to excellence in Software Quality Assurance, 
 - 💻 **GitHub**: [Masaid Zeb's GitHub](https://github.com/masaidezeb2244)
 - 🌟 **Upwork**: [Masaid Zeb Upwork Account](https://www.upwork.com/freelancers/~0142d8a3e4667f52e8)   
 - 📍 **Location**: Islamabad, PK
- ---
+  
+---
+---
 
   # 🎯 Ready to Collaborate? Download My CV!
 
@@ -229,3 +232,6 @@ This phrase embodies my commitment to excellence in Software Quality Assurance, 
 
 💡 **Let’s build quality together!**
 
+---
+---
+💡 "Meticulously Analyzing Software, Assuring Impeccable Deliverables, Zealously Eliminating Bugs!"
