@@ -6,6 +6,33 @@
 ---
 ---
 
+## 📌 Table of Contents
+- [🎯 About This Repository](#-about-this-repository)
+- [✨ Features of This Portfolio](#-features-of-this-portfolio)
+- [🎯 Purpose](#-purpose)
+- [🚀 Explore More](#-explore-more)
+  - [👨‍💻 About Me](#-about-me)
+  - [🌟 Key Projects](#-projects)
+    - [1️⃣ Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](#1️⃣-selenium-based-automation-for-engineer-registration---pakistan-engineering-council-pec)
+    - [2️⃣ Quality Assurance for EPE Portal | Pakistan Engineering Council (PEC)](#2️⃣-quality-assurance-for-epe-portal-pakistan-engineering-council-pec)
+    - [3️⃣ Extensive QA for CPD Portal | Pakistan Engineering Council (PEC)](#3️⃣-extensive-qa-for-cpd-portal-pakistan-engineering-council-pec)
+    - [4️⃣ Selenium-Based Automation - Engineer Renewal Application | ERD Portal (PEC)](#4️⃣-selenium-based-automation---engineer-renewal-application--erd-portal-pec)
+    - [5️⃣ Evolo AI (Student Mobile App, Institute Mobile App, Employer Web App)](#5️⃣-evolo-ai-student-mobile-app-institute-mobile-app-employer-web-app)
+    - [6️⃣ Omni-Channel Web App (BPO Service Integration)](#6️⃣-omni-channel-web-app-bpo-service-integration)
+  - [🎯 Testing Types & Methodologies](#-testing-types--methodologies)
+  - [🩺 Quality Assurance & Defect Management](#-quality-assurance--defect-management)
+  - [🚀 Development Processes](#-development-processes)
+  - [🧪 Testing Techniques](#-testing-techniques)
+  - [⚙️ Tools & Frameworks](#️-tools--frameworks)
+- [📊 Certifications](#-certifications)
+  - [🏆 Key Certifications](#-key-certifications)
+  - [🎓 Skill-Based Certifications](#-skill-based-certifications)
+  - [📚 Additional Knowledge](#-additional-knowledge)
+- [🤝 Let's Connect!](#-lets-connect)
+- [🎯 Ready to Collaborate? Download My CV!](#-ready-to-collaborate-download-my-cv)
+
+---
+
 ### 🎯 **About This Repository**  
 This repository hosts my **personal portfolio**, a professional showcase of my journey as a **Software Quality Assurance (SQA) Engineer**. Here, you'll find insights into my skills, projects, and expertise in:  
 
@@ -36,28 +63,6 @@ This portfolio serves as a dynamic, scalable, and professional representation of
 ---
 
 ⭐️ If you like this repository, consider giving it a **star**!  
-
----
-# 🚀 Explore My Journey and Projects
-- [👨‍💻 About Me](#-about-me)
-- [🌟 Key Projects](#-key-projects)
-  - [1️⃣ Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](#1️⃣-selenium-based-automation-for-engineer-registration---pakistan-engineering-council-pec)
-  - [2️⃣ Quality Assurance for EPE Portal | Pakistan Engineering Council (PEC)](#2️⃣-quality-assurance-for-epe-portal-pakistan-engineering-council-pec)
-  - [3️⃣ Extensive QA for CPD Portal | Pakistan Engineering Council (PEC)](#3️⃣-extensive-qa-for-cpd-portal-pakistan-engineering-council-pec)
-  - [4️⃣ Selenium-Based Automation - Engineer Renewal Application | ERD Portal (PEC)](#4️⃣-selenium-based-automation---engineer-renewal-application--erd-portal-pec)
-  - [5️⃣ Evolo AI (Student Mobile App, Institute Mobile App, Employer Web App)](#5️⃣-evolo-ai-student-mobile-app-institute-mobile-app-employer-web-app)
-  - [6️⃣ Omni-Channel Web App (BPO Service Integration)](#6️⃣-omni-channel-web-app-bpo-service-integration)
-- [🛠️ Skills Overview](#️-skills-overview)
-  - [🎯 Testing Types & Methodologies](#-testing-types--methodologies)
-  - [🩺 Quality Assurance & Defect Management](#-quality-assurance--defect-management)
-  - [🚀 Development Processes](#-development-processes)
-  - [🧪 Testing Techniques](#-testing-techniques)
-- [📊 Certifications](#-certifications)
-  - [🏆 Key Certifications](#-key-certifications)
-  - [🎓 Skill-Based Certifications](#-skill-based-certifications)
-  - [📚 Additional Knowledge](#-additional-knowledge)
-- [🤝 Let's Connect!](#-lets-connect)  
-- [🎯 Ready to Collaborate? Download My CV!](#-ready-to-collaborate-download-my-cv) 
 
 ---
 ---
@@ -116,7 +121,7 @@ Automation Testing · Selenium WebDriver · Regression Testing · Test Automatio
 
 ---
 
-## 2️⃣ [Quality Assurance for EPE Portal](https://cpd.pec.org.pk/EPECustom) | [Pakistan Engineering Council (PEC)](https://www.pec.org.pk/)
+## 2️⃣ [Quality Assurance for EPE Portal](https://cpd.pec.org.pk/EPECustom) | [Pakistan Engineering Council](https://www.pec.org.pk/)
 🗓 **Duration**: Jan 2024 - Jul 2024 
 
 🎯 **Objective**:  
