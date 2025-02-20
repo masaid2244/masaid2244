@@ -38,16 +38,15 @@ This portfolio serves as a dynamic, scalable, and professional representation of
 ⭐️ If you like this repository, consider giving it a **star**!  
 
 ---
----
 # 🚀 Explore My Journey and Projects
 - [👨‍💻 About Me](#-about-me)
 - [🌟 Key Projects](#-key-projects)
-  - [1️⃣ ERD Portal - Pakistan Engineering Council](#1️⃣-erd-portal---pakistan-engineering-council)
-  - [2️⃣ Automation (Selenium) - Engineer Renewal Application (PEC)](#2️⃣-automation-selenium---engineer-renewal-application-pec)
-  - [3️⃣ CPD Portal - Pakistan Engineering Council](#3️⃣-cpd-portal---pakistan-engineering-council)
-  - [4️⃣ ZATCA - Electronic Invoice System (Top Notepad)](#4️⃣-zatca---electronic-invoice-system-top-notepad)
-  - [5️⃣ The Entertainer - Voucher Management System](#5️⃣-the-entertainer---voucher-management-system)
-  - [6️⃣ PEC EPE Portal - QA and Automation Testing](#6️⃣-pec-epe-portal---qa-and-automation-testing)
+  - [1️⃣ Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](#1️⃣-selenium-based-automation-for-engineer-registration---pakistan-engineering-council-pec)
+  - [2️⃣ Quality Assurance for EPE Portal | Pakistan Engineering Council (PEC)](#2️⃣-quality-assurance-for-epe-portal-pakistan-engineering-council-pec)
+  - [3️⃣ Extensive QA for CPD Portal | Pakistan Engineering Council (PEC)](#3️⃣-extensive-qa-for-cpd-portal-pakistan-engineering-council-pec)
+  - [4️⃣ Selenium-Based Automation - Engineer Renewal Application | ERD Portal (PEC)](#4️⃣-selenium-based-automation---engineer-renewal-application--erd-portal-pec)
+  - [5️⃣ Evolo AI (Student Mobile App, Institute Mobile App, Employer Web App)](#5️⃣-evolo-ai-student-mobile-app-institute-mobile-app-employer-web-app)
+  - [6️⃣ Omni-Channel Web App (BPO Service Integration)](#6️⃣-omni-channel-web-app-bpo-service-integration)
 - [🛠️ Skills Overview](#️-skills-overview)
   - [🎯 Testing Types & Methodologies](#-testing-types--methodologies)
   - [🩺 Quality Assurance & Defect Management](#-quality-assurance--defect-management)
@@ -89,59 +88,149 @@ This portfolio serves as a dynamic, scalable, and professional representation of
 This phrase embodies my commitment to excellence in Software Quality Assurance, using my name as a testament to my skills and dedication. 🚀
 
 ---
----
 
-## 🌟 Key Projects  
+# 📌 Projects
 
-### 1️⃣ **[ERD Portal - Pakistan Engineering Council](https://www.linkedin.com/in/masaid-sqa/details/projects/)**  
-- **Role**: Software Quality Assurance Engineer  
-- **Description**: Conducted manual QA for PEC's Engineer Registration Portal, ensuring seamless functionality for key modules, including Engineer Registration Renewal, Dual Degree Applications, Profile Updates, and Submission Processes.  
-- **Skills & Deliverables**:  
-  - Quality Assurance, Bug Tracking & Reports, Test Execution  
-  - .NET Core  
+## 1️⃣ [Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](https://www.linkedin.com/in/masaid-sqa/details/projects/)
+🗓 **Duration**: Sep 2024 - Oct 2024  
 
----
+🚀 **Objective**:  
+Automated testing of the PEC’s engineer registration portal to streamline and speed up registration processing for engineers in Pakistan.
 
-### 2️⃣ **[Automation (Selenium) - Engineer Renewal Application (PEC)](https://github.com/masaid2244/Automation-of-New-registration-Application---PEC)**  
-- **Role**: QA Automation Engineer  
-- **Description**: Automated the engineer registration renewal process for PEC's ERD Portal using Python and Selenium. Developed a scalable and maintainable Page Object Model (POM)-based framework.  
-- **Skills & Deliverables**:  
-  - QA Automation, Selenium WebDriver, GitHub  
+💡 **Key Features**:  
+✨ End-to-end automation for seamless registration  
+✨ Reduction in manual testing efforts  
+✨ Faster regression testing cycles  
+✨ Enhanced operational efficiency
 
----
+🔧 **Technologies Used**:  
+Python 🐍, Selenium 🕹, Automation Testing
 
-### 3️⃣ **[CPD Portal - Pakistan Engineering Council](https://www.linkedin.com/in/masaid-sqa/details/projects/)**  
-- **Role**: QA Tester  
-- **Description**: Performed comprehensive QA for the CPD Portal, ensuring accurate CPD point calculations and eligibility for engineering card renewal. Conducted manual and automated testing.  
-- **Skills & Deliverables**:  
-  - Functional Testing, Performance Testing (JMeter), MySQL  
+🏆 **Achievements**:  
+This project demonstrated real-world automation skills that greatly improved operational efficiency. Looking forward to applying more advanced techniques to future projects!
 
----
+🔑 **Skills**:  
+Automation Testing · Selenium WebDriver · Regression Testing · Test Automation Frameworks · Continuous Integration · Bug Tracking · Quality Assurance
 
-### 4️⃣ **[ZATCA - Electronic Invoice System (Top Notepad)](https://www.upwork.com/freelancers/~0142d8a3e4667f52e8?p=1876526760632725504)**  
-- **Role**: Software Tester and Full Stack  
-- **Description**: Developed and tested the ZATCA Electronic Invoice website in Saudi Arabia, allowing businesses to create and verify electronic invoices effortlessly.  
-- **Skills & Deliverables**:  
-  - Manual Testing, Node.js, TypeScript, SQLite  
+🔗 **Link to Project**: [Project Link](https://github.com/masaid2244/Engineer_registration_PEC_new_Application)  
 
 ---
 
-### 5️⃣ **[The Entertainer - Voucher Management System](https://www.upwork.com/freelancers/~0142d8a3e4667f52e8?p=1876526760632725504)**  
-- **Role**: QA Engineer and Full Stack  
-- **Description**: Streamlined solution for managing and distributing digital vouchers. Features include real-time validation, user-friendly redemption, and detailed reporting.  
-- **Skills & Deliverables**:  
-  - QA Engineering, PostgreSQL, Next.js  
+## 2️⃣ [Quality Assurance for EPE Portal](https://cpd.pec.org.pk/EPECustom) | [Pakistan Engineering Council (PEC)](https://www.pec.org.pk/)
+🗓 **Duration**: Jan 2024 - Jul 2024 
 
-### 6️⃣ **[PEC EPE Portal - QA and Automation Testing](https://www.linkedin.com/in/masaid-sqa/details/projects/)**  
-- **Role**: QA Engineer  
-- **Description**: 🛠️ Conducted QA for PEC’s EPE Portal, enabling engineers to qualify as Professional Engineers (PE). Ensured seamless registration, CPD points tracking, and online exam workflows.  
-- **Skills & Deliverables**:  
-  - ✅ Manual Testing, Selenium (Python), JMeter  
-  - 🧰 Tools: Selenium, JMeter, MySQL, Postman  
-  - 📐 Techniques: Boundary Value Analysis (BVA), Use Case Testing, Regression Testing  
-  - 💡 Expertise: Agile, UAT, System Testing, Exploratory Testing, Automated Workflows  
+🎯 **Objective**:  
+Conducted extensive QA for the Engineering Practice Examination (EPE) Portal, which plays a vital role in the CPD framework for Registered Engineers to become Professional Engineers.
+
+🎯 **Key Responsibilities**:  
+- Requirement Analysis: Ensured accurate EPE registration and CPD points tracking.  
+- Manual Testing: Verified CPD point accumulation and eligibility processes.  
+- Automation Testing: Developed Selenium scripts for EPE registration and exam validation.  
+- Performance Testing: Ensured portal scalability under high traffic.  
+- Boundary Value Analysis (BVA) & Use Case Testing: Full test coverage for edge cases.
+
+🏆 **Achievements**:  
+Key contributor to the first-ever online computer-based EPE exam held in Rawalpindi and Islamabad in May 2024.
+
+🔧 **Technologies & Tools**:  
+Selenium 🕹, JMeter 🚀, MySQL 💾, Postman 📬, Git 🐙, Agile (UAT Testing)
+
+🔑 **Skills**:  
+Manual Testing · Performance Testing · Exploratory Testing · Regression Testing · Automation Frameworks · Bug Reporting
+
+🔗 **Link to Project**: [Project Link](https://cpd.pec.org.pk/EPECustom)  
 
 ---
+
+## 3️⃣ [Extensive QA for CPD Portal](https://cpd.pec.org.pk/) | [Pakistan Engineering Council (PEC)](https://www.pec.org.pk/)
+🗓 **Duration**: Jan 2024 - Apr 2024  
+
+🚀 **Objective**:  
+QA testing for PEC’s key portal to ensure engineers meet CPD eligibility criteria for registration renewals.
+
+🎯 **Focus**:  
+- Verifying the accurate accumulation of CPD points.  
+- Streamlining workflows for formal education, work-based learning, and developmental activities.
+
+🎯 **Key Responsibilities**:  
+- Requirement Analysis: Detailed analysis of CPD criteria.  
+- Manual Testing: Verified CPD point tracking and calculation accuracy.  
+- Automation Testing: Selenium-based automation for CPD workflows.  
+- Performance Testing: Evaluated system response and scalability.
+
+🔧 **Technologies & Tools**:  
+Manual & Automation Testing (Selenium with Python) 🐍, JMeter 🚀, MySQL 💾, Git 🐙, Postman 📬
+
+🔑 **Skills**:  
+Functional Testing · Boundary Value Analysis (BVA) · Equivalence Partitioning (EP) · Regression Testing · Performance Testing · User Acceptance Testing (UAT)
+
+🔗 **Link to Project**: [Project Link](https://cpd.pec.org.pk/)  
+
+---
+
+## 4️⃣ [Selenium-Based Automation - Engineer Renewal Application | ERD Portal (PEC)](https://github.com/masaid2244/Engineer-Renewal-Application-Automation---PEC---ERD-portal)
+
+🔧 **Project Summary**:  
+Automated the renewal process for engineers through PEC’s ERD Portal using Python and Selenium. The automation reduced manual interventions and enhanced the overall renewal process.
+
+🎯 **Key Skills Used**:  
+Automated Software Testing 🤖, Agile Test Methodology 📅, Performance Testing 🚀
+
+🔗 **Link to Project**: [Project Link](https://github.com/masaid2244/Engineer-Renewal-Application-Automation---PEC---ERD-portal)  
+
+## 5️⃣ [Evolo AI](https://play.google.com/store/apps/details?id=com.hiddenworkers.evoloaiapp&pcampaignid=web_share) (Student Mobile App, Institute Mobile App, Employer Web App) 
+🔗 **Associated with**: [AI Mark Lab](https://www.linkedin.com/company/ai-mark-labs/posts/?feedView=all)
+
+🚀 **Project Overview**:  
+Evolo AI is a platform designed to connect students with employers. The mobile app (available for both Android and iOS) allows students to create profiles, find employers, and apply for jobs in a simple and intuitive way. The web app serves as a bridge between employers and job seekers, providing features like job listings, employer questions, and AI-driven chatbots for assistance. AI is used to optimize job matching and help students apply with minimal effort.
+
+🎯 **Key Responsibilities**:
+- **Mobile Testing**:  
+  - Tested Android and iOS builds. 
+  - Performed black-box testing and session-based testing.  
+  - Used mobile testing techniques and tools (e.g., API testing with Postman).
+- **QA for AI Models**:  
+  - Verified how AI agents and chatbots were trained and their responses.  
+  - Ensured AI models provided relevant job information and supported the application process.
+- **Agile/Scrum**:  
+  - Used Jira for project tracking and bug reporting.  
+  - Participated in Agile Scrum methodology with regular sprints and stand-ups.
+- **UI/UX Interaction**:  
+  - Collaborated with the design team using Figma to review UI elements.  
+  - Wrote test cases based on the FDS (Functional Design Specification).
+
+🔧 **Technologies Used**:  
+React Native, MongoDB, API Testing (Postman), JIRA, GitHub, TestFlight
+
+🔑 **Skills**:  
+Mobile Testing · API Testing · Black-box Testing · Manual Testing · AI Model QA  · Agile Scrum
+
+---
+
+## 6️⃣ Omni-Channel Web App (BPO Service Integration)
+🔗 **Associated with**: [Mexil Software solutions](https://www.linkedin.com/company/mexil-software-solutions/posts/?feedView=all)
+
+🚀 **Project Overview**:  
+The Omni-channel web app integrates multiple communication platforms (Facebook, WhatsApp, SMS, Instagram, Email, Call) to provide a seamless user experience. It operates with three distinct panels: Admin, Employer, and Company. The app functions similarly to a BPO service, allowing companies and employers to manage and communicate with their employees and clients through different communication channels.
+
+🎯 **Key Responsibilities**:
+- **Web App Testing**:  
+  - Performed manual testing using black-box testing and session-based techniques.  
+  - Ensured smooth integration of chat services and verified multi-channel communications (chat, email, SMS).
+  - Focused on UI localization, ensuring the app was user-friendly across different regions.
+- **API Testing**:  
+  - Conducted API testing for data integration and process flow using Postman.
+  - Validated the performance of APIs, ensuring responsiveness and stability under load.
+- **Data Validation**:  
+  - Validated data flow between the web app and the backend SQL database.  
+  - Ensured that data presented to users was accurate and consistent.
+
+🔧 **Technologies Used**:  
+MERN Stack (MongoDB, Express, React, Node.js), Postman for API Testing, SQL for database, GitHub, Figma
+
+🔑 **Skills**:  
+Web App Testing · Manual Testing · API Testing · Data Validation · UI Testing · Agile Scrum · Kanban 
+
 ---
 
 ## 🛠️ Skills Overview  
