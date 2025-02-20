@@ -237,6 +237,38 @@ MERN Stack (MongoDB, Express, React, Node.js), Postman for API Testing, SQL for 
 Web App Testing · Manual Testing · API Testing · Data Validation · UI Testing · Agile Scrum · Kanban 
 
 ---
+# Other Projects
+
+### ATHADhak
+- Performed **UI Testing**, **Front-end Testing**, **API Testing (Postman)**, and **Localization Testing**.
+- Focused on ensuring a smooth **user experience** 
+- Verified **responsiveness** and **cross-browser compatibility**.
+- Ensured seamless integration between front-end and back-end services.
+
+### DA Library (Mobile App)
+- Conducted **manual QA testing** for this mobile application.
+- Verified **functionality, usability, and performance**.
+- Ensured **smooth navigation** and **error-free user interactions**.
+
+### PIEDC Portal
+- Conducted **detailed manual QA testing** for this enterprise portal.
+- Validated **end-to-end workflows, forms, and data integrity**.
+- Ensured **cross-platform compatibility**.
+- Wrote and executed **test cases** for multiple scenarios.
+- Collaborated with developers to resolve critical issues.
+
+---
+
+# Personal Learning Projects
+
+### Cypress Automation
+- Gained hands-on experience in **Cypress** for end-to-end testing.
+- Wrote **automated test scripts** 
+- Performed UI validation, element interaction, and assertions.
+- Implemented **data-driven testing** for scalable test execution.
+- For more, **[click here](https://github.com/masaid2244/Cypress-Sample-Test-Cases)** 
+
+---
 
 ## 🛠️ Skills Overview  
 
