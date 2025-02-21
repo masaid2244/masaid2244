@@ -180,6 +180,7 @@ Automated the renewal process for engineers through PEC’s ERD Portal using Pyt
 
 🎯 **Key Skills Used**:  
 Automated Software Testing 🤖, Agile Test Methodology 📅, Performance Testing 🚀
+· Selenium WebDriver · Regression Testing · Test Automation Frameworks
 
 🔗 **Link to Project**: [Project Link](https://github.com/masaid2244/Engineer-Renewal-Application-Automation---PEC---ERD-portal)  
 
@@ -204,8 +205,8 @@ Evolo AI is a platform designed to connect students with employers. The mobile a
   - Collaborated with the design team using Figma to review UI elements.  
   - Wrote test cases based on the FDS (Functional Design Specification).
 
-🔧 **Technologies Used**:  
-React Native, MongoDB, API Testing (Postman), JIRA, GitHub, TestFlight
+🔧 **Technologies & Tools Used**:  
+React Native, MongoDB, Postman, JIRA, GitHub, TestFlight, Jmeter 
 
 🔑 **Skills**:  
 Mobile Testing · API Testing · Black-box Testing · Manual Testing · AI Model QA  · Agile Scrum
@@ -221,7 +222,7 @@ The Omni-channel web app integrates multiple communication platforms (Facebook, 
 🎯 **Key Responsibilities**:
 - **Web App Testing**:  
   - Performed manual testing using black-box testing and session-based techniques.  
-  - Ensured smooth integration of chat services and verified multi-channel communications (chat, email, SMS).
+  - Ensured smooth integration of chat services and verified multi-channel communications (chat, email, SMS, Facebook, Whatsapp, Instagram, Call).
   - Focused on UI localization, ensuring the app was user-friendly across different regions.
 - **API Testing**:  
   - Conducted API testing for data integration and process flow using Postman.
