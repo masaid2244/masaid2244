@@ -14,13 +14,21 @@
 - [🎯 Purpose](#-purpose)  
 - [👨‍💻 About Me](#-about-me)
     
-- [🌟 Key Projects](#-projects)
-    - [1️⃣ Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](#1️⃣-selenium-based-automation-for-engineer-registration---pakistan-engineering-council-pec)
-    - [2️⃣ Quality Assurance for EPE Portal | Pakistan Engineering Council (PEC)](#2️⃣-quality-assurance-for-epe-portal-pakistan-engineering-council-pec)
-    - [3️⃣ Extensive QA for CPD Portal | Pakistan Engineering Council (PEC)](#3️⃣-extensive-qa-for-cpd-portal-pakistan-engineering-council-pec)
-    - [4️⃣ Selenium-Based Automation - Engineer Renewal Application | ERD Portal (PEC)](#4️⃣-selenium-based-automation---engineer-renewal-application--erd-portal-pec)
-    - [5️⃣ Evolo AI (Student Mobile App, Institute Mobile App, Employer Web App)](#5️⃣-evolo-ai-student-mobile-app-institute-mobile-app-employer-web-app)
-    - [6️⃣ Omni-Channel Web App (BPO Service Integration)](#6️⃣-omni-channel-web-app-bpo-service-integration)
+### 🎯🏆📈🔍 **# Testing Achievements & Milestones: My Projects**  
+- [1️⃣ Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](#1️⃣-selenium-based-automation-for-engineer-registration---pakistan-engineering-council-pec)
+- [2️⃣ Quality Assurance for EPE Portal | Pakistan Engineering Council (PEC)](#2️⃣-quality-assurance-for-epe-portal-pakistan-engineering-council-pec)
+ - [3️⃣ Extensive QA for CPD Portal | Pakistan Engineering Council (PEC)](#3️⃣-extensive-qa-for-cpd-portal-pakistan-engineering-council-pec)
+ - [4️⃣ Selenium-Based Automation - Engineer Renewal Application | ERD Portal (PEC)](#4️⃣-selenium-based-automation---engineer-renewal-application--erd-portal-pec)
+- [5️⃣ Evolo AI (Student Mobile App, Institute Mobile App, Employer Web App)](#5️⃣-evolo-ai-student-mobile-app-institute-mobile-app-employer-web-app)
+- [6️⃣ Omni-Channel Web App (BPO Service Integration)](#6️⃣-omni-channel-web-app-bpo-service-integration)
+
+### 🚀 Other Projects  
+- [📱 ATHADhak](#-athadhak)  
+- [📚 DA Library (Mobile App)](#-da-library-mobile-app)  
+- [🌐 PIEDC Portal](#-piedc-portal)  
+
+### 🛠️📖🔍 Personal Learning Projects 
+ - [📱 ATHADhak](#-athadhak)
 
 ### 🔬 Quality Assurance & Testing  
 - [🎯 Testing Types & Methodologies](#-testing-types--methodologies)  
@@ -245,36 +253,30 @@ MERN Stack (MongoDB, Express, React, Node.js), Postman for API Testing, SQL for 
 Web App Testing · Manual Testing · API Testing · Data Validation · UI Testing · Agile Scrum · Kanban 
 
 ---
-# Other Projects
+# 🚀 Other Projects  
 
-### ATHADhak
-- Performed **UI Testing**, **Front-end Testing**, **API Testing (Postman)**, and **Localization Testing**.
-- Focused on ensuring a smooth **user experience** 
-- Verified **responsiveness** and **cross-browser compatibility**.
-- Ensured seamless integration between front-end and back-end services.
+| #️⃣ | Project Name | Key Responsibilities | QA Skills Applied |
+|----|-------------|----------------------|------------------|
+| 1️⃣ | 📱 **ATHADhak** | - Performed **UI Testing**, **Front-end Testing**, **API Testing (Postman)**, and **Localization Testing**.  <br> - Focused on ensuring a smooth **user experience**. <br> - Verified **responsiveness** and **cross-browser compatibility**. <br> - Ensured seamless integration between front-end and back-end services.  | 🔹 **Functional & Non-Functional Testing** <br> 🔹 **Exploratory Testing** <br> 🔹 **Usability Testing** <br> 🔹 **Ad Hoc Testing** |
+| 2️⃣ | 📚 **DA Library (Mobile App)** | - Conducted **manual QA testing** for this mobile application.  <br> - Verified **functionality, usability, and performance**. <br> - Ensured **smooth navigation** and **error-free user interactions**. | 🔹 **System Testing** <br> 🔹 **User Acceptance Testing (UAT)** <br> 🔹 **Regression Testing** <br> 🔹 **AI-Driven Testing** |
+| 3️⃣ | 🌐 **PIEDC Portal** | - Conducted **detailed manual QA testing** for this enterprise portal.  <br> - Validated **end-to-end workflows, forms, and data integrity**. <br> - Ensured **cross-platform compatibility**. <br> - Wrote and executed **test cases** for multiple scenarios. <br> - Collaborated with developers to resolve critical issues. | 🔹 **End-to-End Testing** <br> 🔹 **Integration Testing** <br> 🔹 **Defect Root Cause Analysis** <br> 🔹 **Test Documentation** |
 
-### DA Library (Mobile App)
-- Conducted **manual QA testing** for this mobile application.
-- Verified **functionality, usability, and performance**.
-- Ensured **smooth navigation** and **error-free user interactions**.
-
-### PIEDC Portal
-- Conducted **detailed manual QA testing** for this enterprise portal.
-- Validated **end-to-end workflows, forms, and data integrity**.
-- Ensured **cross-platform compatibility**.
-- Wrote and executed **test cases** for multiple scenarios.
-- Collaborated with developers to resolve critical issues.
 
 ---
 
-# Personal Learning Projects
+# 🛠️📖🔍 Personal Learning Projects  
 
-### Cypress Automation
-- Gained hands-on experience in **Cypress** for end-to-end testing.
-- Wrote **automated test scripts** 
-- Performed UI validation, element interaction, and assertions.
-- Implemented **data-driven testing** for scalable test execution.
-- For more, **[click here](https://github.com/masaid2244/Cypress-Sample-Test-Cases)** 
+### 🚀 Cypress Automation  
+- Gained hands-on experience in **Cypress** for end-to-end testing.  
+- Wrote **automated test scripts** covering UI functionalities, alerts, tables, dropdowns, and file uploads.  
+- Performed **UI validation, element interaction, and assertions** to ensure test accuracy.  
+- Implemented **data-driven testing** for scalable test execution.  
+- Followed a **structured, beginner-friendly approach** with well-commented test cases.  
+- **Future Goals:**  
+  - Develop **end-to-end automation projects** using **Page Object Model (POM)**.  
+  - Automate **real-world demo projects** to enhance practical skills.  
+- 📂 For more details, **[click here](https://github.com/masaid2244/Cypress-Sample-Test-Cases)** 🚀  
+
 
 ---
 
