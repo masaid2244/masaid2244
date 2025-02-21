@@ -7,11 +7,12 @@
 ---
 
 ## 📌 Table of Contents
-- [🎯 About This Repository](#-about-this-repository)
-- [✨ Features of This Portfolio](#-features-of-this-portfolio)
-- [🎯 Purpose](#-purpose)
-- [🚀 Explore More](#-explore-more)
-  - [👨‍💻 About Me](#-about-me)
+
+### 🚀 Overview  
+- [🎯 About This Repository](#-about-this-repository)  
+- [✨ Features of This Portfolio](#-features-of-this-portfolio)  
+- [🎯 Purpose](#-purpose)  
+- [👨‍💻 About Me](#-about-me)
     
 - [🌟 Key Projects](#-projects)
     - [1️⃣ Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](#1️⃣-selenium-based-automation-for-engineer-registration---pakistan-engineering-council-pec)
