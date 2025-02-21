@@ -12,7 +12,8 @@
 - [🎯 Purpose](#-purpose)
 - [🚀 Explore More](#-explore-more)
   - [👨‍💻 About Me](#-about-me)
-  - [🌟 Key Projects](#-projects)
+    
+- [🌟 Key Projects](#-projects)
     - [1️⃣ Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](#1️⃣-selenium-based-automation-for-engineer-registration---pakistan-engineering-council-pec)
     - [2️⃣ Quality Assurance for EPE Portal | Pakistan Engineering Council (PEC)](#2️⃣-quality-assurance-for-epe-portal-pakistan-engineering-council-pec)
     - [3️⃣ Extensive QA for CPD Portal | Pakistan Engineering Council (PEC)](#3️⃣-extensive-qa-for-cpd-portal-pakistan-engineering-council-pec)
