@@ -285,30 +285,67 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 
 ## 🛠️ Skills Overview  
 
+
 ### 🎯 **Testing Types & Methodologies**  
-| Manual Testing 📝 | Automation Testing 🤖 | Functional Testing ✅ | Non-Functional Testing 🛠️ |  
-| Regression Testing 🔄 | Integration Testing 🔗 | System Testing 🖥️ | End-to-End Testing 🌐 |  
+
+| **Area of Expertise**              | **Skills** |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| ✅ **Core Testing Types**          | Manual Testing 📝, Automation Testing 🤖, Functional Testing ✅, Non-Functional Testing 🛠️, Regression Testing 🔄, System Testing 🖥️, End-to-End Testing 🌐 |
+| 🔍 **User-Centric Testing**        | UI Testing 🎨, Usability Testing 🎛️, User Acceptance Testing (UAT) 🎭, A/B Testing ⚖️ |
+| 🏗️ **Structural & Integration**    | Integration Testing 🔗, Alpha & Beta Testing 🏁, Smoke & Sanity Testing 🚀, Cross-Browser Testing 🌍 |
+| 📊 **Data & AI-Enhanced**          | Data-Driven Testing 📊, AI-Driven Testing 🤖, Exploratory Testing 🕵️‍♂️, Ad Hoc Testing 🎯 |
 
 ---
 
 ### 🩺 **Quality Assurance & Defect Management**  
-| QA & QC 🎯 | Root Cause Analysis 🔍 | Defect Lifecycle 🚦 | Requirements Traceability 🧾 |  
+
+| **Key Focus**                     | **Skills** |
+|-----------------------------------|--------------------------------------------------------------------------------------|
+| 🔎 **Defect & Issue Handling**    | Defect Lifecycle Management 🚦, Bug Tracking 🐞, Defect Reporting 📢, Root Cause Analysis 🔍 |
+| 📜 **Test Documentation**         | Test Data Management 📂, Test Documentation 📜, Requirements Traceability (RTM) 🧾 |
 
 ---
 
-### 🚀 **Development Processes**  
-| Agile (Scrum/Kanban) 🌀 | SDLC & STLC 🔄 | Shift-Left Testing ⏩ | Risk-Based Testing ⚠️ |  
+### 🔄 **Development Processes**  
+
+| **Aspect**                        | **Skills** |
+|-----------------------------------|--------------------------------------------------------------------------------------|
+| 🌀 **Agile & SDLC/STLC**          | Agile (Scrum/Kanban) 🌀, SDLC & STLC 🔄, Shift-Left Testing ⏩, Risk-Based Testing ⚠️ |
+| 🎯 **Test Strategy & Planning**   | Test Strategy Development 🎯, Test Planning 📝, Test Metrics 📊, Test Case Design ✍️, Acceptance Criteria 📑 |
+| 🔢 **Test Data & Validation**     | Test Data Creation & Validation 🔢, Behavior-Driven Development (BDD) 🏗️ |
 
 ---
 
 ### 🧪 **Testing Techniques**  
-| Black Box Testing ⚫ | API Testing 🌐 | Load Testing 📈 | Stress Testing 💥 |  
+
+| **Technique Type**                 | **Skills** |
+|-----------------------------------|--------------------------------------------------------------------------------------|
+| 🎭 **Functional & Black Box**      | Black Box Testing ⚫, Boundary Value Analysis 📏, Equivalence Partitioning 🔢, State Transition Testing 🔀 |
+| 🌐 **API & Performance Testing**   | API Testing 🌐, Load Testing 📈, Stress Testing 💥, Performance Testing ⚡ |
+| 🧠 **Advanced Testing**            | Codeless Test Automation 🦾, Static & Dynamic Testing 🔄, Decision Table Testing 📋, Error Guessing ❓, Use Case Testing 📂 |
 
 ---
 
 ### ⚙️ **Tools & Frameworks**  
-| Selenium (Pytest) 🧪 | JMeter 🌡️ | Postman 📮 | Git 🗂️ |  
-| MySQL 🗃️ | PyCharm 💻 | JIRA 📝 | Testworthy ✔️ |  
+
+| **Category**                        | **Tools** |
+|-------------------------------------|--------------------------------------------------------------------------------------|
+| 🧪 **Test Automation & Execution**  | Selenium (Pytest) 🧪, Cypress 🌿, JMeter 🌡️, Postman 📮 |
+| 🛠️ **Development & Test Management** | Git 🗂️, JIRA 📝, Testworthy ✔️, Zephyr 📝, MySQL 🗃️, DBeaver 🏗️, AI-Powered Testing 🤖 |
+| 🔍 **Debugging & Performance**      | Chrome DevTools 🌐, Bugzilla 🐛, BlazeMeter 🔥, Testim ⚡ |
+| 🖥️ **IDE & Communication**         | PyCharm 💻, Visual Studio Code 🖥️, Slack 💬, Loom 🎥 |
+
+---
+
+### 🌟 **Soft Skills**  
+
+| **Skill Set**                    | **Skills** |
+|---------------------------------|------------------------------------------------------------|
+| 🧠 **Analytical & Problem-Solving** | Critical Thinking 🧠, Problem Solving 🔍, Analytical Thinking 📊, Technical Aptitude 🏆 |
+| 🤝 **Teamwork & Communication**   | Collaboration 🤝, Effective Communication 🗣️, Leadership & Mentorship 👨‍🏫, Teamwork 👥 |
+| ⏳ **Productivity & Adaptability** | Proactive Approach 🚀, Attention to Detail 🔬, Time Management ⏳, Adaptability 🔄 |
+
+
 
 ---
 ---
