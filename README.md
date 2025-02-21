@@ -23,12 +23,12 @@
 - [6️⃣ Omni-Channel Web App (BPO Service Integration)](#6️⃣-omni-channel-web-app-bpo-service-integration)
 
 ### 🚀 Other Projects  
-- [📱 ATHADhak](#-athadhak)  
-- [📚 DA Library (Mobile App)](#-da-library-mobile-app)  
-- [🌐 PIEDC Portal](#-piedc-portal)  
+- [📱 ATHADhak]
+- [📚 DA Library (Mobile App)]
+- [🌐 PIEDC Portal]
 
 ### 🛠️📖🔍 Personal Learning Projects 
- - [📱 ATHADhak](#-athadhak)
+ - [Cypress Automation 🌟 Learn Automation with Cypress](#cypress-automation-🌟-learn-automation-with-cypress)
 
 ### 🔬 Quality Assurance & Testing  
 - [🎯 Testing Types & Methodologies](#-testing-types--methodologies)  
@@ -266,7 +266,7 @@ Web App Testing · Manual Testing · API Testing · Data Validation · UI Testin
 
 # 🛠️📖🔍 Personal Learning Projects  
 
-### 🚀 Cypress Automation  
+### 🚀 Cypress Automation 🌟 Cypress Sample Test Cases : Learn Automation with Cypress 🌟
 - Gained hands-on experience in **Cypress** for end-to-end testing.  
 - Wrote **automated test scripts** covering UI functionalities, alerts, tables, dropdowns, and file uploads.  
 - Performed **UI validation, element interaction, and assertions** to ensure test accuracy.  
@@ -275,7 +275,7 @@ Web App Testing · Manual Testing · API Testing · Data Validation · UI Testin
 - **Future Goals:**  
   - Develop **end-to-end automation projects** using **Page Object Model (POM)**.  
   - Automate **real-world demo projects** to enhance practical skills.  
-- 📂 For more details, **[click here](https://github.com/masaid2244/Cypress-Sample-Test-Cases)** 🚀  
+- 🌟 **Discover my work** and dive into the details of my projects on GitHub! **[Explore Here](https://github.com/masaid2244/Cypress-Sample-Test-Cases)** 🚀
 
 
 ---
