@@ -28,8 +28,8 @@
 - [🌐 PIEDC Portal](#-piedc-portal)
 
 # 🛠️📖🔍 Personal Learning Projects  
-- [Cypress Automation](#-cypress-automation)
-- [Cypress Sample Test Cases 🌟 Learn Automation with Cypress](#1️⃣-🌟-cypress-sample-test-cases-learn-automation-with-cypress-🌟)
+ - [Cypress Automation](#cypress-automation)
+ - [Cypress Sample Test Cases](#1️⃣cypress-sample-test-cases)
 
 
 ### 🔬 Quality Assurance & Testing  
@@ -267,10 +267,12 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 
 ---
 
-# 🛠️📖🔍 Personal Learning Projects  
+# 🛠️📖🔍 Personal Learning Projects
 
-### 🚀 Cypress Automation 
-# 1️⃣ 🌟 Cypress Sample Test Cases : Learn Automation with Cypress 🌟
+### Cypress Automation
+# Cypress Sample Test Cases
+
+ 🌟 Learn Automation with Cypress 🌟
 - Gained hands-on experience in **Cypress** for end-to-end testing.  
 - Wrote **automated test scripts** covering UI functionalities, alerts, tables, dropdowns, and file uploads.  
 - Performed **UI validation, element interaction, and assertions** to ensure test accuracy.  
