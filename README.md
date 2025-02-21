@@ -23,12 +23,14 @@
 - [6️⃣ Omni-Channel Web App (BPO Service Integration)](#6️⃣-omni-channel-web-app-bpo-service-integration)
 
 ### 🚀 Other Projects  
-- [📱 ATHADhak]
-- [📚 DA Library (Mobile App)]
-- [🌐 PIEDC Portal]
+- [📱 ATHADhak](#-athadhak)
+- [📚 DA Library (Mobile App)](#-da-library-mobile-app)
+- [🌐 PIEDC Portal](#-piedc-portal)
 
-### 🛠️📖🔍 Personal Learning Projects 
- - [Cypress Automation 🌟 Learn Automation with Cypress](#cypress-automation-🌟-learn-automation-with-cypress)
+# 🛠️📖🔍 Personal Learning Projects  
+- [Cypress Automation](#-cypress-automation)
+- [Cypress Sample Test Cases 🌟 Learn Automation with Cypress](#1️⃣-🌟-cypress-sample-test-cases-learn-automation-with-cypress-🌟)
+
 
 ### 🔬 Quality Assurance & Testing  
 - [🎯 Testing Types & Methodologies](#-testing-types--methodologies)  
@@ -254,6 +256,7 @@ Web App Testing · Manual Testing · API Testing · Data Validation · UI Testin
 
 ---
 # 🚀 Other Projects  
+While these projects are smaller in scale, they demonstrate my versatility and ability to tackle different challenges using various tools and technologies. Each project was an opportunity to refine my skills in QA&QC, problem-solving, and software testing. Below are a few of the noteworthy side projects I’ve worked on:
 
 | #️⃣ | Project Name | Key Responsibilities | QA Skills Applied |
 |----|-------------|----------------------|------------------|
@@ -266,7 +269,8 @@ Web App Testing · Manual Testing · API Testing · Data Validation · UI Testin
 
 # 🛠️📖🔍 Personal Learning Projects  
 
-### 🚀 Cypress Automation 🌟 Cypress Sample Test Cases : Learn Automation with Cypress 🌟
+### 🚀 Cypress Automation 
+# 1️⃣ 🌟 Cypress Sample Test Cases : Learn Automation with Cypress 🌟
 - Gained hands-on experience in **Cypress** for end-to-end testing.  
 - Wrote **automated test scripts** covering UI functionalities, alerts, tables, dropdowns, and file uploads.  
 - Performed **UI validation, element interaction, and assertions** to ensure test accuracy.  
