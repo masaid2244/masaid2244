@@ -19,17 +19,22 @@
     - [4️⃣ Selenium-Based Automation - Engineer Renewal Application | ERD Portal (PEC)](#4️⃣-selenium-based-automation---engineer-renewal-application--erd-portal-pec)
     - [5️⃣ Evolo AI (Student Mobile App, Institute Mobile App, Employer Web App)](#5️⃣-evolo-ai-student-mobile-app-institute-mobile-app-employer-web-app)
     - [6️⃣ Omni-Channel Web App (BPO Service Integration)](#6️⃣-omni-channel-web-app-bpo-service-integration)
-  - [🎯 Testing Types & Methodologies](#-testing-types--methodologies)
-  - [🩺 Quality Assurance & Defect Management](#-quality-assurance--defect-management)
-  - [🚀 Development Processes](#-development-processes)
-  - [🧪 Testing Techniques](#-testing-techniques)
-  - [⚙️ Tools & Frameworks](#️-tools--frameworks)
-- [📊 Certifications](#-certifications)
-  - [🏆 Key Certifications](#-key-certifications)
-  - [🎓 Skill-Based Certifications](#-skill-based-certifications)
-  - [📚 Additional Knowledge](#-additional-knowledge)
-- [🤝 Let's Connect!](#-lets-connect)
-- [🎯 Ready to Collaborate? Download My CV!](#-ready-to-collaborate-download-my-cv)
+
+### 🔬 Quality Assurance & Testing  
+- [🎯 Testing Types & Methodologies](#-testing-types--methodologies)  
+- [🩺 Quality Assurance & Defect Management](#-quality-assurance--defect-management)  
+- [🚀 Development Processes](#-development-processes)  
+- [🧪 Testing Techniques](#-testing-techniques)  
+- [⚙️ Tools & Frameworks](#️-tools--frameworks)  
+
+### 📊 Certifications  
+- [🏆 Key Certifications](#-key-certifications)  
+- [🎓 Skill-Based Certifications](#-skill-based-certifications)  
+- [📚 Additional Knowledge](#-additional-knowledge)  
+
+### 🤝 Connect & Collaborate  
+- [🤝 Let's Connect!](#-lets-connect)  
+- [🎯 Ready to Collaborate? Download My CV!](#-ready-to-collaborate-download-my-cv)  
 
 ---
 
