@@ -404,7 +404,7 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 - Hands-on expertise in Manual & Automation Testing, API Testing, and Performance Optimization  
 - Certifications like ISTQB® CTFL and Scrum Fundamentals Certified (SFC™)  
 
-📥 **[[Click here to download my CV]](https://drive.google.com/file/d/17aKkNjdEhYx8aJOlfT13W65kKn5nbCqh/view?usp=sharing)** and explore how I can contribute to your team or project!  
+📥 **[[Click here to download my CV]](https://drive.google.com/file/d/1Y1BFNvDiJJ-j1W_6OJQ_ut6cknnLsKJe/view?usp=sharing)** and explore how I can contribute to your team or project!  
 
 💡 **Let’s build quality together!**
 
