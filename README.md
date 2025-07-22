@@ -385,6 +385,19 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 
 ---
 
+## 💬  Recommendation  
+> **"I had the privilege of managing Masaid Zeb, and it was truly rewarding to see him grow as a Software Quality Assurance Engineer. He brought a perfect blend of enthusiasm, curiosity, and a strong work ethic, which made a significant impact on our projects.
+Masaid quickly familiarized himself with our tools and processes and demonstrated exceptional attention to detail. His remarkable R&D skills stood out, as he consistently mastered new tools and technologies independently. He often provided updates on his progress within the same day, showcasing his efficiency and dedication.
+What I appreciated most about Masaid was his willingness to learn and improve. He was always open to feedback and used it as an opportunity to refine his skills. It’s rare to see someone with such a proactive and positive approach to personal and professional growth.
+Within just a couple of months, Masaid was entrusted with the Engineer Practice Exam (EPE) Portal for the Pakistan Engineering Council. This project marked the first-ever computer-based EPE in Pakistan’s history. Masaid’s dedication was unparalleled—he worked tirelessly, even during holidays, to ensure the project’s success. He consistently completed tasks ahead of schedule, setting a standard of reliability and commitment.
+I have no doubt that Masaid will continue to excel in his career. With his skills, determination, and drive, he is destined to achieve great things, and I look forward to seeing all that he accomplishes in the future."**  
+> **— Fahad Mustafa , Manager @ Pakistan Engineering Council**
+
+![Manager Review](ezgif-8b1fae2739e44c.gif)
+
+---
+
+
 ## 🤝 Let's Connect!  
 - 📧 **Email**: [masaid.zeb2244@gmail.com](mailto:masaid.zeb2244@gmail.com)  
 - 🔗 **LinkedIn**: [Masaid Zeb ISTQB® (CTFL)](https://www.linkedin.com/in/masaid-sqa/)  
