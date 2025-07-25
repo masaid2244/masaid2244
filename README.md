@@ -387,7 +387,14 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 ---
 
 ## 💬  Recommendation  
-> **Fahad Mustafa , Manager @ Pakistan Engineering Council**
+> **Fahad Mustafa , Assistant Director IT department Pakistan Engineering Council**
+
+> **"I managed Masaid Zeb directly, and he was the sole tester on our product team, independently handling all aspects of quality assurance. He effectively took ownership of test planning, execution, and reporting and consistently identifying critical issues and clearly communicating their impact. Masaid worked closely with developers and product stakeholders, proactively driving improvements that significantly boosted our product’s reliability and user experience. Given his ability to manage testing end-to-end with minimal supervision, I strongly recommend Masaid Zeb to any team that values clear communication, quality testing, and real commitment to delivering great user experiences."**  
+
+![Manager Review](ezgif-8b1fae2739e44c.gif)
+
+
+> **Zeeshab Farooqi , Product Manager**
 
 > **"I had the privilege of managing Masaid Zeb, and it was truly rewarding to see him grow as a Software Quality Assurance Engineer. He brought a perfect blend of enthusiasm, curiosity, and a strong work ethic, which made a significant impact on our projects.
 Masaid quickly familiarized himself with our tools and processes and demonstrated exceptional attention to detail. His remarkable R&D skills stood out, as he consistently mastered new tools and technologies independently. He often provided updates on his progress within the same day, showcasing his efficiency and dedication.
