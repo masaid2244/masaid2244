@@ -394,7 +394,7 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 ![Manager Review](ezgif-8b1fae2739e44c.gif)
 
 
-> **Zeeshab Farooqi , Product Manager**
+> **Zeeshan Farooqi , Product Manager**
 
 > **"I managed Masaid Zeb directly, and he was the sole tester on our product team... I strongly recommend Masaid Zeb to any team that values clear communication, quality testing, and real commitment to delivering great user experiences."**  
 
