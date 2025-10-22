@@ -85,7 +85,7 @@ This portfolio serves as a dynamic, scalable, and professional representation of
 
 ## 👨‍💻 About Me  
 - 🎓 **Education**: BSc Electrical Engineering from [University of Engineering & Technology, Lahore](https://www.uet.edu.pk/about-uet/introduction/vision-mission/)  
-- 🧪 **Experience**: 1.5 years in QA, specializing in manual/automation testing, performance optimization, and defect management  
+- 🧪 **Experience**: 2+ years in QA, specializing in manual/automation testing, performance optimization, and defect management  
 - 🏆 **Certifications**:  
   - [ISTQB® Certified Tester Foundation Level (CTFL) v4.0](http://scr.istqb.org/?name=Masaid+Zeb&number=24-CTFL4-1433-PK&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)  
   - Scrum Fundamentals Certified (SFC™)
