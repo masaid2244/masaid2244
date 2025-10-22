@@ -386,21 +386,42 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 
 ---
 
-## 💬  Recommendation  
-> **Fahad Mustafa , Assistant Director IT department Pakistan Engineering Council**
+## 💬 Recommendations
 
-> **"I managed Masaid Zeb directly, and he was the sole tester on our product team, independently handling all aspects of quality assurance. He effectively took ownership of test planning, execution, and reporting and consistently identifying critical issues and clearly communicating their impact. Masaid worked closely with developers and product stakeholders, proactively driving improvements that significantly boosted our product’s reliability and user experience. Given his ability to manage testing end-to-end with minimal supervision, I strongly recommend Masaid Zeb to any team that values clear communication, quality testing, and real commitment to delivering great user experiences."**  
-
-![Manager Review](ezgif-8b1fae2739e44c.gif)
-
-
-> **Zeeshan Farooqi , Product Manager**
-
-> **"I managed Masaid Zeb directly, and he was the sole tester on our product team... I strongly recommend Masaid Zeb to any team that values clear communication, quality testing, and real commitment to delivering great user experiences."**  
-
-![Manager Review](ezgif-65e5b0a23a0427.gif)
+What others say about **Masaid Zeb** — based on real leadership feedback.
 
 ---
+
+### 👨‍💻 Muneeb Ur Rehman – Senior React Native Developer  
+⭐ *Team Lead & Solution Architect at AiMarklabs*
+
+- 🧠 Masaid is exceptionally dedicated and detail-oriented  
+- 🔍 Understands complex systems and identifies critical issues  
+- 🛠️ Proactively improves processes and product stability  
+- 🤝 Maintains strong communication and collaboration across teams  
+
+---
+
+### 📊 Zeeshan Farooqi – Product Manager  
+⭐ *Product Growth Lead for SaaS & AI-Powered Products*
+
+- 👤 Sole tester managing all aspects of QA independently  
+- 📈 Took ownership of test planning, execution, and reporting  
+- 🚀 Boosted product reliability and user experience  
+- 🗣️ Clearly communicated issue impact to stakeholders  
+
+---
+
+### 🧪 Fahad Mustafa – QA/Support Engineer  
+⭐ *Manager on the EPE Project, PEC*
+
+- ⚡ Brought enthusiasm, curiosity, and strong work ethic  
+- 🔬 Remarkable R&D skills — mastered tools independently  
+- 🕒 Provided timely updates and met tight deadlines  
+- 🏆 Entrusted with historic EPE Portal for PEC — delivered beyond expectations  
+
+---
+
 
 
 ## 🤝 Let's Connect!  
