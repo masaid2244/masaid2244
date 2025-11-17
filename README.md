@@ -355,7 +355,8 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 
 ### 🏆 Key Certifications  
 1. 🎯 **ISTQB® Certified Tester Foundation Level (CTFL)**  
-   - [License No. 24-CTFL4-1433-PK](https://pstb.pk/testers/Certified%20Tester%20Foundation%20Level)  
+   - [License No. 24-CTFL4-1433-PK](https://pstb.pk/testers/Certified%20Tester%20Foundation%20Level)
+   - [ISTQB® Foundation Level Agile Tester (CTFL-AT)](https://scr.istqb.org/?name=masaid&number=&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
 2. 📜 **[Scrum Fundamentals Certified (SFC™)](https://www.linkedin.com/in/masaid-sqa/details/certifications/)**  
 3. 🚀 **[Apache JMeter™ Pro](https://www.linkedin.com/in/masaid-sqa/details/certifications/)**  
 
