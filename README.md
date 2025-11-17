@@ -358,22 +358,15 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 
 ## 🏅 Professional Certifications
 
----
-
 1️⃣ 🎯 [ISTQB® Certified Tester Foundation Level (CTFL)](https://pstb.pk/testers/Certified%20Tester%20Foundation%20Level)
 License No.: 24-CTFL4-1433-PK
 
 2️⃣ 🎯 [ISTQB® Foundation Level Agile Tester (CTFL-AT)](https://scr.istqb.org/?name=masaid&number=&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
 License No.: 25-CTFL-AG-0163-PK
 
-------------------------------------------------------------
-
 3️⃣ 📜 [Scrum Fundamentals Certified (SFC™)](https://www.linkedin.com/in/masaid-sqa/details/certifications/)
 
 4️⃣ 🚀 [Apache JMeter™ Pro](https://www.linkedin.com/in/masaid-sqa/details/certifications/)
-
-
----
 
 ### 🎓 Skill-Based Certifications  
 
@@ -386,7 +379,7 @@ License No.: 25-CTFL-AG-0163-PK
 11. 🔑 **[Setting a Foundation for Successful Test Automation](https://testautomationu.applitools.com/certificate/?id=67d10cae)**  
 12. 🌐 **[Introduction to API Testing with Postman](https://www.linkedin.com/in/masaid-sqa/details/certifications/)**  
 13. 💾 **[Introduction to Database and SQL](https://www.mygreatlearning.com/certificate/TAPXCWPK)**
-14. 4. 🔍 **[Fundamentals of Testing with TestRail](https://drive.google.com/file/d/1bdR8LadfSUylTMDmjX29R99RIe_tiRkm/view)** 
+14. 🔍 **[Fundamentals of Testing with TestRail](https://drive.google.com/file/d/1bdR8LadfSUylTMDmjX29R99RIe_tiRkm/view)** 
 
 ---
 
@@ -399,7 +392,7 @@ License No.: 25-CTFL-AG-0163-PK
 19. 🎓 **[SQA Bootcamp](https://www.linkedin.com/in/masaid-sqa/details/certifications/)**  
 20. 🔍 **[Google Chrome Developer Tool](https://cursa.app/en/my-certificate/cert36a4b14dbfa8a01663f7f0d4e2388934)**
 21. 📚 **[Accessibility fundamentals](https://learn.microsoft.com/en-gb/users/masaidzeb-2359/achievements?tab=tab-modules)**
-22. 14. 🧑‍💻 **[Software Testing Tutorial](https://www.mygreatlearning.com/certificate/YSSCNZYH)**  
+22. 🧑‍💻 **[Software Testing Tutorial](https://www.mygreatlearning.com/certificate/YSSCNZYH)**  
 
 ---
 
