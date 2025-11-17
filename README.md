@@ -354,11 +354,44 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 ## 📊 Certifications  
 
 ### 🏆 Key Certifications  
-1. 🎯 **ISTQB® Certified Tester Foundation Level (CTFL)**  
-   - [License No. 24-CTFL4-1433-PK](https://pstb.pk/testers/Certified%20Tester%20Foundation%20Level)
-   - [ISTQB® Foundation Level Agile Tester (CTFL-AT)](https://scr.istqb.org/?name=masaid&number=&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
-2. 📜 **[Scrum Fundamentals Certified (SFC™)](https://www.linkedin.com/in/masaid-sqa/details/certifications/)**  
-3. 🚀 **[Apache JMeter™ Pro](https://www.linkedin.com/in/masaid-sqa/details/certifications/)**  
+# 📘 Certifications & Badges
+
+## 🏅 Professional Certifications
+
+---
+
+### 1️⃣ 🎯 ISTQB® Certified Tester Foundation Level (CTFL)
+![ISTQB CTFL](https://img.shields.io/badge/ISTQB-CTFL-blue?style=for-the-badge&logo=testing-library&logoColor=white)
+
+- **License No.: 24-CTFL4-1433-PK**
+- Verification Link:  
+  https://pstb.pk/testers/Certified%20Tester%20Foundation%20Level
+
+---
+
+### 2️⃣ 🎯 ISTQB® Foundation Level Agile Tester (CTFL-AT)
+![ISTQB Agile Tester](https://img.shields.io/badge/ISTQB-Agile%20Tester-green?style=for-the-badge&logo=testing-library&logoColor=white)
+
+- **License No.: 25-CTFL-AG-0163-PK**
+- Verification Link:  
+  https://scr.istqb.org/?name=masaid&number=&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10
+
+---
+
+### 3️⃣ 📜 Scrum Fundamentals Certified (SFC™)
+![SFC](https://img.shields.io/badge/Scrum-Fundamentals-orange?style=for-the-badge&logo=scrumalliance&logoColor=white)
+
+- Certification Link:  
+  https://www.linkedin.com/in/masaid-sqa/details/certifications/
+
+---
+
+### 4️⃣ 🚀 Apache JMeter™ Pro
+![JMeter Pro](https://img.shields.io/badge/Apache-JMeter%20Pro-red?style=for-the-badge&logo=apache&logoColor=white)
+
+- Certification Link:  
+  https://www.linkedin.com/in/masaid-sqa/details/certifications/
+
 
 ---
 
