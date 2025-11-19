@@ -1,9 +1,7 @@
 # 🌟 Welcome to My Portfolio Repository! 🌟  
----
 ### 👋 Hi, I'm **MASAID ZEB**  
 🚀 ISTQB® Certified Software Quality Assurance Engineer  
 
----
 ---
 
 ## 📌 Table of Contents
@@ -346,15 +344,10 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 | 🤝 **Teamwork & Communication**   | Collaboration 🤝, Effective Communication 🗣️, Leadership & Mentorship 👨‍🏫, Teamwork 👥 |
 | ⏳ **Productivity & Adaptability** | Proactive Approach 🚀, Attention to Detail 🔬, Time Management ⏳, Adaptability 🔄 |
 
-
-
----
 ---
 
 ## 📊 Certifications  
 
-### 🏆 Key Certifications  
-# 📘 Certifications & Badges
 
 ## 🏅 Professional Certifications
 
@@ -392,7 +385,7 @@ License No.: 25-CTFL-AG-0163-PK
 19. 🎓 **[SQA Bootcamp](https://www.linkedin.com/in/masaid-sqa/details/certifications/)**  
 20. 🔍 **[Google Chrome Developer Tool](https://cursa.app/en/my-certificate/cert36a4b14dbfa8a01663f7f0d4e2388934)**
 21. 📚 **[Accessibility fundamentals](https://learn.microsoft.com/en-gb/users/masaidzeb-2359/achievements?tab=tab-modules)**
-22. 🧑‍💻 **[Software Testing Tutorial](https://www.mygreatlearning.com/certificate/YSSCNZYH)**  
+22. 🧑‍💻**[Software Testing Tutorial](https://www.mygreatlearning.com/certificate/YSSCNZYH)**  
 
 ---
 
@@ -432,8 +425,6 @@ What others say about **Masaid Zeb** — based on real leadership feedback.
 
 ---
 
-
-
 ## 🤝 Let's Connect!  
 - 📧 **Email**: [masaid.zeb2244@gmail.com](mailto:masaid.zeb2244@gmail.com)  
 - 🔗 **LinkedIn**: [Masaid Zeb ISTQB® (CTFL)](https://www.linkedin.com/in/masaid-sqa/)  
@@ -441,7 +432,6 @@ What others say about **Masaid Zeb** — based on real leadership feedback.
 - 🌟 **Upwork**: [Masaid Zeb Upwork Account](https://www.upwork.com/freelancers/~0142d8a3e4667f52e8)   
 - 📍 **Location**: Islamabad, PK
   
----
 ---
 
   # 🎯 Ready to Collaborate? Download My CV!
