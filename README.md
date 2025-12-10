@@ -34,10 +34,11 @@
 - [🩺 Quality Assurance & Defect Management](#-quality-assurance--defect-management)  
 - [🚀 Development Processes](#-development-processes)  
 - [🧪 Testing Techniques](#-testing-techniques)  
-- [⚙️ Tools & Frameworks](#️-tools--frameworks)  
+- [⚙️ Tools & Frameworks](#️tools--frameworks)  
 
 ### 🔬 QA Artifacts and Automation Samples
-- [ QA Artifacts and Automation Samples](#-QA-Artifacts-and-Automation-Samples)
+- [QA Artifacts and Automation Samples](#qa-artifacts-and-automation-samples)
+
 
 ### 📊 Certifications  
 - [🏆 Key Certifications](#-key-certifications)  
