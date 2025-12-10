@@ -37,7 +37,7 @@
 - [⚙️ Tools & Frameworks](#️-tools--frameworks)  
 
 ### 🔬 QA Artifacts and Automation Samples
-- [QA Artifacts and Automation Samples](#-QA-Artifacts-and-Automation-Samples)
+- [ QA Artifacts and Automation Samples](#-QA-Artifacts-and-Automation-Samples)
 
 ### 📊 Certifications  
 - [🏆 Key Certifications](#-key-certifications)  
