@@ -346,6 +346,35 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 
 ---
 
+
+## QA Artifacts & Automation Samples
+# Sample Work
+Here are some of my sample works, including test cases, bug reports, test plans, and automation scripts. Feel free to explore the links below for a closer look at the kind of QA artifacts I've produced. 
+
+**Automation Test Scripts (Cypress)**  
+- [Cypress Sample Test Cases](https://github.com/masaid2244/Cypress-Sample-Test-Cases) – A repository containing my automation scripts created using Cypress for end-to-end testing.
+  
+**Test Case Samples & Bug Reports**  
+- [Test Cases, Bugs, and API Testing Bugs Spreadsheet](https://docs.google.com/spreadsheets/d/1Ac4mOZomsgUoJ8yrh5LGZfeIH2GRZRBixdN2uisw2X4/edit?gid=0#gid=0) – This Google Sheet includes a variety of test cases, reported bugs, and API testing bugs. 
+
+**Test Plans**  
+- [Test Plan 1](<link-to-file>)  
+- [Test Plan 2](<link-to-file>)  
+
+*Note: The files and links above represent a few examples of my work, showcasing my structure, process, and attention to detail in QA. I'll be continuously adding more artifacts, so stay tuned for updates!*
+
+## Future Additions
+
+I will be regularly updating this repository with new work, including:
+- More automation scripts (using different frameworks)
+- Test coverage matrices
+- Regression testing strategies
+- Bug tracking documentation and more!
+
+Thank you for checking out my work! Feel free to reach out if you have any questions or would like to collaborate on QA projects.
+
+---
+
 ## 📊 Certifications  
 
 
