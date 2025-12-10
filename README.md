@@ -351,28 +351,48 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 ---
 
 
-## QA Artifacts and Automation Samples
-# Sample Work
-Here are some of my sample works, including test cases, bug reports, test plans, and automation scripts. Feel free to explore the links below for a closer look at the kind of QA artifacts I've produced. 
+## 🛠️ QA Artifacts and Automation Samples
 
-**Automation Test Scripts (Cypress)**  
-These are sample automation scripts I’ve created using Cypress, an end-to-end testing framework. The scripts cover various test scenarios for web applications, ensuring that the functionality and user flows work as expected. You can explore the code to understand my approach to automation testing, how I structure my test cases, and how I leverage Cypress for robust testing.
-- [Cypress Sample Test Cases](https://github.com/masaid2244/Cypress-Sample-Test-Cases) – A repository containing my automation scripts created using Cypress for end-to-end testing.
-  
-**Test Case Samples & Bug Reports**  
-- [Test Cases, Bugs, and API Testing Bugs Spreadsheet](https://docs.google.com/spreadsheets/d/1OkybkELEQXFinxx_nlFSTUbT3AB6wHQC/edit?usp=sharing&ouid=102142395352249515675&rtpof=true&sd=true) – This Google Sheet includes a variety of test cases, reported bugs, and API testing bugs. 
+### 👩‍💻 Sample Work
 
-**Test Plans**  
-- [Test Plan 1 : AXI Customer Care Chatbot](<https://drive.google.com/file/d/11xB3uJeiHLJpeHshXowMWaeflo62wrGM/view?usp=sharing>)  – A comprehensive test plan outlining the approach for testing an AI-based customer care chatbot, focusing on functionality, user interaction, and error handling.
-- [Test Plan 2 : HR CV Screening Bot](<https://drive.google.com/file/d/1wdUUyO0jEEX0PYtXSpPzVST1PUoW3yoh/view?usp=sharing>) – A test plan for evaluating an AI-powered CV screening tool, including scenarios for accurate document parsing and classification.
+Here are some of my sample works, including test cases, bug reports, test plans, and automation scripts. Feel free to explore the links below for a closer look at the kind of QA artifacts I've produced.  
 
-**Test Charters**  
-- [Test Charter 1 : NTS Regression Scenarios](<https://docs.google.com/document/d/1nJri4IpjMhxso1xp9jXw0MKYM3AvcREZ1h_lrDLEziU/edit?tab=t.0#heading=h.xca2833d3ine>)  - A charter designed for exploratory regression testing, ensuring that the latest changes don’t negatively affect existing functionality.
-- [Test Charter 2 : AXI Customer Care Chatbot ](<https://docs.google.com/document/d/1lFPerSvzugugdicd8ny5pse5ACnfXYi7UoCEdMYxG6k/edit?usp=sharing>)  – A test charter focused on exploratory testing of the AXI Customer Care Chatbot, evaluating its adaptability to various user inputs and its response accuracy.
+---
+
+### 🚀 **Automation Test Scripts (Cypress)**  
+These are sample automation scripts I’ve created using **Cypress**, an end-to-end testing framework. The scripts cover various test scenarios for web applications, ensuring that the functionality and user flows work as expected. You can explore the code to understand my approach to automation testing, how I structure my test cases, and how I leverage Cypress for robust testing.
+
+- [**Cypress Sample Test Cases**](https://github.com/masaid2244/Cypress-Sample-Test-Cases) – A repository containing my automation scripts created using Cypress for end-to-end testing.
+
+---
+
+### 📝 **Test Case Samples & Bug Reports**  
+This section includes a variety of **test cases**, **reported bugs**, and **API testing bugs**. It demonstrates my approach to documenting and tracking defects, as well as my attention to detail in testing across multiple layers of an application.
+
+- [**Test Cases, Bugs, and API Testing Bugs Spreadsheet**](https://docs.google.com/spreadsheets/d/1OkybkELEQXFinxx_nlFSTUbT3AB6wHQC/edit?usp=sharing&ouid=102142395352249515675&rtpof=true&sd=true) – This Google Sheet includes a variety of test cases, reported bugs, and API testing bugs.  
+
+---
+
+### 📋 **Test Plans**  
+Test plans are crucial for outlining the testing scope, objectives, and deliverables. These documents highlight how I approach the planning phase of a QA project and provide a roadmap for testing activities. Here are two test plans I’ve worked on:
+
+- [**Test Plan 1: AXI Customer Care Chatbot**](https://drive.google.com/file/d/11xB3uJeiHLJpeHshXowMWaeflo62wrGM/view?usp=sharing) – A comprehensive test plan outlining the approach for testing an **AI-based customer care chatbot**, focusing on functionality, user interaction, and error handling.
+- [**Test Plan 2: HR CV Screening Bot**](https://drive.google.com/file/d/1wdUUyO0jEEX0PYtXSpPzVST1PUoW3yoh/view?usp=sharing) – A test plan for evaluating an **AI-powered CV screening tool**, including scenarios for accurate document parsing and classification.
+
+---
+
+### 🧑‍💻 **Test Charters**  
+Test charters define the scope and focus of exploratory testing sessions. Below are a couple of test charters that I’ve used to guide testing activities in exploratory testing and regression testing:
+
+- [**Test Charter 1: NTS Regression Scenarios**](https://docs.google.com/document/d/1nJri4IpjMhxso1xp9jXw0MKYM3AvcREZ1h_lrDLEziU/edit?tab=t.0#heading=h.xca2833d3ine) – A charter designed for **exploratory regression testing**, ensuring that recent changes don’t negatively affect existing functionality.
+- [**Test Charter 2: AXI Customer Care Chatbot**](https://docs.google.com/document/d/1lFPerSvzugugdicd8ny5pse5ACnfXYi7UoCEdMYxG6k/edit?usp=sharing) – A test charter focused on **exploratory testing** of the **AXI Customer Care Chatbot**, evaluating its adaptability to various user inputs and its response accuracy.
+
+---
 
 *Note: The files and links above represent a few examples of my work, showcasing my structure, process, and attention to detail in QA. I'll be continuously adding more artifacts, so stay tuned for updates!*
 
 ---
+
 
 ## 📊 Certifications  
 
