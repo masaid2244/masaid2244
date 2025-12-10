@@ -36,6 +36,9 @@
 - [🧪 Testing Techniques](#-testing-techniques)  
 - [⚙️ Tools & Frameworks](#️-tools--frameworks)  
 
+### 🔬 QA Artifacts and Automation Samples
+- [QA Artifacts and Automation Samples](#-QA-Artifacts-and-Automation-Samples)
+
 ### 📊 Certifications  
 - [🏆 Key Certifications](#-key-certifications)  
 - [🎓 Skill-Based Certifications](#-skill-based-certifications)  
@@ -347,7 +350,7 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 ---
 
 
-## QA Artifacts & Automation Samples
+## QA Artifacts and Automation Samples
 # Sample Work
 Here are some of my sample works, including test cases, bug reports, test plans, and automation scripts. Feel free to explore the links below for a closer look at the kind of QA artifacts I've produced. 
 
@@ -355,23 +358,17 @@ Here are some of my sample works, including test cases, bug reports, test plans,
 - [Cypress Sample Test Cases](https://github.com/masaid2244/Cypress-Sample-Test-Cases) – A repository containing my automation scripts created using Cypress for end-to-end testing.
   
 **Test Case Samples & Bug Reports**  
-- [Test Cases, Bugs, and API Testing Bugs Spreadsheet](https://docs.google.com/spreadsheets/d/1Ac4mOZomsgUoJ8yrh5LGZfeIH2GRZRBixdN2uisw2X4/edit?gid=0#gid=0) – This Google Sheet includes a variety of test cases, reported bugs, and API testing bugs. 
+- [Test Cases, Bugs, and API Testing Bugs Spreadsheet](https://docs.google.com/spreadsheets/d/1OkybkELEQXFinxx_nlFSTUbT3AB6wHQC/edit?usp=sharing&ouid=102142395352249515675&rtpof=true&sd=true) – This Google Sheet includes a variety of test cases, reported bugs, and API testing bugs. 
 
 **Test Plans**  
-- [Test Plan 1](<link-to-file>)  
-- [Test Plan 2](<link-to-file>)  
+- [Test Plan 1 : AXI Customer Care Chatbot](<https://drive.google.com/file/d/11xB3uJeiHLJpeHshXowMWaeflo62wrGM/view?usp=sharing>)  
+- [Test Plan 2 : HR CV Screening Bot](<https://drive.google.com/file/d/1wdUUyO0jEEX0PYtXSpPzVST1PUoW3yoh/view?usp=sharing>)
+
+**Test Charters**  
+- [Test Charter 1 : NTS Regression Scenarios](<https://docs.google.com/document/d/1nJri4IpjMhxso1xp9jXw0MKYM3AvcREZ1h_lrDLEziU/edit?tab=t.0#heading=h.xca2833d3ine>)  
+- [Test Charter 2 : AXI Customer Care Chatbot ](<https://docs.google.com/document/d/1lFPerSvzugugdicd8ny5pse5ACnfXYi7UoCEdMYxG6k/edit?usp=sharing>)  
 
 *Note: The files and links above represent a few examples of my work, showcasing my structure, process, and attention to detail in QA. I'll be continuously adding more artifacts, so stay tuned for updates!*
-
-## Future Additions
-
-I will be regularly updating this repository with new work, including:
-- More automation scripts (using different frameworks)
-- Test coverage matrices
-- Regression testing strategies
-- Bug tracking documentation and more!
-
-Thank you for checking out my work! Feel free to reach out if you have any questions or would like to collaborate on QA projects.
 
 ---
 
