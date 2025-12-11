@@ -393,6 +393,14 @@ Test charters define the scope and focus of exploratory testing sessions. Below 
 
 ---
 
+
+### 📁 **General QA Artifacts**  
+These include comprehensive QA deliverables for robust quality assurance across software projects.
+
+- [**📋 Requirements Traceability Matrix (RTM) : OMNI Channel**](https://drive.google.com/file/d/1HnilWOds-MXnIWmnany9LI8fE__b5ehi/view?usp=sharing) – This RTM professionally maps 16 derived requirements to 200+ test cases across Omni-Channel modules per ISTQB standards, achieving 98% coverage with execution status and defect tracking.
+
+---
+
 *Note: The files and links above represent a few examples of my work, showcasing my structure, process, and attention to detail in QA. I'll be continuously adding more artifacts, so stay tuned for updates!*
 
 ---
