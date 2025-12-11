@@ -479,7 +479,7 @@ What others say about **Masaid Zeb** — based on real leadership feedback.
 
 ## 🤝 Let's Connect!  
 - 📧 **Email**: [masaid.zeb2244@gmail.com](mailto:masaid.zeb2244@gmail.com)  
-- 🔗 **LinkedIn**: [Masaid Zeb ISTQB® (CTFL)](https://www.linkedin.com/in/masaid-sqa/)  
+- 🔗 **LinkedIn**: [Masaid Zeb ISTQB® (CTFL, CTFL-AT)](https://www.linkedin.com/in/masaid-sqa/)  
 - 💻 **GitHub**: [Masaid Zeb's GitHub](https://github.com/masaidezeb2244)
 - 🌟 **Upwork**: [Masaid Zeb Upwork Account](https://www.upwork.com/freelancers/~0142d8a3e4667f52e8)   
 - 📍 **Location**: Islamabad, PK
