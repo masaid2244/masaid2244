@@ -382,6 +382,7 @@ Test plans are crucial for outlining the testing scope, objectives, and delivera
 
 - [**Test Plan 1: AXI Customer Care Chatbot**](https://drive.google.com/file/d/11xB3uJeiHLJpeHshXowMWaeflo62wrGM/view?usp=sharing) – A comprehensive test plan outlining the approach for testing an **AI-based customer care chatbot**, focusing on functionality, user interaction, and error handling.
 - [**Test Plan 2: HR CV Screening Bot**](https://drive.google.com/file/d/1wdUUyO0jEEX0PYtXSpPzVST1PUoW3yoh/view?usp=sharing) – A test plan for evaluating an **AI-powered CV screening tool**, including scenarios for accurate document parsing and classification.
+- [**🧾 Test Plan : Safe City Project**](https://drive.google.com/file/d/1F5y7_lDXreoU9LLqKeZ1CJqwLdGfR-1r/view?usp=sharing) - This test plan defines the quality assurance strategy for the Safe City Project, a centralized surveillance and monitoring platform supporting public safety operations.Testing will focus on validating map-based monitoring, real-time alerts, live video streams, facial recognition outputs, analytics dashboards, and camera management using experience-based and exploratory testing aligned with real-world operational scenarios.
 
 ---
 
