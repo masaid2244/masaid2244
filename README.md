@@ -17,7 +17,7 @@
 - [Selenium-Based Automation for Engineer Registration – Pakistan Engineering Council (PEC)](#selenium-based-automation-for-engineer-registration---pakistan-engineering-council-pec)
 - [Quality Assurance for EPE Portal - Pakistan Engineering Council (PEC)](#quality-assurance-for-epe-portal-pakistan-engineering-council-pec)
 - [Extensive QA for CPD Portal - Pakistan Engineering Council (PEC)](#extensive-qa-for-cpd-portal-pakistan-engineering-council-pec)
-- [Selenium-Based Automation – Engineer Renewal Application | ERD Portal (PEC)](#selenium-based-automation---engineer-renewal-application--erd-portal-pec)
+- [Selenium-Based Automation – Engineer Renewal Application - ERD Portal (PEC)](#selenium-based-automation---engineer-renewal-application-erd-portal-pec)
 - [Evolo AI (Student Mobile App, Institute Mobile App, Employer Web App)](#evolo-ai-student-mobile-app-institute-mobile-app-employer-web-app)
 - [Omni-Channel Web App (BPO Service Integration)](#omni-channel-web-app-bpo-service-integration)
 
