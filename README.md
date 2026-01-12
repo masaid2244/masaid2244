@@ -273,6 +273,32 @@ While these projects are smaller in scale, they demonstrate my versatility and a
   - Automate **real-world demo projects** to enhance practical skills.  
 - 🌟 **Discover my work** and dive into the details of my projects on GitHub! **[Explore Here](https://github.com/masaid2244/Cypress-Sample-Test-Cases)** 🚀
 
+### Katalon Automation
+
+🌟 My Katalon Learning Journey: Getting Started with AI Automation Testing 🌟  
+
+- Gained hands-on experience with Katalon Studio for end-to-end automation testing.
+- Learned three test creation modes: Record, Manual, and Script.
+- Managed Test Suites, Collections, Execution Profiles, and Global Variables for scalable automation.
+- Implemented data-driven testing and environment management for flexible test execution.
+- Explored advanced features:
+  - Headless mode
+  - Parallel execution
+  - Smart Wait
+  - Failure handling
+- Applied maintenance techniques:
+  - Test Listeners
+  - Setup / Teardown
+  - Skipping Tests
+  - Self-Healing locators
+  - Frame handling
+- Learned retry mechanisms and flakiness handling for robust automated tests.
+
+Future Goals:
+- Apply advanced Katalon features to real-world testing scenarios
+
+🌟 Discover my Katalon learning document and projects: **Explore My Katalon Learning Journey(https://docs.google.com/document/d/1Py46z0cV8JHNpGwwXs05XrwW3qaaqkoxIx3GCkj8C3U/edit?tab=t.0)** 🚀
+
 
 ---
 
