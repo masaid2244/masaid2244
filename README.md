@@ -128,7 +128,7 @@ Achieved a smooth, bug-free production rollout for NTS's weekend nationwide exam
 🔑 **Skills:**  
 Functional Testing · Regression Testing · End-to-End Testing · Performance Testing · Load & Stress Testing · JMeter · k6 · Jira · Postman · Quality Assurance  
 
-🔗 **Link to Project:** [Project Link](https://github.com/masaid2244/[your-nts-repo-link])
+🔗 **Link to Project:** [Test Charter](https://docs.google.com/document/d/1nJri4IpjMhxso1xp9jXw0MKYM3AvcREZ1h_lrDLEziU/edit?tab=t.0#heading=h.xca2833d3ine)
 
 
 ##  [Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](https://www.linkedin.com/in/masaid-sqa/details/projects/)
