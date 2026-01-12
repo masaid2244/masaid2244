@@ -106,6 +106,31 @@ This phrase embodies my commitment to excellence in Software Quality Assurance, 
 
 # 📌 Projects
 
+
+# Computer-Based Test System (CBT) for National Testing Service (NTS) Pakistan
+🗓 **Duration:** Nov 2025 - Jan 2026
+
+🚀 **Objective:**  
+Delivered robust testing for NTS Pakistan's nationwide online CBT platform, ensuring zero cheating in real-time exams, seamless monitoring from Quetta to Gilgit, and instant live results dashboards for candidates across Pakistan.
+
+💡 **Key Features:**  
+✨ Performance testing for 50k concurrent users with zero downtime  
+✨ Functional and regression validation of end-to-end exam flows (registration to results)  
+✨ Anti-cheating measures including photo uploads and center-wise accuracy  
+✨ Real-time live dashboard for nationwide exam monitoring and instant results  
+
+🔧 **Technologies Used:**  
+JMeter ⚡, k6 📊, Jira 🐛, Postman 📡, Safe Exam Browser 🔒  
+
+🏆 **Achievements:**  
+Achieved a smooth, bug-free production rollout for NTS's weekend nationwide exams, handling 50k users reliably under load/stress while upholding zero-cheating integrity—proving scalable QA strategies for high-stakes national platforms.  
+
+🔑 **Skills:**  
+Functional Testing · Regression Testing · End-to-End Testing · Performance Testing · Load & Stress Testing · JMeter · k6 · Jira · Postman · Quality Assurance  
+
+🔗 **Link to Project:** [Project Link](https://github.com/masaid2244/[your-nts-repo-link])
+
+
 ##  [Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](https://www.linkedin.com/in/masaid-sqa/details/projects/)
 🗓 **Duration**: Sep 2024 - Oct 2024  
 
