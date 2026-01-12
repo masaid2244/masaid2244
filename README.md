@@ -447,6 +447,7 @@ License No.: 25-CTFL-AG-0163-PK
 
 What others say about **Masaid Zeb** — based on real leadership feedback.
 
+---
 
 ### 👨‍💻 Muneeb Ur Rehman – Senior React Native Developer  
 ⭐ *Team Lead & Solution Architect at AiMarklabs*
@@ -481,8 +482,7 @@ What others say about **Masaid Zeb** — based on real leadership feedback.
 ## 🤝 Let's Connect!  
 - 📧 **Email**: [masaid.zeb2244@gmail.com](mailto:masaid.zeb2244@gmail.com)  
 - 🔗 **LinkedIn**: [Masaid Zeb ISTQB® (CTFL, CTFL-AT)](https://www.linkedin.com/in/masaid-sqa/)  
-- 💻 **GitHub**: [Masaid Zeb's GitHub](https://github.com/masaidezeb2244)
-- 🌟 **Upwork**: [Masaid Zeb Upwork Account](https://www.upwork.com/freelancers/~0142d8a3e4667f52e8)   
+- 💻 **GitHub**: [Masaid Zeb's GitHub](https://github.com/masaidezeb2244)  
 - 📍 **Location**: Islamabad, PK
   
 ---
