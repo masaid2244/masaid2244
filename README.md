@@ -449,6 +449,39 @@ License No.: 25-CTFL-AG-0163-PK
 21. 📚 **[Accessibility fundamentals](https://learn.microsoft.com/en-gb/users/masaidzeb-2359/achievements?tab=tab-modules)**
 22. 🧑‍💻**[Software Testing Tutorial](https://www.mygreatlearning.com/certificate/YSSCNZYH)**  
 
+## 🤖 Automation & Programming
+
+| 🧩 Certification | 🔗 Link |
+|------------------|--------|
+| Selenium WebDriver with Python | https://testautomationu.applitools.com/certificate/?id=53ed526c |
+| Introduction to pytest | https://testautomationu.applitools.com/certificate/?id=3873d504 |
+| Web Element Locator Strategies | https://testautomationu.applitools.com/certificate/?id=5dbca55a |
+| Setting a Foundation for Successful Test Automation | https://testautomationu.applitools.com/certificate/?id=67d10cae |
+| Object Oriented Programming Foundations | https://www.linkedin.com/in/masaid-sqa/details/certifications/ |
+
+
+## 🌐 API & Backend Testing
+
+| 🧩 Certification | 🔗 Link |
+|------------------|--------|
+| Introduction to API Testing with Postman | https://www.linkedin.com/in/masaid-sqa/details/certifications/ |
+| API Testing and Basic Overview of JMeter | https://10pearlsuniversity.org/view-certificate/?cid=10PUC-6268a545daf6231bc4246f7d324bb0b1184b4434333e6956237794618 |
+| Introduction to Database and SQL | https://www.mygreatlearning.com/certificate/TAPXCWPK |
+
+
+## 🧪 QA, Test Management & Foundations
+
+| 🧩 Certification | 🔗 Link |
+|------------------|--------|
+| Introduction to JIRA | https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0MjYxIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvNzcwNTM0MF83OTYzMTIwMTczNTA0NzM3MzU2OS5wbmciLCJ1c2VybmFtZSI6Ik1hc2FpZCBaZWIgLSBJU1RRQlx1MDBhZShDVEZMKSJ9 |
+| Fundamentals of Testing with TestRail | https://drive.google.com/file/d/1bdR8LadfSUylTMDmjX29R99RIe_tiRkm/view |
+| QA Fundamentals | https://10pearlsuniversity.org/view-certificate/?cid=10PUC-69bf026d2af9c2937126ac81e728c04f23c6050cb9d28501237798728 |
+| Test Case Management with Testworthy | https://10pearlsuniversity.org/view-certificate/?cid=10PUC-c47eca8b2eff06e4984cb102e4d64a394172a325a1754820237797962 |
+| Writing Effective User Stories | https://10pearlsuniversity.org/view-certificate/?cid=10PUC-419f5b1020ebb86ece351c48cde17af4b2ca96c96ef0df55237798390 |
+| Accessibility Fundamentals | https://learn.microsoft.com/en-gb/users/masaidzeb-2359/achievements?tab=tab-modules |
+| Software Testing Tutorial | https://www.mygreatlearning.com/certificate/YSSCNZYH |
+
+
 ---
 
 ## 💬 Recommendations
