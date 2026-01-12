@@ -297,7 +297,7 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 Future Goals:
 - Apply advanced Katalon features to real-world testing scenarios
 
-🌟 Discover my Katalon learning document and projects: **Explore My Katalon Learning Journey(https://docs.google.com/document/d/1Py46z0cV8JHNpGwwXs05XrwW3qaaqkoxIx3GCkj8C3U/edit?tab=t.0)** 🚀
+🌟 Discover my Katalon learning document and projects: **Explore My Katalon Learning Journey (https://docs.google.com/document/d/1Py46z0cV8JHNpGwwXs05XrwW3qaaqkoxIx3GCkj8C3U/edit?tab=t.0)** 🚀
 
 
 ---
