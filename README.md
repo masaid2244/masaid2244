@@ -13,8 +13,8 @@
 - [👨‍💻 About Me](#-about-me)
     
 ### 🎯🏆📈🔍 **# Testing Achievements & Milestones: My Projects**  
-- [1️⃣ Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](#1️⃣-selenium-based-automation-for-engineer-registration---pakistan-engineering-council-pec)
-- [2️⃣ Quality Assurance for EPE Portal | Pakistan Engineering Council (PEC)](#2️⃣-quality-assurance-for-epe-portal-pakistan-engineering-council-pec)
+- [Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](#selenium-based-automation-for-engineer-registration---pakistan-engineering-council-pec)
+- [Quality Assurance for EPE Portal | Pakistan Engineering Council (PEC)](#quality-assurance-for-epe-portal-pakistan-engineering-council-pec)
  - [3️⃣ Extensive QA for CPD Portal | Pakistan Engineering Council (PEC)](#3️⃣-extensive-qa-for-cpd-portal-pakistan-engineering-council-pec)
  - [4️⃣ Selenium-Based Automation - Engineer Renewal Application | ERD Portal (PEC)](#4️⃣-selenium-based-automation---engineer-renewal-application--erd-portal-pec)
 - [5️⃣ Evolo AI (Student Mobile App, Institute Mobile App, Employer Web App)](#5️⃣-evolo-ai-student-mobile-app-institute-mobile-app-employer-web-app)
@@ -40,8 +40,8 @@
 - [QA Artifacts and Automation Samples](#qa-artifacts-and-automation-samples)
 
 ### Certifications and Recommendations
-- 📊 [📊 Certifications](#-certifications)
-- 💬 [💬 Recommendations](#-recommendations)
+-  [📊 Certifications](#-certifications)
+-  [💬 Recommendations](#-recommendations)
 
   
 ### 🤝 Connect & Collaborate  
@@ -114,7 +114,7 @@ This phrase embodies my commitment to excellence in Software Quality Assurance, 
 
 # 📌 Projects
 
-## 1️⃣ [Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](https://www.linkedin.com/in/masaid-sqa/details/projects/)
+##  [Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](https://www.linkedin.com/in/masaid-sqa/details/projects/)
 🗓 **Duration**: Sep 2024 - Oct 2024  
 
 🚀 **Objective**:  
@@ -139,7 +139,7 @@ Automation Testing · Selenium WebDriver · Regression Testing · Test Automatio
 
 ---
 
-## 2️⃣ [Quality Assurance for EPE Portal](https://cpd.pec.org.pk/EPECustom) | [Pakistan Engineering Council](https://www.pec.org.pk/)
+##  [Quality Assurance for EPE Portal](https://cpd.pec.org.pk/EPECustom) | [Pakistan Engineering Council](https://www.pec.org.pk/)
 🗓 **Duration**: Jan 2024 - Jul 2024 
 
 🎯 **Objective**:  
