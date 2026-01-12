@@ -10,7 +10,6 @@
 - [🎯 About This Repository](#-about-this-repository)  
 - [✨ Features of This Portfolio](#-features-of-this-portfolio)  
 - [🎯 Purpose](#-purpose)  
-- [👨‍💻 About Me](#-about-me)
     
 ### 🎯🏆📈🔍 **# Testing Achievements & Milestones: My Projects**  
 
@@ -74,16 +73,6 @@ This portfolio serves as a dynamic, scalable, and professional representation of
 
 💬 **Feedback** is always welcome! Feel free to explore and reach out.  
 
----
-
-### 🚀 **Explore More**  
-🌐 Visit my portfolio site for a full experience!  
-
----
-
-⭐️ If you like this repository, consider giving it a **star**!  
-
----
 ---
 
 ## 👨‍💻 About Me  
