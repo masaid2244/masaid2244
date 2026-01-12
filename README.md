@@ -40,8 +40,9 @@
 - [QA Artifacts and Automation Samples](#qa-artifacts-and-automation-samples)
 
 ### Certifications and Recommendations
-- [📊 Certifications](#certifications)
-- [💬 Recommendations](#recommendations)
+- 📊 [Certifications](#certifications)
+- 💬 [Recommendations](#recommendations)
+
   
 ### 🤝 Connect & Collaborate  
 - [🤝 Let's Connect!](#-lets-connect)  
