@@ -262,7 +262,7 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 # 🛠️📖🔍 Personal Learning Projects
 
 ### Cypress Automation
- 1️⃣🌟 Learn Automation with Cypress 🌟
+ 1️ 🌟 Learn Automation with Cypress 🌟
 - Gained hands-on experience in **Cypress** for end-to-end testing.  
 - Wrote **automated test scripts** covering UI functionalities, alerts, tables, dropdowns, and file uploads.  
 - Performed **UI validation, element interaction, and assertions** to ensure test accuracy.  
@@ -275,7 +275,7 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 
 ### Katalon Automation
 
-🌟 My Katalon Learning Journey: Getting Started with AI Automation Testing 🌟  
+2 🌟 My Katalon Learning Journey: Getting Started with AI Automation Testing 🌟  
 
 - Gained hands-on experience with Katalon Studio for end-to-end automation testing.
 - Learned three test creation modes: Record, Manual, and Script.
@@ -297,7 +297,7 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 Future Goals:
 - Apply advanced Katalon features to real-world testing scenarios
 
-🌟 Discover my Katalon learning document and projects: **Explore My Katalon Learning Journey (https://docs.google.com/document/d/1Py46z0cV8JHNpGwwXs05XrwW3qaaqkoxIx3GCkj8C3U/edit?tab=t.0)** 🚀
+🌟 Discover my Katalon learning document and projects: **[Explore My Katalon Learning Journey](https://docs.google.com/document/d/1Py46z0cV8JHNpGwwXs05XrwW3qaaqkoxIx3GCkj8C3U/edit?tab=t.0)** 🚀
 
 
 ---
