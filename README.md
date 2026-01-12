@@ -148,7 +148,7 @@ Automation Testing · Selenium WebDriver · Regression Testing · Test Automatio
 
 ---
 
-##  [Quality Assurance for EPE Portal](https://cpd.pec.org.pk/EPECustom) | [Pakistan Engineering Council](https://www.pec.org.pk/)
+## [Quality Assurance for EPE Portal](https://cpd.pec.org.pk/EPECustom) | [Pakistan Engineering Council](https://www.pec.org.pk/)
 🗓 **Duration**: Jan 2024 - Jul 2024 
 
 🎯 **Objective**:  
@@ -174,7 +174,7 @@ Manual Testing · Performance Testing · Exploratory Testing · Regression Testi
 
 ---
 
-## 3️⃣ [Extensive QA for CPD Portal](https://cpd.pec.org.pk/) | [Pakistan Engineering Council (PEC)](https://www.pec.org.pk/)
+## [Extensive QA for CPD Portal](https://cpd.pec.org.pk/) | [Pakistan Engineering Council (PEC)](https://www.pec.org.pk/)
 🗓 **Duration**: Jan 2024 - Apr 2024  
 
 🚀 **Objective**:  
@@ -200,7 +200,7 @@ Functional Testing · Boundary Value Analysis (BVA) · Equivalence Partitioning 
 
 ---
 
-## 4️⃣ [Selenium-Based Automation - Engineer Renewal Application | ERD Portal (PEC)](https://github.com/masaid2244/Engineer-Renewal-Application-Automation---PEC---ERD-portal)
+## [Selenium-Based Automation - Engineer Renewal Application | ERD Portal (PEC)](https://github.com/masaid2244/Engineer-Renewal-Application-Automation---PEC---ERD-portal)
 
 🔧 **Project Summary**:  
 Automated the renewal process for engineers through PEC’s ERD Portal using Python and Selenium. The automation reduced manual interventions and enhanced the overall renewal process.
@@ -211,7 +211,7 @@ Automated Software Testing 🤖, Agile Test Methodology 📅, Performance Testin
 
 🔗 **Link to Project**: [Project Link](https://github.com/masaid2244/Engineer-Renewal-Application-Automation---PEC---ERD-portal)  
 
-## 5️⃣ [Evolo AI](https://play.google.com/store/apps/details?id=com.hiddenworkers.evoloaiapp&pcampaignid=web_share) (Student Mobile App, Institute Mobile App, Employer Web App) 
+## [Evolo AI](https://play.google.com/store/apps/details?id=com.hiddenworkers.evoloaiapp&pcampaignid=web_share) (Student Mobile App, Institute Mobile App, Employer Web App) 
 🔗 **Associated with**: [AI Mark Lab](https://www.linkedin.com/company/ai-mark-labs/posts/?feedView=all)
 
 🚀 **Project Overview**:  
@@ -240,7 +240,7 @@ Mobile Testing · API Testing · Black-box Testing · Manual Testing · AI Model
 
 ---
 
-## 6️⃣ Omni-Channel Web App (BPO Service Integration)
+## Omni-Channel Web App (BPO Service Integration)
 🔗 **Associated with**: [Mexil Software solutions](https://www.linkedin.com/company/mexil-software-solutions/posts/?feedView=all)
 
 🚀 **Project Overview**:  
