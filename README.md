@@ -28,6 +28,7 @@
 
 ### 🛠️📖🔍 Personal Learning Projects  
  - [Cypress Automation](#cypress-automation)
+ - [Katalon Automation](#katalon-automation)
 
 
 ### 🔬 Quality Assurance & Testing  
