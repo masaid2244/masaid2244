@@ -131,6 +131,51 @@ Functional Testing · Regression Testing · End-to-End Testing · Performance Te
 
 🔗 **Link to Project:** [Test Charter](https://docs.google.com/document/d/1nJri4IpjMhxso1xp9jXw0MKYM3AvcREZ1h_lrDLEziU/edit?tab=t.0#heading=h.xca2833d3ine)
 
+---
+# 🤖 AI Chatbots 
+**AXI Chatbot | CV Screening Chatbot | Pak Austria Chatbot**
+
+
+## 🎯 Objective
+Ensured high-quality, reliable, and context-aware AI chatbot behaviour by validating response accuracy, NLP intent handling, and domain alignment. Focused on improving AI response correctness, reducing hallucinations, and ensuring culturally and academically appropriate outputs across multiple chatbot use cases.
+
+
+## 🧪 QA Scope
+| Area | Coverage | Focus |
+|-----|--------|------|
+| 🧠 AI & NLP Testing | LLM response validation, intent recognition | Accuracy, relevance, hallucination detection |
+| 🔄 Functional & Regression Testing | Conversation flows, edge cases, updates | Stability after model & KB changes |
+| 🔗 API & UI Testing | Backend integrations, UI/UX behavior | Response payloads, usability, error handling |
+
+
+## 🔍 Key QA Activities
+- 📝 Designed and executed detailed **test plans, test cases, and test scenarios** for AI chatbot workflows.  
+- 🧠 Evaluated **AI/LLM responses** for correctness, contextual understanding, and domain alignment.  
+- 🔄 Performed **regression testing** after model retraining and knowledge base updates.  
+- 🔗 Conducted **API testing** to validate backend integrations and response structures.  
+- 🎨 Executed **UI/UX and usability testing** to improve conversational clarity and user experience.  
+- 🤝 Supported **UAT and production readiness** in Agile/Scrum environments.
+
+## 🏆 Achievements
+- 📈 Improved chatbot response accuracy and contextual relevance through structured AI testing.  
+- 🚫 Reduced incorrect, misleading, and ambiguous AI responses by identifying NLP edge cases early.  
+- 😊 Enhanced user satisfaction and trust in AI systems through usability and response-quality validation.  
+- 🚀 Supported stable, production-ready releases of multiple AI chatbot platforms.
+
+
+## 🧩 Skills Demonstrated
+| Category | Skills | Application |
+|--------|-------|------------|
+| 🤖 AI Testing | LLM Testing, Chatbot Testing | Response accuracy & behavior validation |
+| 🧠 NLP Evaluation | Intent analysis, contextual validation | Conversational quality assurance |
+| 🧪 QA Practices | Test Planning, Test Execution, Regression Testing | End-to-end quality assurance |
+
+
+## 🔑 Skills
+AI Testing, LLM Testing, Chatbot Testing, NLP Evaluation, Manual Testing, Test Planning, Test Case Design, API Testing, Regression Testing, Defect Tracking, Quality Assurance
+
+🔗 **Link to Project**: [Project Link](https://axitechnologies.ai/)  
+---
 
 ##  [Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](https://www.linkedin.com/in/masaid-sqa/details/projects/)
 🗓 **Duration**: Sep 2024 - Oct 2024  
