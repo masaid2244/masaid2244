@@ -110,7 +110,6 @@ This phrase embodies my commitment to excellence in Software Quality Assurance, 
 
 
 # Computer-Based Test System (CBT) for National Testing Service (NTS) Pakistan
-🗓 **Duration:** Nov 2025 - Jan 2026
 
 🚀 **Objective:**  
 Delivered robust testing for NTS Pakistan's nationwide online CBT platform, ensuring zero cheating in real-time exams, seamless monitoring from Quetta to Gilgit, and instant live results dashboards for candidates across Pakistan.
@@ -133,9 +132,9 @@ Functional Testing · Regression Testing · End-to-End Testing · Performance Te
 🔗 **Link to Project:** [Test Charter](https://docs.google.com/document/d/1nJri4IpjMhxso1xp9jXw0MKYM3AvcREZ1h_lrDLEziU/edit?tab=t.0#heading=h.xca2833d3ine)
 
 ---
-# 🤖 AI Chatbots 
-**AXI Chatbot | CV Screening Chatbot | Pak Austria Chatbot**
 
+# AI Chatbots 
+**🤖 AXI Chatbot | CV Screening Chatbot | Pak Austria Chatbot**
 
 ## 🎯 Objective
 Ensured high-quality, reliable, and context-aware AI chatbot behaviour by validating response accuracy, NLP intent handling, and domain alignment. Focused on improving AI response correctness, reducing hallucinations, and ensuring culturally and academically appropriate outputs across multiple chatbot use cases.
