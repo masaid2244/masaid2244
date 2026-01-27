@@ -271,32 +271,56 @@ Automated Software Testing 🤖, Agile Test Methodology 📅, Performance Testin
 
 🔗 **Link to Project**: [Project Link](https://github.com/masaid2244/Engineer-Renewal-Application-Automation---PEC---ERD-portal)  
 
+---
+
+
 ## [Evolo AI](https://play.google.com/store/apps/details?id=com.hiddenworkers.evoloaiapp&pcampaignid=web_share) (Student Mobile App, Institute Mobile App, Employer Web App) 
 🔗 **Associated with**: [AI Mark Lab](https://www.linkedin.com/company/ai-mark-labs/posts/?feedView=all)
 
-🚀 **Project Overview**:  
-Evolo AI is a platform designed to connect students with employers. The mobile app (available for both Android and iOS) allows students to create profiles, find employers, and apply for jobs in a simple and intuitive way. The web app serves as a bridge between employers and job seekers, providing features like job listings, employer questions, and AI-driven chatbots for assistance. AI is used to optimize job matching and help students apply with minimal effort.
+## 🚀 Project Overview
+Evolo AI is a large-scale AI-driven platform comprising interconnected web and mobile applications designed for adult learners and educational institutions. The platform integrates AI models, chatbots, voice bots, job application workflows, event creation, and real-time communication features to connect students, schools, and employers across the United States, particularly in California.
 
-🎯 **Key Responsibilities**:
-- **Mobile Testing**:  
-  - Tested Android and iOS builds. 
-  - Performed black-box testing and session-based testing.  
-  - Used mobile testing techniques and tools (e.g., API testing with Postman).
-- **QA for AI Models**:  
-  - Verified how AI agents and chatbots were trained and their responses.  
-  - Ensured AI models provided relevant job information and supported the application process.
-- **Agile/Scrum**:  
-  - Used Jira for project tracking and bug reporting.  
-  - Participated in Agile Scrum methodology with regular sprints and stand-ups.
-- **UI/UX Interaction**:  
-  - Collaborated with the design team using Figma to review UI elements.  
-  - Wrote test cases based on the FDS (Functional Design Specification).
+The platform supports 200+ educational institutions and thousands of adult learners, providing AI-powered assistance for learning, career development, and community engagement.
 
-🔧 **Technologies & Tools Used**:  
-React Native, MongoDB, Postman, JIRA, GitHub, TestFlight, Jmeter 
 
-🔑 **Skills**:  
-Mobile Testing · API Testing · Black-box Testing · Manual Testing · AI Model QA  · Agile Scrum
+## 🧩 Key Responsibilities
+- Led manual, automation, API, and performance testing for interconnected web and mobile applications.  
+- Validated AI model behavior, chatbot accuracy, and voice bot responses to ensure contextual relevance and reliability.  
+- Tested end-to-end workflows including user onboarding, job applications, event creation, event participation, and real-time messaging.  
+- Verified cross-platform data synchronization between mobile and web applications.  
+- Executed regression testing to ensure stability after feature updates and AI model changes.  
+- Collaborated with product and design teams to validate UI/UX consistency and functional requirements.  
+- Participated in Agile/Scrum ceremonies and managed defects using Jira.
+
+
+## 🏆 Key Outcomes & Impact
+- Improved chatbot accuracy and AI response quality through structured AI testing.  
+- Enhanced platform scalability for thousands of active users across 200+ institutions.  
+- Increased platform adoption by 35% by ensuring reliable performance and user experience.  
+- Reduced response latency through performance validation and optimization feedback.
+
+
+## 🛠 Technologies & Tools
+| Category | Tools | Purpose | Environment |
+|--------|------|--------|-------------|
+| 📱 Frontend Platforms | Web & Mobile Apps | User interaction & workflows | Android, iOS, Web |
+| 🤖 AI Technologies | AI Models, Chatbots, Voice Bots | Conversational AI & automation | AI-driven systems |
+| 🔗 API & Backend | Postman, REST APIs | Backend validation & integration | Client–Server |
+| ⚙️ QA & Performance | JMeter, Jira, GitHub, TestFlight | Load testing, defect tracking | Agile QA |
+
+
+
+## 🔑 Skills Demonstrated
+| Testing Domain | Skills | Application | Impact |
+|---------------|-------|------------|--------|
+| 🧪 QA Practices | Manual, Regression, Exploratory Testing | End-to-end workflows | High release stability |
+| 🤖 AI Testing | LLM Testing, Chatbot & Voice Bot Testing | AI response accuracy | Improved user trust |
+| 📱 Platform Testing | Mobile & Web Testing, Cross-Platform Validation | Data consistency | Reduced defects |
+
+
+## 🔑 Skills  
+AI Testing, LLM Testing, Chatbot Testing, Voice Bot Testing, Manual Testing, Automation Testing, API Testing, Performance Testing, Regression Testing, Cross-Platform Testing, Test Planning, Test Execution, Defect Management, Agile QA, Quality Assurance
+
 
 ---
 
