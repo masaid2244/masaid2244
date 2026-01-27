@@ -6,9 +6,7 @@
 
 ## 📌 Table of Contents
 ### 🚀 Overview  
-- [🎯 About This Repository](#-about-this-repository)  
-- [✨ Features of This Portfolio](#-features-of-this-portfolio)  
-- [🎯 Purpose](#-purpose)  
+- [🎯 About This Repository](#-about-this-repository)   
     
 ### 🎯🏆📈🔍 **# Testing Achievements & Milestones: My Projects**  
 
@@ -60,15 +58,6 @@ This repository hosts my **personal portfolio**, a professional showcase of my j
 - 📊 **Performance Testing**: Skilled in tools like JMeter and BlazeMeter for ensuring system reliability.  
 - 🔗 **API Testing**: Proficient in Postman for end-to-end API validation.  
 - ✅ **Quality Assurance Practices**: Experienced in functional, non-functional, and exploratory testing.  
-
----
-
-### ✨ **Features of This Portfolio**  
-- 📝 Detailed overview of my experience and ISTQB® CTFL certification.  
-- 📂 Showcase of my projects, skills, and technical expertise.  
-- 🎨 Clean, responsive design for the best user experience.  
-
----
 
 ### 🎯 **Purpose**  
 This portfolio serves as a dynamic, scalable, and professional representation of my skills in **software quality assurance** and **testing**. It’s my way of sharing my journey, achievements, and expertise with the world.  
