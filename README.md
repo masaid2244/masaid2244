@@ -205,24 +205,30 @@ Automation Testing · Selenium WebDriver · Regression Testing · Test Automatio
 ## [Quality Assurance for EPE Portal](https://cpd.pec.org.pk/EPECustom) - [Pakistan Engineering Council](https://www.pec.org.pk/)
 🗓 **Duration**: Jan 2024 - Jul 2024 
 
-🎯 **Objective**:  
-Conducted extensive QA for the Engineering Practice Examination (EPE) Portal, which plays a vital role in the CPD framework for Registered Engineers to become Professional Engineers.
 
-🎯 **Key Responsibilities**:  
-- Requirement Analysis: Ensured accurate EPE registration and CPD points tracking.  
-- Manual Testing: Verified CPD point accumulation and eligibility processes.  
-- Automation Testing: Developed Selenium scripts for EPE registration and exam validation.  
-- Performance Testing: Ensured portal scalability under high traffic.  
-- Boundary Value Analysis (BVA) & Use Case Testing: Full test coverage for edge cases.
+### 🎯 Objective
+Performed comprehensive Quality Assurance for the Engineering Practice Examination (EPE) Portal, a critical component of the Continuous Professional Development (CPD) framework enabling Registered Engineers to qualify as Professional Engineers. Ensured the platform’s functional accuracy, performance stability, and production readiness for nationwide computer-based examinations.
 
-🏆 **Achievements**:  
-Key contributor to the first-ever online computer-based EPE exam held in Rawalpindi and Islamabad in May 2024.
 
-🔧 **Technologies & Tools**:  
-Selenium 🕹, JMeter 🚀, MySQL 💾, Postman 📬, Git 🐙, Agile (UAT Testing)
+### 🧩 Key Responsibilities
+- **Requirement Analysis:** Analyzed CPD and EPE requirements to validate engineer eligibility, CPD point calculations, and exam workflows.  
+- **Manual Testing:** Executed functional, regression, smoke, and sanity testing across the complete candidate lifecycle, including registration, fee submission, scrutiny, test center assignment, examination, and result publication.   
+- **Performance Testing:** Conducted load and stress testing to validate portal scalability and stability during peak exam traffic.  
+- **Test Coverage & Techniques:** Applied Boundary Value Analysis (BVA), equivalence partitioning, and use case testing to ensure full coverage of edge cases and business rules.  
+- **UAT Support:** Supported Agile-based User Acceptance Testing (UAT) by validating acceptance criteria and ensuring release readiness.
 
-🔑 **Skills**:  
-Manual Testing · Performance Testing · Exploratory Testing · Regression Testing · Automation Frameworks · Bug Reporting
+
+### 🏆 Achievements
+- Contributed to the **successful launch of Pakistan Engineering Council’s first computer-based EPE exam**, conducted in Rawalpindi and Islamabad in May 2024.  
+- Ensured reliable exam execution, accurate result processing, and smooth candidate experience through end-to-end QA validation.
+
+
+### 🛠 Technologies & Tools
+Selenium, JMeter, MySQL, Postman, Git, Jira, Agile/Scrum, UAT Testing
+
+
+### 🔑 Skills
+Manual Testing, Automation Testing, Performance Testing, Regression Testing, Exploratory Testing, Test Planning, Test Execution, Defect Management, QA Documentation
 
 🔗 **Link to Project**: [Project Link](https://cpd.pec.org.pk/EPECustom)  
 
