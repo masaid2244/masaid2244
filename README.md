@@ -1,7 +1,6 @@
 # 🌟 Welcome to My Portfolio Repository! 🌟  
-### 👋 Hi, I'm **MASAID ZEB**  
-🚀 ISTQB® Certified Software Quality Assurance Engineer  
-
+ 
+ ![Alt text](https://github.com/masaid2244/masaid2244/blob/bca239eb94eb4ee115a69c3a4bb8b5cc75221ab9/ChatGPT%20Image%20Feb%2011%2C%202026%2C%2011_59_49%20AM.png)
 ---
 
 ## 📌 Table of Contents
@@ -74,8 +73,6 @@ This portfolio serves as a dynamic, scalable, and professional representation of
   - [ISTQB® Foundation Level Agile Tester (CTFL-AT)](https://scr.istqb.org/?name=masaid&number=&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
   - Scrum Fundamentals Certified (SFC™)
 
-
-![Alt text](https://github.com/masaid2244/masaid2244/blob/bca239eb94eb4ee115a69c3a4bb8b5cc75221ab9/ChatGPT%20Image%20Feb%2011%2C%202026%2C%2011_59_49%20AM.png)
 🎨 A Creative Reflection of My Name
 
 💡 "Meticulously Analyzing Software, Assuring Impeccable Deliverables, Zealously Eliminating Bugs" ✨
@@ -609,3 +606,5 @@ What others say about **Masaid Zeb** — based on real leadership feedback.
 💡 **Let’s build quality together!**
 ---
 💡 "Meticulously Analyzing Software, Assuring Impeccable Deliverables, Zealously Eliminating Bugs!"
+
+
