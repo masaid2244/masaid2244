@@ -607,4 +607,4 @@ What others say about **Masaid Zeb** — based on real leadership feedback.
 ---
 💡 "Meticulously Analyzing Software, Assuring Impeccable Deliverables, Zealously Eliminating Bugs!"
 
-
+ ![Alt text](https://github.com/masaid2244/masaid2244/blob/2a178ae368bfd868f4a8f06bc0bae857b116cf15/ChatGPT%20Image%20Feb%2012%2C%202026%2C%2004_15_03%20PM.png)
