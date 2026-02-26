@@ -4,8 +4,6 @@
 ---
 
 ## 📌 Table of Contents
-### 🚀 Overview  
-- [🎯 About This Repository](#-about-this-repository)   
     
 ### 🎯🏆📈🔍 **# Testing Achievements & Milestones: My Projects**  
 
@@ -50,21 +48,6 @@
 
 ---
 
-### 🎯 **About This Repository**  
-This repository hosts my **personal portfolio**, a professional showcase of my journey as a **Software Quality Assurance (SQA) Engineer**. Here, you'll find insights into my skills, projects, and expertise in:  
-
-- 🛠️ **Manual & Automation Testing**: Expertise in Cypress (JavaScript) and Selenium (Python) for creating automation frameworks.  
-- 📊 **Performance Testing**: Skilled in tools like JMeter and BlazeMeter for ensuring system reliability.  
-- 🔗 **API Testing**: Proficient in Postman for end-to-end API validation.  
-- ✅ **Quality Assurance Practices**: Experienced in functional, non-functional, and exploratory testing.  
-
-### 🎯 **Purpose**  
-This portfolio serves as a dynamic, scalable, and professional representation of my skills in **software quality assurance** and **testing**. It’s my way of sharing my journey, achievements, and expertise with the world.  
-
-💬 **Feedback** is always welcome! Feel free to explore and reach out.  
-
----
-
 ## 👨‍💻 About Me  
 - 🎓 **Education**: BSc Electrical Engineering from [University of Engineering & Technology, Lahore](https://www.uet.edu.pk/about-uet/introduction/vision-mission/)  
 - 🧪 **Experience**: 2+ years in QA, specializing in manual/automation testing, performance optimization, and defect management  
@@ -72,24 +55,6 @@ This portfolio serves as a dynamic, scalable, and professional representation of
   - [ISTQB® Certified Tester Foundation Level (CTFL) v4.0](http://scr.istqb.org/?name=Masaid+Zeb&number=24-CTFL4-1433-PK&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
   - [ISTQB® Foundation Level Agile Tester (CTFL-AT)](https://scr.istqb.org/?name=masaid&number=&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
   - Scrum Fundamentals Certified (SFC™)
-
-🎨 A Creative Reflection of My Name
-
-💡 "Meticulously Analyzing Software, Assuring Impeccable Deliverables, Zealously Eliminating Bugs" ✨
-
-> Each letter of my name **Masaid Zeb** represents my approach to QA:
-> - **M**: Meticulously 🔍
-> - **A**: Analyzing 🧠
-> - **S**: Software 💻
-> - **A**: Assuring ✅
-> - **I**: Impeccable 🌟
-> - **D**: Deliverables 📦
-
-> - **Z**: Zealously 🔥
-> - **E**: Eliminating 🚫
-> - **B**: Bugs 🐞
-
-This phrase embodies my commitment to excellence in Software Quality Assurance, using my name as a testament to my skills and dedication. 🚀
 
 ---
 
