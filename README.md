@@ -206,12 +206,12 @@ Selenium, JMeter, MySQL, Postman, Git, Jira, Agile/Scrum, UAT Testing
 Manual Testing, Automation Testing, Performance Testing, Regression Testing, Exploratory Testing, Test Planning, Test Execution, Defect Management, QA Documentation
 
 🔗 **Link to Project**: [Project Link](https://cpd.pec.org.pk/EPECustom)  
-
- <details>
+ </details>
   
 ---
 
 ## [Extensive QA for CPD Portal](https://cpd.pec.org.pk/) - [Pakistan Engineering Council (PEC)](https://www.pec.org.pk/)
+
 <details>
 <summary>CPD Portal (Click to Expand)</summary>
 
@@ -245,7 +245,10 @@ Functional Testing · Boundary Value Analysis (BVA) · Equivalence Partitioning 
 ---
 
 ## [Selenium-Based Automation - Engineer Renewal Application - ERD Portal (PEC)](https://github.com/masaid2244/Engineer-Renewal-Application-Automation-PEC-ERD-portal)
+<details>
+<summary>CPD Portal (Click to Expand)</summary>
 
+<br>
 🔧 **Project Summary**:  
 Automated the renewal process for engineers through PEC’s ERD Portal using Python and Selenium. The automation reduced manual interventions and enhanced the overall renewal process.
 
@@ -254,11 +257,17 @@ Automated Software Testing 🤖, Agile Test Methodology 📅, Performance Testin
 · Selenium WebDriver · Regression Testing · Test Automation Frameworks
 
 🔗 **Link to Project**: [Project Link](https://github.com/masaid2244/Engineer-Renewal-Application-Automation---PEC---ERD-portal)  
+</details>
 
 ---
 
 
 ## [Evolo AI](https://play.google.com/store/apps/details?id=com.hiddenworkers.evoloaiapp&pcampaignid=web_share) (Student Mobile App, Institute Mobile App, Employer Web App) 
+
+<details>
+<summary>CPD Portal (Click to Expand)</summary>
+
+<br>
 🔗 **Associated with**: [AI Mark Lab](https://www.linkedin.com/company/ai-mark-labs/posts/?feedView=all)
 
 ## 🚀 Project Overview
@@ -305,10 +314,17 @@ The platform supports 200+ educational institutions and thousands of adult learn
 ## 🔑 Skills  
 AI Testing, LLM Testing, Chatbot Testing, Voice Bot Testing, Manual Testing, Automation Testing, API Testing, Performance Testing, Regression Testing, Cross-Platform Testing, Test Planning, Test Execution, Defect Management, Agile QA, Quality Assurance
 
+</details>
 
 ---
 
 ## Omni-Channel Web App (BPO Service Integration)
+
+<details>
+<summary>CPD Portal (Click to Expand)</summary>
+
+<br>
+
 🔗 **Associated with**: [Mexil Software solutions](https://www.linkedin.com/company/mexil-software-solutions/posts/?feedView=all)
 
 🚀 **Project Overview**:  
@@ -332,7 +348,10 @@ MERN Stack (MongoDB, Express, React, Node.js), Postman for API Testing, SQL for 
 🔑 **Skills**:  
 Web App Testing · Manual Testing · API Testing · Data Validation · UI Testing · Agile Scrum · Kanban 
 
+</details>
+
 ---
+
 # 🚀 Other Projects  
 While these projects are smaller in scale, they demonstrate my versatility and ability to tackle different challenges using various tools and technologies. Each project was an opportunity to refine my skills in QA&QC, problem-solving, and software testing. Below are a few of the noteworthy side projects I’ve worked on:
 
