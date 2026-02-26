@@ -557,6 +557,11 @@ These include comprehensive QA deliverables for robust quality assurance across 
 
 ## 📊 Certifications  
 
+<details>
+<summary>My Certifications (Click to Expand)</summary>
+
+<br>
+
 ## 🏅 Professional Certifications
 
 1️⃣ 🎯 [ISTQB® Certified Tester Foundation Level (CTFL)](https://pstb.pk/testers/Certified%20Tester%20Foundation%20Level)
@@ -586,12 +591,16 @@ License No.: 25-CTFL-AG-0163-PK
 | 📝 [Test Case Management with Testworthy](https://10pearlsuniversity.org/view-certificate/?cid=10PUC-c47eca8b2eff06e4984cb102e4d64a394172a325a1754820237797962) | ✍️ [Writing Effective User Stories](https://10pearlsuniversity.org/view-certificate/?cid=10PUC-419f5b1020ebb86ece351c48cde17af4b2ca96c96ef0df55237798390) | 📚 [Accessibility Fundamentals](https://learn.microsoft.com/en-gb/users/masaidzeb-2359/achievements?tab=tab-modules) |
 | 🧑‍💻 [Software Testing Tutorial](https://www.mygreatlearning.com/certificate/YSSCNZYH) | — | — |
 
+</details>
 
 ---
 
 ## 💬 Recommendations
 
-What others say about **Masaid Zeb** — based on real leadership feedback.
+<details>
+<summary>What others says About Me (Click to Expand)</summary>
+
+<br>
 
 ---
 
@@ -622,6 +631,8 @@ What others say about **Masaid Zeb** — based on real leadership feedback.
 - 🔬 Remarkable R&D skills — mastered tools independently  
 - 🕒 Provided timely updates and met tight deadlines  
 - 🏆 Entrusted with historic EPE Portal for PEC — delivered beyond expectations  
+
+</details>
 
 ---
 
