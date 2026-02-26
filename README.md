@@ -143,7 +143,7 @@ AI Testing, LLM Testing, Chatbot Testing, NLP Evaluation, Manual Testing, Test P
 ##  [Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](https://www.linkedin.com/in/masaid-sqa/details/projects/)
 
 <details>
-<summary>Selenium-Based Automation for Engineer Registration (Click to Expand)</summary>
+<summary> Selenium-Based Automation for Engineer Registration (Click to Expand)</summary>
 
 <br>
 
@@ -245,10 +245,12 @@ Functional Testing · Boundary Value Analysis (BVA) · Equivalence Partitioning 
 ---
 
 ## [Selenium-Based Automation - Engineer Renewal Application - ERD Portal (PEC)](https://github.com/masaid2244/Engineer-Renewal-Application-Automation-PEC-ERD-portal)
+
 <details>
 <summary>ERD Portal (Click to Expand)</summary>
 
 <br>
+
 🔧 **Project Summary**:  
 Automated the renewal process for engineers through PEC’s ERD Portal using Python and Selenium. The automation reduced manual interventions and enhanced the overall renewal process.
 
@@ -268,6 +270,7 @@ Automated Software Testing 🤖, Agile Test Methodology 📅, Performance Testin
 <summary>Evolo AI (Click to Expand)</summary>
 
 <br>
+
 🔗 **Associated with**: [AI Mark Lab](https://www.linkedin.com/company/ai-mark-labs/posts/?feedView=all)
 
 ## 🚀 Project Overview
