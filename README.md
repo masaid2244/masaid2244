@@ -246,7 +246,7 @@ Functional Testing · Boundary Value Analysis (BVA) · Equivalence Partitioning 
 
 ## [Selenium-Based Automation - Engineer Renewal Application - ERD Portal (PEC)](https://github.com/masaid2244/Engineer-Renewal-Application-Automation-PEC-ERD-portal)
 <details>
-<summary>CPD Portal (Click to Expand)</summary>
+<summary>ERD Portal (Click to Expand)</summary>
 
 <br>
 🔧 **Project Summary**:  
@@ -265,7 +265,7 @@ Automated Software Testing 🤖, Agile Test Methodology 📅, Performance Testin
 ## [Evolo AI](https://play.google.com/store/apps/details?id=com.hiddenworkers.evoloaiapp&pcampaignid=web_share) (Student Mobile App, Institute Mobile App, Employer Web App) 
 
 <details>
-<summary>CPD Portal (Click to Expand)</summary>
+<summary>Evolo AI (Click to Expand)</summary>
 
 <br>
 🔗 **Associated with**: [AI Mark Lab](https://www.linkedin.com/company/ai-mark-labs/posts/?feedView=all)
@@ -321,7 +321,7 @@ AI Testing, LLM Testing, Chatbot Testing, Voice Bot Testing, Manual Testing, Aut
 ## Omni-Channel Web App (BPO Service Integration)
 
 <details>
-<summary>CPD Portal (Click to Expand)</summary>
+<summary>Omni-Chaneel (Click to Expand)</summary>
 
 <br>
 
