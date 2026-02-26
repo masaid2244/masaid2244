@@ -356,6 +356,12 @@ Web App Testing · Manual Testing · API Testing · Data Validation · UI Testin
 ---
 
 # 🚀 Other Projects  
+
+<details>
+<summary>(Click to Expand)</summary>
+
+<br>
+
 While these projects are smaller in scale, they demonstrate my versatility and ability to tackle different challenges using various tools and technologies. Each project was an opportunity to refine my skills in QA&QC, problem-solving, and software testing. Below are a few of the noteworthy side projects I’ve worked on:
 
 | #️⃣ | Project Name | Key Responsibilities | QA Skills Applied |
@@ -364,6 +370,7 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 | 2️⃣ | 📚 **DA Library (Mobile App)** | - Conducted **manual QA testing** for this mobile application.  <br> - Verified **functionality, usability, and performance**. <br> - Ensured **smooth navigation** and **error-free user interactions**. | 🔹 **System Testing** <br> 🔹 **User Acceptance Testing (UAT)** <br> 🔹 **Regression Testing** <br> 🔹 **AI-Driven Testing** |
 | 3️⃣ | 🌐 **PIEDC Portal** | - Conducted **detailed manual QA testing** for this enterprise portal.  <br> - Validated **end-to-end workflows, forms, and data integrity**. <br> - Ensured **cross-platform compatibility**. <br> - Wrote and executed **test cases** for multiple scenarios. <br> - Collaborated with developers to resolve critical issues. | 🔹 **End-to-End Testing** <br> 🔹 **Integration Testing** <br> 🔹 **Defect Root Cause Analysis** <br> 🔹 **Test Documentation** |
 
+</details>
 
 ---
 
@@ -488,8 +495,10 @@ Future Goals:
 
 
 ## 🛠️ QA Artifacts and Automation Samples
+<details>
+<summary>👩‍💻 Sample Work (Click to Expand)</summary>
 
-### 👩‍💻 Sample Work
+<br>
 
 Here are some of my sample works, including test cases, bug reports, test plans, and automation scripts. Feel free to explore the links below for a closer look at the kind of QA artifacts I've produced.  
 
@@ -540,6 +549,8 @@ These include comprehensive QA deliverables for robust quality assurance across 
 ---
 
 *Note: The files and links above represent a few examples of my work, showcasing my structure, process, and attention to detail in QA. I'll be continuously adding more artifacts, so stay tuned for updates!*
+
+</details>
 
 ---
 
