@@ -141,6 +141,12 @@ AI Testing, LLM Testing, Chatbot Testing, NLP Evaluation, Manual Testing, Test P
 ---
 
 ##  [Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](https://www.linkedin.com/in/masaid-sqa/details/projects/)
+
+<details>
+<summary>Selenium-Based Automation for Engineer Registration (Click to Expand)</summary>
+
+<br>
+
 🗓 **Duration**: Sep 2024 - Oct 2024  
 
 🚀 **Objective**:  
@@ -162,10 +168,16 @@ This project demonstrated real-world automation skills that greatly improved ope
 Automation Testing · Selenium WebDriver · Regression Testing · Test Automation Frameworks · Continuous Integration · Bug Tracking · Quality Assurance
 
 🔗 **Link to Project**: [Project Link](https://github.com/masaid2244/Engineer_registration_PEC_new_Application)  
+</details>
 
 ---
 
 ## [Quality Assurance for EPE Portal](https://cpd.pec.org.pk/EPECustom) - [Pakistan Engineering Council](https://www.pec.org.pk/)
+
+<details>
+<summary>EPE Portal (Click to Expand)</summary>
+
+<br>
 🗓 **Duration**: Jan 2024 - Jul 2024 
 
 
@@ -195,9 +207,16 @@ Manual Testing, Automation Testing, Performance Testing, Regression Testing, Exp
 
 🔗 **Link to Project**: [Project Link](https://cpd.pec.org.pk/EPECustom)  
 
+ <details>
+  
 ---
 
 ## [Extensive QA for CPD Portal](https://cpd.pec.org.pk/) - [Pakistan Engineering Council (PEC)](https://www.pec.org.pk/)
+<details>
+<summary>CPD Portal (Click to Expand)</summary>
+
+<br>
+
 🗓 **Duration**: Jan 2024 - Apr 2024  
 
 🚀 **Objective**:  
@@ -220,6 +239,8 @@ Manual & Automation Testing (Selenium with Python) 🐍, JMeter 🚀, MySQL 💾
 Functional Testing · Boundary Value Analysis (BVA) · Equivalence Partitioning (EP) · Regression Testing · Performance Testing · User Acceptance Testing (UAT)
 
 🔗 **Link to Project**: [Project Link](https://cpd.pec.org.pk/)  
+
+</details>
 
 ---
 
