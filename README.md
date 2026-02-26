@@ -368,6 +368,10 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 ---
 
 # 🛠️📖🔍 Personal Learning Projects
+<details>
+<summary>🚀  Personal Learning Projects (Click to Expand)</summary>
+
+<br>
 
 ### Cypress Automation
  1️ 🌟 Learn Automation with Cypress 🌟
@@ -407,11 +411,16 @@ Future Goals:
 
 🌟 Discover my Katalon learning document and projects: **[Explore My Katalon Learning Journey](https://docs.google.com/document/d/1Py46z0cV8JHNpGwwXs05XrwW3qaaqkoxIx3GCkj8C3U/edit?tab=t.0)** 🚀
 
+</details>
 
 ---
 
 ## 🛠️ Skills Overview  
 
+<details>
+<summary>My Skills (Click to Expand)</summary>
+
+<br>
 
 ### 🎯 **Testing Types & Methodologies**  
 
@@ -471,6 +480,9 @@ Future Goals:
 | 🧠 **Analytical & Problem-Solving** | Critical Thinking 🧠, Problem Solving 🔍, Analytical Thinking 📊, Technical Aptitude 🏆 |
 | 🤝 **Teamwork & Communication**   | Collaboration 🤝, Effective Communication 🗣️, Leadership & Mentorship 👨‍🏫, Teamwork 👥 |
 | ⏳ **Productivity & Adaptability** | Proactive Approach 🚀, Attention to Detail 🔬, Time Management ⏳, Adaptability 🔄 |
+
+
+</details>
 
 ---
 
