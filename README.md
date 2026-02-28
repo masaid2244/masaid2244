@@ -609,7 +609,7 @@ License No.: 25-CTFL-AG-0163-PK
 - Hands-on expertise in Manual & Automation Testing, API Testing, and Performance Optimization  
 - Certifications like ISTQB® CTFL and Scrum Fundamentals Certified (SFC™)  
 
-📥 **[[Click here to download my CV]](https://drive.google.com/file/d/17EG0bVb-lsufoKRP7R9Hsjmd4mp_w26j/view?usp=sharing)** and explore how I can contribute to your team or project!  
+📥 **[[Click here to download my CV]](https://drive.google.com/file/d/1zFTNjm3xoB45RxYG-pzRsidMPWnrsEVQ/view?usp=drive_link)** and explore how I can contribute to your team or project!  
 
 💡 **Let’s build quality together!**
 ---
