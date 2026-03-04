@@ -9,7 +9,7 @@ QA Engineer | Automation | Performance | AI/LLM Testing
 
 # 📌 Featured Projects
 
-## 🖥️ Computer-Based Test System (CBT) for National Testing Service (NTS) Pakistan 
+## 🖥️ Computer-Based Test System for National Testing Service (NTS) Pakistan 
 
 <details>
 <summary>Click to expand</summary>
@@ -53,7 +53,7 @@ Validated conversational AI systems for accuracy, reliability, and reduced hallu
 
 ---
 
-## ⚙️ Selenium Automation – Engineer Registration Portal
+## ⚙️ Selenium Automation – Engineer Registration Portal - Pakistan Engineering Council (PEC)
 
 <details>
 <summary>Click to expand</summary>
@@ -72,7 +72,7 @@ Built Selenium automation to accelerate regression cycles for the engineer regis
 
 ---
 
-## 🧪 Quality Assurance – EPE Examination Portal
+## 🧪 Quality Assurance – EPE Examination Portal - Pakistan Engineering Council (PEC)
 
 <details>
 <summary>Click to expand</summary>
@@ -92,7 +92,7 @@ End-to-end QA for the national Engineering Practice Examination portal.
 
 ---
 
-## 📱 Evolo AI – Multi-App EdTech Platform
+## 📱 Evolo AI – Multi-App EdTech Platform  (California, USA)
 
 <details>
 <summary>Click to expand</summary>
