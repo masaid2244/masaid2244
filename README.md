@@ -1,6 +1,20 @@
  # 👋 Hi, I'm Masaid Zeb
 QA Engineer | Automation | Performance | AI/LLM Testing
 
+
+# 🧪 QA Engineering Work & Test Artifacts
+
+Welcome! This repository showcases **my hands-on work in Software Quality Assurance**, including automation scripts, test cases, bug reports, test plans, and exploratory testing charters.  
+
+💡 **Recruiters & Hiring Managers:** Explore this repo to see real examples of my QA skills in action, including **Cypress automation, Katalon frameworks, API & performance testing**, and structured QA documentation.  
+
+🔗 Key highlights:  
+- End-to-end **Automation Scripts** (Cypress & Katalon)  
+- **Test Plans, Charters & RTM** for live projects  
+- **Bug Reports & API Testing Artifacts**
+
+
+
 ## 👨‍💻 About Me  
 - 🎓 **Education**: BSc Electrical Engineering
 - 🧪 2+ years in Software Quality Assurance
@@ -116,7 +130,7 @@ QA for AI-powered web + mobile ecosystem serving 200+ institutes.
 
 ### Test Automation & Framework Engineering
 - Built Cypress E2E suites for UI flows, validations, and data-driven testing  
-- Developed reusable automation with :contentReference[oaicite:0]{index=0} (parallel runs, smart wait, self-healing locators)  
+- Developed reusable automation with Katalon (parallel runs, smart wait, self-healing locators)  
 - Applied Page Object Model (POM) and modular framework design  
 - Focused on maintainability, stability, and scalable execution
 
@@ -172,10 +186,9 @@ Includes:
 ## 🏅 Professional Certifications
 
 1️⃣ 🎯 [ISTQB® Certified Tester Foundation Level (CTFL)](https://pstb.pk/testers/Certified%20Tester%20Foundation%20Level)
-License No.: 24-CTFL4-1433-PK
 
 2️⃣ 🎯 [ISTQB® Foundation Level Agile Tester (CTFL-AT)](https://scr.istqb.org/?name=masaid&number=&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
-License No.: 25-CTFL-AG-0163-PK
+
 
 3️⃣ 📜 [Apache JMeter™ Pro](https://www.linkedin.com/in/masaid-sqa/details/certifications/)
 
@@ -200,7 +213,6 @@ License No.: 25-CTFL-AG-0163-PK
 
 - **Fahad Mustafa – QA/Support Engineer, Pakistan Engineering Council**  
   *Trusted with mission-critical systems and consistently delivered reliable results under deadlines.*
-
 
 ---
 
