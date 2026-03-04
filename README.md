@@ -148,31 +148,7 @@ BPO-style messaging system integrating WhatsApp, Email, SMS, and social channels
 
 ---
 
-# 🚀 Other Projects  
-
-<details>
-<summary>(Click to Expand)</summary>
-
-<br>
-
-While these projects are smaller in scale, they demonstrate my versatility and ability to tackle different challenges using various tools and technologies. Each project was an opportunity to refine my skills in QA&QC, problem-solving, and software testing. Below are a few of the noteworthy side projects I’ve worked on:
-
-| #️⃣ | Project Name | Key Responsibilities | QA Skills Applied |
-|----|-------------|----------------------|------------------|
-| 1️⃣ | 📱 **ATHADhak** | - Performed **UI Testing**, **Front-end Testing**, **API Testing (Postman)**, and **Localization Testing**.  <br> - Focused on ensuring a smooth **user experience**. <br> - Verified **responsiveness** and **cross-browser compatibility**. <br> - Ensured seamless integration between front-end and back-end services.  | 🔹 **Functional & Non-Functional Testing** <br> 🔹 **Exploratory Testing** <br> 🔹 **Usability Testing** <br> 🔹 **Ad Hoc Testing** |
-| 2️⃣ | 📚 **DA Library (Mobile App)** | - Conducted **manual QA testing** for this mobile application.  <br> - Verified **functionality, usability, and performance**. <br> - Ensured **smooth navigation** and **error-free user interactions**. | 🔹 **System Testing** <br> 🔹 **User Acceptance Testing (UAT)** <br> 🔹 **Regression Testing** <br> 🔹 **AI-Driven Testing** |
-| 3️⃣ | 🌐 **PIEDC Portal** | - Conducted **detailed manual QA testing** for this enterprise portal.  <br> - Validated **end-to-end workflows, forms, and data integrity**. <br> - Ensured **cross-platform compatibility**. <br> - Wrote and executed **test cases** for multiple scenarios. <br> - Collaborated with developers to resolve critical issues. | 🔹 **End-to-End Testing** <br> 🔹 **Integration Testing** <br> 🔹 **Defect Root Cause Analysis** <br> 🔹 **Test Documentation** |
-
-</details>
-
----
-
 ## 🛠️ Skills Overview  
-
-<details>
-<summary> 🎯 Core Competencies (Click to Expand)</summary>
-
-<br>
 
 | Area | Skills |
 |------|--------|
@@ -194,9 +170,6 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 | 📋 Project Management | JIRA, Zephyr, Bugzilla |
 | 🔁 Version Control | Git |
 | 💻 Development Tools | VS Code, DBeaver |
-
-
-</details>
 
 ---
 
@@ -264,11 +237,6 @@ These include comprehensive QA deliverables for robust quality assurance across 
 
 ## 📊 Certifications  
 
-<details>
-<summary>My Certifications (Click to Expand)</summary>
-
-<br>
-
 ## 🏅 Professional Certifications
 
 1️⃣ 🎯 [ISTQB® Certified Tester Foundation Level (CTFL)](https://pstb.pk/testers/Certified%20Tester%20Foundation%20Level)
@@ -287,10 +255,6 @@ License No.: 25-CTFL-AG-0163-PK
 |---------------|---------------|---------------|
 | 🥇 [Katalon Practitioner Level Certification](https://academy.katalon.com/mcertificate/695dfa0bc97b5) | 🤖 [Selenium WebDriver with Python](https://testautomationu.applitools.com/certificate/?id=53ed526c) | 🥇 [Micro-Certification – Predictive Intelligence](https://www.linkedin.com/in/masaid-sqa/overlay/Certifications/1791604970/treasury/?profileId=ACoAADGb8xcBgIwIB-XgCXkH5WtHOBl_zBU4C2k) |
 
-
-
-
-</details>
 
 ---
 
