@@ -526,26 +526,18 @@ License No.: 24-CTFL4-1433-PK
 2️⃣ 🎯 [ISTQB® Foundation Level Agile Tester (CTFL-AT)](https://scr.istqb.org/?name=masaid&number=&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
 License No.: 25-CTFL-AG-0163-PK
 
-3️⃣ 📜 [Scrum Fundamentals Certified (SFC™)](https://www.linkedin.com/in/masaid-sqa/details/certifications/)
+3️⃣ 📜 [Apache JMeter™ Pro](https://www.linkedin.com/in/masaid-sqa/details/certifications/)
 
-4️⃣ 🚀 [Apache JMeter™ Pro](https://www.linkedin.com/in/masaid-sqa/details/certifications/)
+4️⃣ 🚀  [Scrum Fundamentals Certified (SFC™)](https://www.linkedin.com/in/masaid-sqa/details/certifications/)
 
-## 🤖 Automation
-
-| Certification | Certification | Certification |
-|---------------|---------------|---------------|
-| 🥇 [Katalon Practitioner Level Certification](https://academy.katalon.com/mcertificate/695dfa0bc97b5) | 🤖 [Selenium WebDriver with Python](https://testautomationu.applitools.com/certificate/?id=53ed526c) | 🐍 [Introduction to pytest](https://testautomationu.applitools.com/certificate/?id=3873d504) |
-| 🔑 [Setting a Foundation for Successful Test Automation](https://testautomationu.applitools.com/certificate/?id=67d10cae) | 🖱 [Web Element Locator Strategies](https://testautomationu.applitools.com/certificate/?id=5dbca55a) | 🏗 [Object Oriented Programming Foundations](https://www.linkedin.com/in/masaid-sqa/details/certifications/) |
-
-
-## 🧪 General QA, API & Test Management
+## 🤖 Automation & AI 
 
 | Certification | Certification | Certification |
 |---------------|---------------|---------------|
-| 🛠 [Introduction to JIRA](https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0MjYxIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvNzcwNTM0MF83OTYzMTIwMTczNTA0NzM3MzU2OS5wbmciLCJ1c2VybmFtZSI6Ik1hc2FpZCBaZWIgLSBJU1RRQlx1MDBhZShDVEZMKSJ9) | 🌐 [Introduction to API Testing with Postman](https://www.linkedin.com/in/masaid-sqa/details/certifications/) | 🔬 [API Testing and Basic Overview of JMeter](https://10pearlsuniversity.org/view-certificate/?cid=10PUC-6268a545daf6231bc4246f7d324bb0b1184b4434333e6956237794618) |
-| 💾 [Introduction to Database and SQL](https://www.mygreatlearning.com/certificate/TAPXCWPK) | 🔍 [Fundamentals of Testing with TestRail](https://drive.google.com/file/d/1bdR8LadfSUylTMDmjX29R99RIe_tiRkm/view) | ⚙️ [QA Fundamentals](https://10pearlsuniversity.org/view-certificate/?cid=10PUC-69bf026d2af9c2937126ac81e728c04f23c6050cb9d28501237798728) |
-| 📝 [Test Case Management with Testworthy](https://10pearlsuniversity.org/view-certificate/?cid=10PUC-c47eca8b2eff06e4984cb102e4d64a394172a325a1754820237797962) | ✍️ [Writing Effective User Stories](https://10pearlsuniversity.org/view-certificate/?cid=10PUC-419f5b1020ebb86ece351c48cde17af4b2ca96c96ef0df55237798390) | 📚 [Accessibility Fundamentals](https://learn.microsoft.com/en-gb/users/masaidzeb-2359/achievements?tab=tab-modules) |
-| 🧑‍💻 [Software Testing Tutorial](https://www.mygreatlearning.com/certificate/YSSCNZYH) | — | — |
+| 🥇 [Katalon Practitioner Level Certification](https://academy.katalon.com/mcertificate/695dfa0bc97b5) | 🤖 [Selenium WebDriver with Python](https://testautomationu.applitools.com/certificate/?id=53ed526c) | 🥇 [Micro-Certification – Predictive Intelligence](https://www.linkedin.com/in/masaid-sqa/overlay/Certifications/1791604970/treasury/?profileId=ACoAADGb8xcBgIwIB-XgCXkH5WtHOBl_zBU4C2k) |
+
+
+
 
 </details>
 
