@@ -2,7 +2,7 @@
 QA Engineer | Automation | Performance | AI/LLM Testing
 
 ## 👨‍💻 About Me  
-- 🎓 **Education**: BSc Electrical Engineering from [University of Engineering & Technology, Lahore](https://www.uet.edu.pk/about-uet/introduction/vision-mission/)  
+- 🎓 **Education**: BSc Electrical Engineering
 - 🧪 2+ years in Software Quality Assurance
   
 ---
