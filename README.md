@@ -192,42 +192,15 @@ License No.: 25-CTFL-AG-0163-PK
 
 ## 💬 Recommendations
 
-<details>
-<summary>What others says About Me (Click to Expand)</summary>
+- **Muneeb Ur Rehman – Senior React Native Developer, Team Lead at AI Mark Lab**  
+  *Recognized for strong ownership, deep problem-solving skills, and improving product stability.*
 
-<br>
+- **Zeeshan Farooqi – Product Manager**  
+  *Led QA independently, strengthened release quality, and clearly communicated risks to stakeholders.*
 
----
+- **Fahad Mustafa – QA/Support Engineer, Pakistan Engineering Council**  
+  *Trusted with mission-critical systems and consistently delivered reliable results under deadlines.*
 
-### 👨‍💻 Muneeb Ur Rehman – Senior React Native Developer  
-⭐ *Team Lead & Solution Architect at AiMarklabs*
-
-- 🧠 Masaid is exceptionally dedicated and detail-oriented  
-- 🔍 Understands complex systems and identifies critical issues  
-- 🛠️ Proactively improves processes and product stability  
-- 🤝 Maintains strong communication and collaboration across teams  
-
----
-
-### 📊 Zeeshan Farooqi – Product Manager  
-⭐ *Product Growth Lead for SaaS & AI-Powered Products*
-
-- 👤 Sole tester managing all aspects of QA independently  
-- 📈 Took ownership of test planning, execution, and reporting  
-- 🚀 Boosted product reliability and user experience  
-- 🗣️ Clearly communicated issue impact to stakeholders  
-
----
-
-### 🧪 Fahad Mustafa – QA/Support Engineer  
-⭐ *Manager on the EPE Project, PEC*
-
-- ⚡ Brought enthusiasm, curiosity, and strong work ethic  
-- 🔬 Remarkable R&D skills — mastered tools independently  
-- 🕒 Provided timely updates and met tight deadlines  
-- 🏆 Entrusted with historic EPE Portal for PEC — delivered beyond expectations  
-
-</details>
 
 ---
 
@@ -238,20 +211,10 @@ License No.: 25-CTFL-AG-0163-PK
 - 📍 **Location**: Islamabad, PK
   
 ---
+## 🎯 Ready to Collaborate
 
-  # 🎯 Ready to Collaborate? Download My CV!
+🌟 Proven skills in **Software Quality Assurance**, **Manual & Automation Testing**, **API Testing**, and **Performance Optimization**.  
 
-🌟 **Discover my expertise and experience in detail!**  
-🚀 **My CV highlights:**
-
-- Proven skills in Software Quality Assurance  
-- Hands-on expertise in Manual & Automation Testing, API Testing, and Performance Optimization  
-- Certifications like ISTQB® CTFL and Scrum Fundamentals Certified (SFC™)  
-
-📥 **[[Click here to download my CV]](https://drive.google.com/file/d/1zFTNjm3xoB45RxYG-pzRsidMPWnrsEVQ/view?usp=drive_link)** and explore how I can contribute to your team or project!  
-
-💡 **Let’s build quality together!**
----
-💡 "Meticulously Analyzing Software, Assuring Impeccable Deliverables, Zealously Eliminating Bugs!"
+📥 **[Click here to download my CV](https://drive.google.com/file/d/1zFTNjm3xoB45RxYG-pzRsidMPWnrsEVQ/view)** and see how I can contribute to your team or project!  
 
  ![Alt text](https://github.com/masaid2244/masaid2244/blob/2a178ae368bfd868f4a8f06bc0bae857b116cf15/ChatGPT%20Image%20Feb%2012%2C%202026%2C%2004_15_03%20PM.png)
