@@ -163,40 +163,7 @@ Manual Testing, Automation Testing, Performance Testing, Regression Testing, Exp
 
 🔗 **Link to Project**: [Project Link](https://cpd.pec.org.pk/EPECustom)  
  </details>
-  
----
 
-## [Extensive QA for CPD Portal](https://cpd.pec.org.pk/) - [Pakistan Engineering Council (PEC)](https://www.pec.org.pk/)
-
-<details>
-<summary>CPD Portal (Click to Expand)</summary>
-
-<br>
-
-🗓 **Duration**: Jan 2024 - Apr 2024  
-
-🚀 **Objective**:  
-QA testing for PEC’s key portal to ensure engineers meet CPD eligibility criteria for registration renewals.
-
-🎯 **Focus**:  
-- Verifying the accurate accumulation of CPD points.  
-- Streamlining workflows for formal education, work-based learning, and developmental activities.
-
-🎯 **Key Responsibilities**:  
-- Requirement Analysis: Detailed analysis of CPD criteria.  
-- Manual Testing: Verified CPD point tracking and calculation accuracy.  
-- Automation Testing: Selenium-based automation for CPD workflows.  
-- Performance Testing: Evaluated system response and scalability.
-
-🔧 **Technologies & Tools**:  
-Manual & Automation Testing (Selenium with Python) 🐍, JMeter 🚀, MySQL 💾, Git 🐙, Postman 📬
-
-🔑 **Skills**:  
-Functional Testing · Boundary Value Analysis (BVA) · Equivalence Partitioning (EP) · Regression Testing · Performance Testing · User Acceptance Testing (UAT)
-
-🔗 **Link to Project**: [Project Link](https://cpd.pec.org.pk/)  
-
-</details>
 
 ---
 
