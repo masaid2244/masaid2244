@@ -9,7 +9,7 @@ QA Engineer | Automation | Performance | AI/LLM Testing
 
 # 📌 Featured Projects
 
-## 🖥️ Computer-Based Test System for National Testing Service (NTS) Pakistan 
+## 🖥️ Computer-Based Test System - National Testing Service (NTS) Pakistan 
 
 <details>
 <summary>Click to expand</summary>
