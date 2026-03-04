@@ -164,26 +164,6 @@ Manual Testing, Automation Testing, Performance Testing, Regression Testing, Exp
 🔗 **Link to Project**: [Project Link](https://cpd.pec.org.pk/EPECustom)  
  </details>
 
-
----
-
-## [Selenium-Based Automation - Engineer Renewal Application - ERD Portal (PEC)](https://github.com/masaid2244/Engineer-Renewal-Application-Automation-PEC-ERD-portal)
-
-<details>
-<summary>ERD Portal (Click to Expand)</summary>
-
-<br>
-
-🔧 **Project Summary**:  
-Automated the renewal process for engineers through PEC’s ERD Portal using Python and Selenium. The automation reduced manual interventions and enhanced the overall renewal process.
-
-🎯 **Key Skills Used**:  
-Automated Software Testing 🤖, Agile Test Methodology 📅, Performance Testing 🚀
-· Selenium WebDriver · Regression Testing · Test Automation Frameworks
-
-🔗 **Link to Project**: [Project Link](https://github.com/masaid2244/Engineer-Renewal-Application-Automation---PEC---ERD-portal)  
-</details>
-
 ---
 
 
