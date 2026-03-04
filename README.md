@@ -328,68 +328,30 @@ Future Goals:
 ## 🛠️ Skills Overview  
 
 <details>
-<summary>My Skills (Click to Expand)</summary>
+<summary> 🎯 Core Competencies (Click to Expand)</summary>
 
 <br>
 
-### 🎯 **Testing Types & Methodologies**  
-
-| **Area of Expertise**              | **Skills** |
-|------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| ✅ **Core Testing Types**          | Manual Testing 📝, Automation Testing 🤖, Functional Testing ✅, Non-Functional Testing 🛠️, Regression Testing 🔄, System Testing 🖥️, End-to-End Testing 🌐 |
-| 🔍 **User-Centric Testing**        | UI Testing 🎨, Usability Testing 🎛️, User Acceptance Testing (UAT) 🎭, A/B Testing ⚖️ |
-| 🏗️ **Structural & Integration**    | Integration Testing 🔗, Alpha & Beta Testing 🏁, Smoke & Sanity Testing 🚀, Cross-Browser Testing 🌍 |
-| 📊 **Data & AI-Enhanced**          | Data-Driven Testing 📊, AI-Driven Testing 🤖, Exploratory Testing 🕵️‍♂️, Ad Hoc Testing 🎯 |
-
----
-
-### 🩺 **Quality Assurance & Defect Management**  
-
-| **Key Focus**                     | **Skills** |
-|-----------------------------------|--------------------------------------------------------------------------------------|
-| 🔎 **Defect & Issue Handling**    | Defect Lifecycle Management 🚦, Bug Tracking 🐞, Defect Reporting 📢, Root Cause Analysis 🔍 |
-| 📜 **Test Documentation**         | Test Data Management 📂, Test Documentation 📜, Requirements Traceability (RTM) 🧾 |
+| Area | Skills |
+|------|--------|
+| 🤖 Automation | Cypress (JavaScript), Selenium (Python), Katalon, POM, BDD |
+| 🧪 Testing Expertise | Regression, Smoke, Sanity, AI/LLM & Chatbot Testing |
+| 📐 Test Design | BVA, Equivalence Partitioning, Decision Tables |
+| 📊 Test Management | Test Planning, Test Strategy, Defect Lifecycle Management |
+| 🔄 Process | Agile / Scrum, SDLC & STLC |
 
 ---
 
-### 🔄 **Development Processes**  
+## ⚙️ Technical Skills
 
-| **Aspect**                        | **Skills** |
-|-----------------------------------|--------------------------------------------------------------------------------------|
-| 🌀 **Agile & SDLC/STLC**          | Agile (Scrum/Kanban) 🌀, SDLC & STLC 🔄, Shift-Left Testing ⏩, Risk-Based Testing ⚠️ |
-| 🎯 **Test Strategy & Planning**   | Test Strategy Development 🎯, Test Planning 📝, Test Metrics 📊, Test Case Design ✍️, Acceptance Criteria 📑 |
-| 🔢 **Test Data & Validation**     | Test Data Creation & Validation 🔢, Behavior-Driven Development (BDD) 🏗️ |
-
----
-
-### 🧪 **Testing Techniques**  
-
-| **Technique Type**                 | **Skills** |
-|-----------------------------------|--------------------------------------------------------------------------------------|
-| 🎭 **Functional & Black Box**      | Black Box Testing ⚫, Boundary Value Analysis 📏, Equivalence Partitioning 🔢, State Transition Testing 🔀 |
-| 🌐 **API & Performance Testing**   | API Testing 🌐, Load Testing 📈, Stress Testing 💥, Performance Testing ⚡ |
-| 🧠 **Advanced Testing**            | Codeless Test Automation 🦾, Static & Dynamic Testing 🔄, Decision Table Testing 📋, Error Guessing ❓, Use Case Testing 📂 |
-
----
-
-### ⚙️ **Tools & Frameworks**  
-
-| **Category**                        | **Tools** |
-|-------------------------------------|--------------------------------------------------------------------------------------|
-| 🧪 **Test Automation & Execution**  | Selenium (Pytest) 🧪, Cypress 🌿, JMeter 🌡️, Postman 📮 |
-| 🛠️ **Development & Test Management** | Git 🗂️, JIRA 📝, Testworthy ✔️, Zephyr 📝, MySQL 🗃️, DBeaver 🏗️, AI-Powered Testing 🤖 |
-| 🔍 **Debugging & Performance**      | Chrome DevTools 🌐, Bugzilla 🐛, BlazeMeter 🔥, Testim ⚡ |
-| 🖥️ **IDE & Communication**         | PyCharm 💻, Visual Studio Code 🖥️, Slack 💬, Loom 🎥 |
-
----
-
-### 🌟 **Soft Skills**  
-
-| **Skill Set**                    | **Skills** |
-|---------------------------------|------------------------------------------------------------|
-| 🧠 **Analytical & Problem-Solving** | Critical Thinking 🧠, Problem Solving 🔍, Analytical Thinking 📊, Technical Aptitude 🏆 |
-| 🤝 **Teamwork & Communication**   | Collaboration 🤝, Effective Communication 🗣️, Leadership & Mentorship 👨‍🏫, Teamwork 👥 |
-| ⏳ **Productivity & Adaptability** | Proactive Approach 🚀, Attention to Detail 🔬, Time Management ⏳, Adaptability 🔄 |
+| Category | Tools |
+|----------|-------|
+| 🚀 Performance Testing | JMeter, BlazeMeter, k6, LoadRunner |
+| 🌐 API Testing | Postman, Swagger |
+| 🗄 Databases | MySQL, MongoDB |
+| 📋 Project Management | JIRA, Zephyr, Bugzilla |
+| 🔁 Version Control | Git |
+| 💻 Development Tools | VS Code, DBeaver |
 
 
 </details>
