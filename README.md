@@ -155,14 +155,15 @@ QA for AI-powered web + mobile ecosystem serving 200+ institutes.
 
 Detailed testing deliverables and real project documentation:
 
-🔗 **[QA Engineering Artifacts Repository]**(https://github.com/masaid2244/test-engineering-evidence)
+🔗 **[QA Engineering Artifacts Repository](https://github.com/masaid2244/test-engineering-evidence)**
 
 Includes:
+- Automation Test Scripts (Cypress)
 - Test cases & bug reports
 - Test plans & strategies
 - Test charters
-- Automation frameworks
-- Performance test reports
+- Requirements Traceability Matrix (RTM)
+
 
 ---
 
