@@ -1,23 +1,13 @@
-# 🌟 Welcome to My Portfolio Repository! 🌟  
- 
- ![Alt text](https://github.com/masaid2244/masaid2244/blob/bca239eb94eb4ee115a69c3a4bb8b5cc75221ab9/ChatGPT%20Image%20Feb%2011%2C%202026%2C%2011_59_49%20AM.png)
----
-
+ # 👋 Hi, I'm Masaid Zeb
+QA Engineer | Automation | Performance | AI/LLM Testing
 
 ## 👨‍💻 About Me  
 - 🎓 **Education**: BSc Electrical Engineering from [University of Engineering & Technology, Lahore](https://www.uet.edu.pk/about-uet/introduction/vision-mission/)  
-- 🧪 **Experience**: 2+ years in QA, specializing in manual/automation testing, performance optimization, and defect management  
-- 🏆 **Certifications**:  
-  - [ISTQB® Certified Tester Foundation Level (CTFL) v4.0](http://scr.istqb.org/?name=Masaid+Zeb&number=24-CTFL4-1433-PK&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
-  - [ISTQB® Foundation Level Agile Tester (CTFL-AT)](https://scr.istqb.org/?name=masaid&number=&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
-
+- 🧪 2+ years in Software Quality Assurance
+  
 ---
 
-# 📌 Projects
-
-# 📌 Projects
-
----
+# 📌 Featured Projects
 
 ## 🖥️ Computer-Based Test System (CBT) for National Testing Service (NTS) Pakistan 
 
