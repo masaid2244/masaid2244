@@ -10,36 +10,31 @@
 - 🏆 **Certifications**:  
   - [ISTQB® Certified Tester Foundation Level (CTFL) v4.0](http://scr.istqb.org/?name=Masaid+Zeb&number=24-CTFL4-1433-PK&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
   - [ISTQB® Foundation Level Agile Tester (CTFL-AT)](https://scr.istqb.org/?name=masaid&number=&orderBy=relevancy&orderDirection=&dateStart=&dateEnd=&expiryStart=&expiryEnd=&certificationBody=&examProvider=&certificationLevel=&country=&resultsPerPage=10)
-  - Scrum Fundamentals Certified (SFC™)
 
 ---
 
 # 📌 Projects
 
-# Computer-Based Test System (CBT) for National Testing Service (NTS) Pakistan
+# 📌 Projects
+
+---
+
+## 🖥️ Computer-Based Test System (CBT) for National Testing Service (NTS) Pakistan 
+
 <details>
-<summary>🚀 NTS Pakistan – Nationwide CBT Testing Project (Click to Expand)</summary>
+<summary>Click to expand</summary>
 
-<br>
+**Role:** QA & Performance Engineer  
 
-🚀 **Objective:**  
-Delivered robust testing for NTS Pakistan's nationwide online CBT platform, ensuring zero cheating in real-time exams, seamless monitoring from Quetta to Gilgit, and instant live results dashboards for candidates across Pakistan.
+Delivered testing for a nationwide CBT system used across Pakistan for high-stakes exams.
 
-💡 **Key Features:**  
-✨ Performance testing for 50k concurrent users with zero downtime  
-✨ Functional and regression validation of end-to-end exam flows (registration to results)  
-✨ Anti-cheating measures including photo uploads and center-wise accuracy  
-✨ Real-time live dashboard for nationwide exam monitoring and instant results  
+**Highlights**
+- Load tested **50,000+ concurrent users** with JMeter & k6
+- Validated full journey: registration → exam → live monitoring → results
+- Tested anti-cheating controls (photo capture, center validation)
+- Zero critical failures during live exam days
 
-🔧 **Technologies Used:**  
-JMeter ⚡, k6 📊, Jira 🐛, Postman 📡, Safe Exam Browser 🔒  
-
-🏆 **Achievements:**  
-Achieved a smooth, bug-free production rollout for NTS's weekend nationwide exams, handling 50k users reliably under load/stress while upholding zero-cheating integrity—proving scalable QA strategies for high-stakes national platforms.  
-
-🔑 **Skills:**  
-Functional Testing · Regression Testing · End-to-End Testing · Performance Testing · Load & Stress Testing · JMeter · k6 · Jira · Postman · Quality Assurance  
-
+**Tools:** JMeter · k6 · Postman · Jira · Safe Exam Browser  
 🔗 **Link to Project:**  
 [Test Charter](https://docs.google.com/document/d/1nJri4IpjMhxso1xp9jXw0MKYM3AvcREZ1h_lrDLEziU/edit?tab=t.0#heading=h.xca2833d3ine)
 
@@ -47,212 +42,117 @@ Functional Testing · Regression Testing · End-to-End Testing · Performance Te
 
 ---
 
-# AI Chatbots 
+## 🤖 AI Chatbots & LLM Systems Testing
+**Products:** AXI Chatbot · CV Screening Bot · Pak-Austria Bot
+
 <details>
-<summary>🤖 AXI Chatbot | CV Screening Chatbot | Pak Austria Chatbot (Click to Expand)</summary>
+<summary>Click to expand</summary>
 
-<br>
+Validated conversational AI systems for accuracy, reliability, and reduced hallucinations.
 
-## 🎯 Objective
-Ensured high-quality, reliable, and context-aware AI chatbot behaviour by validating response accuracy, NLP intent handling, and domain alignment. Focused on improving AI response correctness, reducing hallucinations, and ensuring culturally and academically appropriate outputs across multiple chatbot use cases.
+**Highlights**
+- LLM response validation & intent testing
+- Regression after model/KB updates
+- API + UI automation checks
+- Improved response relevance & stability across releases
 
-
-## 🧪 QA Scope
-| Area | Coverage | Focus |
-|-----|--------|------|
-| 🧠 AI & NLP Testing | LLM response validation, intent recognition | Accuracy, relevance, hallucination detection |
-| 🔄 Functional & Regression Testing | Conversation flows, edge cases, updates | Stability after model & KB changes |
-| 🔗 API & UI Testing | Backend integrations, UI/UX behavior | Response payloads, usability, error handling |
-
-
-## 🔍 Key QA Activities
-- 📝 Designed and executed detailed **test plans, test cases, and test scenarios** for AI chatbot workflows.  
-- 🧠 Evaluated **AI/LLM responses** for correctness, contextual understanding, and domain alignment.  
-- 🔄 Performed **regression testing** after model retraining and knowledge base updates.  
-- 🔗 Conducted **API testing** to validate backend integrations and response structures.  
-- 🎨 Executed **UI/UX and usability testing** to improve conversational clarity and user experience.  
-- 🤝 Supported **UAT and production readiness** in Agile/Scrum environments.
-
-## 🏆 Achievements
-- 📈 Improved chatbot response accuracy and contextual relevance through structured AI testing.  
-- 🚫 Reduced incorrect, misleading, and ambiguous AI responses by identifying NLP edge cases early.  
-- 😊 Enhanced user satisfaction and trust in AI systems through usability and response-quality validation.  
-- 🚀 Supported stable, production-ready releases of multiple AI chatbot platforms.
-
-
-## 🧩 Skills Demonstrated
-| Category | Skills | Application |
-|--------|-------|------------|
-| 🤖 AI Testing | LLM Testing, Chatbot Testing | Response accuracy & behavior validation |
-| 🧠 NLP Evaluation | Intent analysis, contextual validation | Conversational quality assurance |
-| 🧪 QA Practices | Test Planning, Test Execution, Regression Testing | End-to-end quality assurance |
-
-
-## 🔑 Skills
-AI Testing, LLM Testing, Chatbot Testing, NLP Evaluation, Manual Testing, Test Planning, Test Case Design, API Testing, Regression Testing, Defect Tracking, Quality Assurance
-
+**Skills:** LLM Testing · NLP Evaluation · API Testing · Regression · Usability  
 🔗 **Link to Project**: [Project Link](https://axitechnologies.ai/)  
+
 </details>
 
 ---
 
-##  [Selenium-Based Automation for Engineer Registration - Pakistan Engineering Council (PEC)](https://www.linkedin.com/in/masaid-sqa/details/projects/)
+## ⚙️ Selenium Automation – Engineer Registration Portal
 
 <details>
-<summary> Selenium-Based Automation for Engineer Registration (Click to Expand)</summary>
+<summary>Click to expand</summary>
 
-<br>
+Built Selenium automation to accelerate regression cycles for the engineer registration system.
 
-🗓 **Duration**: Sep 2024 - Oct 2024  
+**Highlights**
+- Automated end-to-end workflows
+- Reduced manual effort & release time
+- Improved repeatability of regression testing
 
-🚀 **Objective**:  
-Automated testing of the PEC’s engineer registration portal to streamline and speed up registration processing for engineers in Pakistan.
+**Stack:** Python · Selenium  
+🔗 **Link to Project**: [Project Link](https://github.com/masaid2244/Engineer_registration_PEC_new_Application) 
 
-💡 **Key Features**:  
-✨ End-to-end automation for seamless registration  
-✨ Reduction in manual testing efforts  
-✨ Faster regression testing cycles  
-✨ Enhanced operational efficiency
-
-🔧 **Technologies Used**:  
-Python 🐍, Selenium 🕹, Automation Testing
-
-🏆 **Achievements**:  
-This project demonstrated real-world automation skills that greatly improved operational efficiency. Looking forward to applying more advanced techniques to future projects!
-
-🔑 **Skills**:  
-Automation Testing · Selenium WebDriver · Regression Testing · Test Automation Frameworks · Continuous Integration · Bug Tracking · Quality Assurance
-
-🔗 **Link to Project**: [Project Link](https://github.com/masaid2244/Engineer_registration_PEC_new_Application)  
 </details>
 
 ---
 
-## [Quality Assurance for EPE Portal](https://cpd.pec.org.pk/EPECustom) - [Pakistan Engineering Council](https://www.pec.org.pk/)
+## 🧪 Quality Assurance – EPE Examination Portal
 
 <details>
-<summary>EPE Portal (Click to Expand)</summary>
+<summary>Click to expand</summary>
 
-<br>
-🗓 **Duration**: Jan 2024 - Jul 2024 
+End-to-end QA for the national Engineering Practice Examination portal.
 
+**Highlights**
+- Functional, regression & performance testing
+- BVA / Equivalence partitioning
+- Supported first nationwide CBT rollout
+- Stable exam execution under peak traffic
 
-### 🎯 Objective
-Performed comprehensive Quality Assurance for the Engineering Practice Examination (EPE) Portal, a critical component of the Continuous Professional Development (CPD) framework enabling Registered Engineers to qualify as Professional Engineers. Ensured the platform’s functional accuracy, performance stability, and production readiness for nationwide computer-based examinations.
-
-
-### 🧩 Key Responsibilities
-- **Requirement Analysis:** Analyzed CPD and EPE requirements to validate engineer eligibility, CPD point calculations, and exam workflows.  
-- **Manual Testing:** Executed functional, regression, smoke, and sanity testing across the complete candidate lifecycle, including registration, fee submission, scrutiny, test center assignment, examination, and result publication.   
-- **Performance Testing:** Conducted load and stress testing to validate portal scalability and stability during peak exam traffic.  
-- **Test Coverage & Techniques:** Applied Boundary Value Analysis (BVA), equivalence partitioning, and use case testing to ensure full coverage of edge cases and business rules.  
-- **UAT Support:** Supported Agile-based User Acceptance Testing (UAT) by validating acceptance criteria and ensuring release readiness.
-
-
-### 🏆 Achievements
-- Contributed to the **successful launch of Pakistan Engineering Council’s first computer-based EPE exam**, conducted in Rawalpindi and Islamabad in May 2024.  
-- Ensured reliable exam execution, accurate result processing, and smooth candidate experience through end-to-end QA validation.
-
-
-### 🛠 Technologies & Tools
-Selenium, JMeter, MySQL, Postman, Git, Jira, Agile/Scrum, UAT Testing
-
-
-### 🔑 Skills
-Manual Testing, Automation Testing, Performance Testing, Regression Testing, Exploratory Testing, Test Planning, Test Execution, Defect Management, QA Documentation
-
+**Tools:** Selenium · JMeter · Postman · MySQL · Jira  
 🔗 **Link to Project**: [Project Link](https://cpd.pec.org.pk/EPECustom)  
- </details>
-
----
-
-
-## [Evolo AI](https://play.google.com/store/apps/details?id=com.hiddenworkers.evoloaiapp&pcampaignid=web_share) (Student Mobile App, Institute Mobile App, Employer Web App) 
-
-<details>
-<summary>Evolo AI (Click to Expand)</summary>
-
-<br>
-
-🔗 **Associated with**: [AI Mark Lab](https://www.linkedin.com/company/ai-mark-labs/posts/?feedView=all)
-
-## 🚀 Project Overview
-Evolo AI is a large-scale AI-driven platform comprising interconnected web and mobile applications designed for adult learners and educational institutions. The platform integrates AI models, chatbots, voice bots, job application workflows, event creation, and real-time communication features to connect students, schools, and employers across the United States, particularly in California.
-
-The platform supports 200+ educational institutions and thousands of adult learners, providing AI-powered assistance for learning, career development, and community engagement.
-
-
-## 🧩 Key Responsibilities
-- Led manual, automation, API, and performance testing for interconnected web and mobile applications.  
-- Validated AI model behavior, chatbot accuracy, and voice bot responses to ensure contextual relevance and reliability.  
-- Tested end-to-end workflows including user onboarding, job applications, event creation, event participation, and real-time messaging.  
-- Verified cross-platform data synchronization between mobile and web applications.  
-- Executed regression testing to ensure stability after feature updates and AI model changes.  
-- Collaborated with product and design teams to validate UI/UX consistency and functional requirements.  
-- Participated in Agile/Scrum ceremonies and managed defects using Jira.
-
-
-## 🏆 Key Outcomes & Impact
-- Improved chatbot accuracy and AI response quality through structured AI testing.  
-- Enhanced platform scalability for thousands of active users across 200+ institutions.  
-- Increased platform adoption by 35% by ensuring reliable performance and user experience.  
-- Reduced response latency through performance validation and optimization feedback.
-
-
-## 🛠 Technologies & Tools
-| Category | Tools | Purpose | Environment |
-|--------|------|--------|-------------|
-| 📱 Frontend Platforms | Web & Mobile Apps | User interaction & workflows | Android, iOS, Web |
-| 🤖 AI Technologies | AI Models, Chatbots, Voice Bots | Conversational AI & automation | AI-driven systems |
-| 🔗 API & Backend | Postman, REST APIs | Backend validation & integration | Client–Server |
-| ⚙️ QA & Performance | JMeter, Jira, GitHub, TestFlight | Load testing, defect tracking | Agile QA |
-
-
-
-## 🔑 Skills Demonstrated
-| Testing Domain | Skills | Application | Impact |
-|---------------|-------|------------|--------|
-| 🧪 QA Practices | Manual, Regression, Exploratory Testing | End-to-end workflows | High release stability |
-| 🤖 AI Testing | LLM Testing, Chatbot & Voice Bot Testing | AI response accuracy | Improved user trust |
-| 📱 Platform Testing | Mobile & Web Testing, Cross-Platform Validation | Data consistency | Reduced defects |
-
-
-## 🔑 Skills  
-AI Testing, LLM Testing, Chatbot Testing, Voice Bot Testing, Manual Testing, Automation Testing, API Testing, Performance Testing, Regression Testing, Cross-Platform Testing, Test Planning, Test Execution, Defect Management, Agile QA, Quality Assurance
 
 </details>
 
 ---
 
-## Omni-Channel Web App (BPO Service Integration)
+## 📱 Evolo AI – Multi-App EdTech Platform
 
 <details>
-<summary>Omni-Chaneel (Click to Expand)</summary>
+<summary>Click to expand</summary>
 
-<br>
+QA for AI-powered web + mobile ecosystem serving 200+ institutes.
 
-🔗 **Associated with**: [Mexil Software solutions](https://www.linkedin.com/company/mexil-software-solutions/posts/?feedView=all)
+**Highlights**
+- Tested chatbots, voice bots & AI features
+- Verified cross-platform sync (Android/iOS/Web)
+- API & performance testing
+- Helped improve scalability and adoption
 
-🚀 **Project Overview**:  
-The Omni-channel web app integrates multiple communication platforms (Facebook, WhatsApp, SMS, Instagram, Email, Call) to provide a seamless user experience. It operates with three distinct panels: Admin, Employer, and Company. The app functions similarly to a BPO service, allowing companies and employers to manage and communicate with their employees and clients through different communication channels.
+**Tools:** Postman · JMeter · Jira · GitHub · TestFlight
 
-🎯 **Key Responsibilities**:
-- **Web App Testing**:  
-  - Performed manual testing using black-box testing and session-based techniques.  
-  - Ensured smooth integration of chat services and verified multi-channel communications (chat, email, SMS, Facebook, Whatsapp, Instagram, Call).
-  - Focused on UI localization, ensuring the app was user-friendly across different regions.
-- **API Testing**:  
-  - Conducted API testing for data integration and process flow using Postman.
-  - Validated the performance of APIs, ensuring responsiveness and stability under load.
-- **Data Validation**:  
-  - Validated data flow between the web app and the backend SQL database.  
-  - Ensured that data presented to users was accurate and consistent.
+</details>
 
-🔧 **Technologies Used**:  
-MERN Stack (MongoDB, Express, React, Node.js), Postman for API Testing, SQL for database, GitHub, Figma
+---
 
-🔑 **Skills**:  
-Web App Testing · Manual Testing · API Testing · Data Validation · UI Testing · Agile Scrum · Kanban 
+## 🌐 Omni-Channel Communication Platform
+
+<details>
+<summary>Click to expand</summary>
+
+BPO-style messaging system integrating WhatsApp, Email, SMS, and social channels.
+
+**Highlights**
+- Web + API testing
+- Data integrity validation
+- Multi-channel workflow testing
+- SQL backend verification
+
+**Stack:** MERN · Postman · SQL · Git
+
+</details>
+
+---
+
+# 🚀 Professional Practice & R&D
+
+<details>
+<summary>Click to expand</summary>
+
+### Test Automation & Framework Engineering
+- Built Cypress E2E suites for UI flows, validations, and data-driven testing  
+- Developed reusable automation with :contentReference[oaicite:0]{index=0} (parallel runs, smart wait, self-healing locators)  
+- Applied Page Object Model (POM) and modular framework design  
+- Focused on maintainability, stability, and scalable execution
+
+🔗 **[Cypress Automation Repository](https://github.com/masaid2244/Cypress-Sample-Test-Cases)**  
+🔗 **[Katalon Automation Documentation](https://docs.google.com/document/d/1Py46z0cV8JHNpGwwXs05XrwW3qaaqkoxIx3GCkj8C3U)**
 
 </details>
 
@@ -272,54 +172,6 @@ While these projects are smaller in scale, they demonstrate my versatility and a
 | 1️⃣ | 📱 **ATHADhak** | - Performed **UI Testing**, **Front-end Testing**, **API Testing (Postman)**, and **Localization Testing**.  <br> - Focused on ensuring a smooth **user experience**. <br> - Verified **responsiveness** and **cross-browser compatibility**. <br> - Ensured seamless integration between front-end and back-end services.  | 🔹 **Functional & Non-Functional Testing** <br> 🔹 **Exploratory Testing** <br> 🔹 **Usability Testing** <br> 🔹 **Ad Hoc Testing** |
 | 2️⃣ | 📚 **DA Library (Mobile App)** | - Conducted **manual QA testing** for this mobile application.  <br> - Verified **functionality, usability, and performance**. <br> - Ensured **smooth navigation** and **error-free user interactions**. | 🔹 **System Testing** <br> 🔹 **User Acceptance Testing (UAT)** <br> 🔹 **Regression Testing** <br> 🔹 **AI-Driven Testing** |
 | 3️⃣ | 🌐 **PIEDC Portal** | - Conducted **detailed manual QA testing** for this enterprise portal.  <br> - Validated **end-to-end workflows, forms, and data integrity**. <br> - Ensured **cross-platform compatibility**. <br> - Wrote and executed **test cases** for multiple scenarios. <br> - Collaborated with developers to resolve critical issues. | 🔹 **End-to-End Testing** <br> 🔹 **Integration Testing** <br> 🔹 **Defect Root Cause Analysis** <br> 🔹 **Test Documentation** |
-
-</details>
-
----
-
-# 🛠️📖🔍 Personal Learning Projects
-<details>
-<summary>🚀  Personal Learning Projects (Click to Expand)</summary>
-
-<br>
-
-### Cypress Automation
- 1️ 🌟 Learn Automation with Cypress 🌟
-- Gained hands-on experience in **Cypress** for end-to-end testing.  
-- Wrote **automated test scripts** covering UI functionalities, alerts, tables, dropdowns, and file uploads.  
-- Performed **UI validation, element interaction, and assertions** to ensure test accuracy.  
-- Implemented **data-driven testing** for scalable test execution.  
-- Followed a **structured, beginner-friendly approach** with well-commented test cases.  
-- **Future Goals:**  
-  - Develop **end-to-end automation projects** using **Page Object Model (POM)**.  
-  - Automate **real-world demo projects** to enhance practical skills.  
-- 🌟 **Discover my work** and dive into the details of my projects on GitHub! **[Explore Here](https://github.com/masaid2244/Cypress-Sample-Test-Cases)** 🚀
-
-### Katalon Automation
-
-2 🌟 My Katalon Learning Journey: Getting Started with AI Automation Testing 🌟  
-
-- Gained hands-on experience with Katalon Studio for end-to-end automation testing.
-- Learned three test creation modes: Record, Manual, and Script.
-- Managed Test Suites, Collections, Execution Profiles, and Global Variables for scalable automation.
-- Implemented data-driven testing and environment management for flexible test execution.
-- Explored advanced features:
-  - Headless mode
-  - Parallel execution
-  - Smart Wait
-  - Failure handling
-- Applied maintenance techniques:
-  - Test Listeners
-  - Setup / Teardown
-  - Skipping Tests
-  - Self-Healing locators
-  - Frame handling
-- Learned retry mechanisms and flakiness handling for robust automated tests.
-
-Future Goals:
-- Apply advanced Katalon features to real-world testing scenarios
-
-🌟 Discover my Katalon learning document and projects: **[Explore My Katalon Learning Journey](https://docs.google.com/document/d/1Py46z0cV8JHNpGwwXs05XrwW3qaaqkoxIx3GCkj8C3U/edit?tab=t.0)** 🚀
 
 </details>
 
