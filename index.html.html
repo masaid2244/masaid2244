@@ -1,0 +1,1766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Masaid Zeb — QA Engineer</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23050709'/%3E%3Crect width='32' height='32' rx='7' fill='none' stroke='%230ea5e9' stroke-width='1.5'/%3E%3Ctext x='16' y='22' font-size='13' text-anchor='middle' fill='%230ea5e9' font-family='sans-serif' font-weight='900' letter-spacing='-0.5'%3EMZ%3C/text%3E%3C/svg%3E"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet"/>
+<style>
+/* ═══════════════════════════════════════════════════════
+   DESIGN TOKENS
+═══════════════════════════════════════════════════════ */
+:root {
+  --bg:       #050709;
+  --bg2:      #080c12;
+  --bg3:      #0c1118;
+  --card:     #0a0e15;
+  --card2:    #0e1520;
+  --border:   #131c28;
+  --border2:  #1c2d42;
+  --border3:  #243650;
+  --accent:   #0ea5e9;
+  --accent2:  #38bdf8;
+  --accent3:  #7dd3fc;
+  --neon:     #00f5ff;
+  --gold:     #d4a017;
+  --gold2:    #f0c040;
+  --gold3:    #fde68a;
+  --green:    #10d9a0;
+  --green2:   #34eca4;
+  --purple:   #a78bfa;
+  --purple2:  #c4b5fd;
+  --red:      #f87171;
+  --orange:   #fb923c;
+  --text:     #cbd5e1;
+  --text2:    #94a3b8;
+  --text3:    #4b6278;
+  --white:    #f0f9ff;
+}
+
+/* ── LIGHT MODE ── */
+body.light-mode {
+  --bg:       #f0f6ff;
+  --bg2:      #e8f0fb;
+  --bg3:      #dde8f8;
+  --card:     #ffffff;
+  --card2:    #f5f9ff;
+  --border:   #c8d8ed;
+  --border2:  #a8c0e0;
+  --border3:  #88a8d0;
+  --accent:   #0284c7;
+  --accent2:  #0369a1;
+  --accent3:  #075985;
+  --neon:     #0284c7;
+  --gold:     #b45309;
+  --gold2:    #d97706;
+  --gold3:    #f59e0b;
+  --green:    #059669;
+  --green2:   #10b981;
+  --purple:   #7c3aed;
+  --purple2:  #6d28d9;
+  --red:      #dc2626;
+  --orange:   #ea580c;
+  --text:     #1e3a5f;
+  --text2:    #374151;
+  --text3:    #6b7280;
+  --white:    #0f172a;
+}
+body.light-mode { background: var(--bg); color: var(--text); }
+body.light-mode::before {
+  background:
+    radial-gradient(ellipse 900px 600px at 10% 20%, rgba(2,132,199,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 700px 500px at 90% 80%, rgba(124,58,237,0.04) 0%, transparent 60%),
+    radial-gradient(ellipse 600px 400px at 50% 50%, rgba(5,150,105,0.03) 0%, transparent 60%);
+}
+body.light-mode::after {
+  background-image:
+    linear-gradient(rgba(2,132,199,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(2,132,199,0.06) 1px, transparent 1px);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ── ANIMATED BACKGROUND ── */
+body::before {
+  content: '';
+  position: fixed; inset: 0;
+  background:
+    radial-gradient(ellipse 900px 600px at 10% 20%, rgba(14,165,233,0.07) 0%, transparent 60%),
+    radial-gradient(ellipse 700px 500px at 90% 80%, rgba(167,139,250,0.05) 0%, transparent 60%),
+    radial-gradient(ellipse 600px 400px at 50% 50%, rgba(16,217,160,0.03) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+body::after {
+  content: '';
+  position: fixed; inset: 0;
+  background-image:
+    linear-gradient(rgba(14,165,233,0.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14,165,233,0.022) 1px, transparent 1px);
+  background-size: 48px 48px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── FLOATING PARTICLES ── */
+.particles { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
+.particle {
+  position: absolute;
+  width: 2px; height: 2px;
+  background: var(--accent);
+  border-radius: 50%;
+  animation: float-up linear infinite;
+  opacity: 0;
+}
+@keyframes float-up {
+  0%   { transform: translateY(100vh) translateX(0); opacity: 0; }
+  10%  { opacity: 0.6; }
+  90%  { opacity: 0.2; }
+  100% { transform: translateY(-20px) translateX(30px); opacity: 0; }
+}
+
+/* ── LAYOUT ── */
+.wrap { position: relative; z-index: 1; max-width: 1020px; margin: 0 auto; padding: 0 32px; }
+
+/* ════════════════════════════════════════
+   NAV
+════════════════════════════════════════ */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+  background: rgba(5,7,9,0.82);
+  backdrop-filter: blur(24px) saturate(180%);
+  border-bottom: 1px solid rgba(14,165,233,0.1);
+}
+.nav-inner {
+  max-width: 1020px; margin: 0 auto; padding: 0 32px;
+  height: 62px; display: flex; align-items: center; justify-content: space-between;
+}
+.nav-logo {
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 900; font-size: 1rem;
+  color: var(--white); letter-spacing: 0.02em;
+}
+.nav-logo em { color: var(--accent); font-style: normal; }
+.nav-badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem; color: var(--green);
+  background: rgba(16,217,160,0.1); border: 1px solid rgba(16,217,160,0.25);
+  padding: 2px 8px; border-radius: 20px; letter-spacing: 0.1em;
+  text-transform: uppercase; margin-left: 10px; vertical-align: middle;
+}
+.nav-links { display: flex; gap: 6px; list-style: none; }
+.nav-links a {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem;
+  color: var(--text3); text-decoration: none; letter-spacing: 0.1em;
+  text-transform: uppercase; padding: 6px 12px; border-radius: 4px;
+  transition: all 0.2s; border: 1px solid transparent;
+}
+.nav-links a:hover {
+  color: var(--accent2);
+  background: rgba(14,165,233,0.07);
+  border-color: rgba(14,165,233,0.15);
+}
+
+/* ════════════════════════════════════════
+   FLOATING BADGES
+════════════════════════════════════════ */
+.floating-badge {
+  position: fixed; z-index: 150;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 8px 16px; border-radius: 30px;
+  display: flex; align-items: center; gap: 7px;
+  backdrop-filter: blur(12px);
+  pointer-events: none;
+  white-space: nowrap;
+}
+.fb-istqb {
+  top: 120px; right: 24px;
+  background: rgba(212,160,23,0.12);
+  border: 1px solid rgba(212,160,23,0.3);
+  color: var(--gold2);
+  animation: fb-float1 5s ease-in-out infinite;
+}
+.fb-open {
+  top: 176px; right: 24px;
+  background: rgba(16,217,160,0.1);
+  border: 1px solid rgba(16,217,160,0.25);
+  color: var(--green);
+  animation: fb-float2 6s ease-in-out infinite;
+}
+.fb-users {
+  top: 232px; right: 24px;
+  background: rgba(14,165,233,0.1);
+  border: 1px solid rgba(14,165,233,0.25);
+  color: var(--accent2);
+  animation: fb-float3 5.5s ease-in-out infinite;
+}
+@keyframes fb-float1 { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-6px)} }
+@keyframes fb-float2 { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-8px)} }
+@keyframes fb-float3 { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-5px)} }
+.fb-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: currentColor; flex-shrink: 0;
+}
+.fb-dot.pulse { animation: dot-pulse 1.4s ease-in-out infinite; }
+@keyframes dot-pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.3;transform:scale(0.7)} }
+
+/* ════════════════════════════════════════
+   HERO
+════════════════════════════════════════ */
+.hero { padding: 150px 0 90px; position: relative; overflow: visible; }
+
+.hero-eyebrow {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  margin-bottom: 24px; animation: fadeUp 0.6s 0.1s ease both;
+}
+.eyebrow-tag {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.72rem;
+  letter-spacing: 0.15em; text-transform: uppercase;
+  color: var(--accent2); background: rgba(14,165,233,0.1);
+  border: 1px solid rgba(14,165,233,0.2); padding: 5px 14px; border-radius: 3px;
+}
+.eyebrow-status {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem;
+  color: var(--green); background: rgba(16,217,160,0.08);
+  border: 1px solid rgba(16,217,160,0.2); padding: 5px 13px; border-radius: 3px;
+  letter-spacing: 0.1em; text-transform: uppercase;
+}
+.status-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); animation: blink 1.6s ease-in-out infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.2} }
+.eyebrow-loc { font-family:'JetBrains Mono',monospace; font-size:0.68rem; color:var(--text3); letter-spacing:0.06em; }
+
+.hero-layout { display: flex; align-items: flex-start; gap: 56px; }
+
+/* Avatar */
+.hero-avatar-area { flex-shrink: 0; position: relative; animation: fadeUp 0.8s 0.05s ease both; }
+.avatar-frame {
+  position: relative; width: 148px; height: 148px;
+}
+.avatar-img {
+  width: 148px; height: 148px; border-radius: 16px;
+  object-fit: cover; display: block;
+  border: 2px solid var(--border2);
+  position: relative; z-index: 2;
+}
+.avatar-glow {
+  position: absolute; inset: -8px;
+  background: linear-gradient(135deg, rgba(14,165,233,0.3), rgba(167,139,250,0.15), rgba(16,217,160,0.15));
+  border-radius: 22px; z-index: 1;
+  animation: glow-pulse 4s ease-in-out infinite;
+  filter: blur(10px);
+}
+@keyframes glow-pulse {
+  0%,100%{opacity:0.5;transform:scale(1)}
+  50%{opacity:0.9;transform:scale(1.04)}
+}
+.avatar-corner {
+  position: absolute; width: 18px; height: 18px;
+  border-color: var(--accent); border-style: solid; border-width: 0;
+  z-index: 3;
+}
+.avatar-corner.tl { top: -3px; left: -3px; border-top-width: 2px; border-left-width: 2px; border-top-left-radius: 4px; }
+.avatar-corner.tr { top: -3px; right: -3px; border-top-width: 2px; border-right-width: 2px; border-top-right-radius: 4px; }
+.avatar-corner.bl { bottom: -3px; left: -3px; border-bottom-width: 2px; border-left-width: 2px; border-bottom-left-radius: 4px; }
+.avatar-corner.br { bottom: -3px; right: -3px; border-bottom-width: 2px; border-right-width: 2px; border-bottom-right-radius: 4px; }
+
+/* Name block */
+.hero-text { flex: 1; }
+.hero-name {
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 900;
+  font-size: clamp(2.6rem, 5.5vw, 4.2rem);
+  color: var(--white); line-height: 1.05;
+  letter-spacing: -0.03em;
+  animation: fadeUp 0.7s 0.2s ease both;
+}
+.hero-name .accent { color: var(--accent); }
+.hero-name .accent2 { color: transparent; -webkit-text-stroke: 1px var(--accent); }
+
+.hero-subtitle {
+  margin-top: 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem; color: var(--accent2);
+  letter-spacing: 0.08em; animation: fadeUp 0.7s 0.3s ease both;
+}
+.hero-subtitle::before { content: '> '; opacity: 0.5; }
+
+.hero-desc {
+  margin-top: 18px; font-size: 1.08rem; color: var(--text2);
+  max-width: 560px; line-height: 1.85; font-weight: 400;
+  animation: fadeUp 0.7s 0.4s ease both;
+}
+.hero-desc strong { color: var(--white); font-weight: 600; }
+
+/* CTA Buttons */
+.hero-cta { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px; animation: fadeUp 0.7s 0.5s ease both; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 11px 24px; border-radius: 6px; font-size: 0.9rem;
+  font-weight: 600; text-decoration: none; border: 1.5px solid;
+  transition: all 0.25s; letter-spacing: 0.01em; cursor: pointer;
+}
+.btn-primary {
+  background: var(--accent); border-color: var(--accent); color: #fff;
+  box-shadow: 0 0 28px rgba(14,165,233,0.3);
+}
+.btn-primary:hover { background: var(--accent2); border-color: var(--accent2); box-shadow: 0 0 40px rgba(14,165,233,0.5); transform: translateY(-2px); }
+.btn-ghost {
+  background: transparent; border-color: var(--border2); color: var(--text2);
+}
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent2); background: rgba(14,165,233,0.06); transform: translateY(-2px); }
+.btn-gold {
+  background: transparent; border-color: rgba(212,160,23,0.35); color: var(--gold2);
+}
+.btn-gold:hover { border-color: var(--gold2); box-shadow: 0 0 20px rgba(212,160,23,0.2); transform: translateY(-2px); }
+
+/* Stats */
+.hero-stats {
+  margin-top: 36px; display: flex; gap: 0;
+  border: 1px solid var(--border2); border-radius: 10px; overflow: hidden;
+  animation: fadeUp 0.7s 0.6s ease both;
+}
+.stat {
+  flex: 1; padding: 18px 20px;
+  border-right: 1px solid var(--border);
+  text-align: center; position: relative;
+}
+.stat:last-child { border-right: none; }
+.stat::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0; transition: opacity 0.3s;
+}
+.stat:hover::before { opacity: 1; }
+.stat-num {
+  font-family: 'Unbounded', sans-serif; font-size: 2rem;
+  font-weight: 900; color: var(--white); line-height: 1;
+}
+.stat-num em { color: var(--accent); font-style: normal; }
+.stat-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.62rem;
+  color: var(--text3); text-transform: uppercase; letter-spacing: 0.12em;
+  margin-top: 5px;
+}
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ════════════════════════════════════════
+   DIVIDER
+════════════════════════════════════════ */
+.divider {
+  width: 100%; height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(14,165,233,0.15), transparent);
+  margin: 72px 0;
+}
+
+/* ════════════════════════════════════════
+   SECTION HEADERS
+════════════════════════════════════════ */
+section { padding: 20px 0 0; }
+.sec-head { margin-bottom: 44px; }
+.sec-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+  color: var(--accent2); letter-spacing: 0.18em; text-transform: uppercase;
+  margin-bottom: 8px; display: flex; align-items: center; gap: 10px;
+}
+.sec-label::before {
+  content: ''; display: inline-block; width: 20px; height: 1px;
+  background: var(--accent2); flex-shrink: 0;
+}
+.sec-title {
+  font-family: 'Unbounded', sans-serif; font-weight: 700;
+  font-size: 2rem; color: var(--white); letter-spacing: -0.02em;
+}
+.sec-title .dim { color: var(--text3); font-weight: 400; }
+
+/* CERT MARQUEE */
+.cert-marquee-wrap {
+  position: relative; overflow: hidden; margin-bottom: 32px;
+  height: 56px; border-radius: 8px;
+  background: linear-gradient(135deg, rgba(0,82,137,0.1), rgba(211,18,70,0.06));
+  border: 1px solid rgba(0,82,137,0.25);
+}
+.cert-marquee-wrap::before {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(0,82,137,0.08) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+  z-index: 1;
+}
+@keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+.cert-marquee-wrap::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(90deg, var(--bg) 0%, transparent 8%, transparent 92%, var(--bg) 100%);
+  z-index: 2; pointer-events: none;
+}
+.cert-marquee-track {
+  display: flex; white-space: nowrap;
+  animation: marquee 30s linear infinite;
+}
+@keyframes marquee { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+.cert-marquee-item {
+  display: inline-flex; align-items: center; gap: 9px; padding: 0 32px;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.73rem;
+  letter-spacing: 0.08em; text-transform: uppercase; color: #7ab8db;
+  line-height: 56px;
+}
+.cert-marquee-item .star { color: #D31246; font-size: 0.8rem; }
+.cert-marquee-item .sep { color: #005289; opacity: 0.5; }
+
+/* IDENTITY CARDS */
+.identity-cards { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 32px; }
+.identity-card {
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px 20px; border-radius: 10px;
+  border: 1.5px solid; font-weight: 700;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.88rem; flex: 1; min-width: 200px;
+  position: relative; overflow: hidden; transition: all 0.3s;
+}
+.identity-card:hover { transform: translateY(-3px); }
+.identity-card.istqb { background: rgba(0,82,137,0.1); border-color: rgba(0,82,137,0.4); color: #4aa3d4; }
+.identity-card.istqb:hover { box-shadow: 0 8px 30px rgba(0,82,137,0.25); border-color: #005289; }
+.identity-card.ai-llm { background: rgba(167,139,250,0.1); border-color: rgba(167,139,250,0.3); color: var(--purple2); }
+.identity-card.ai-llm:hover { box-shadow: 0 8px 30px rgba(167,139,250,0.2); border-color: var(--purple); }
+.identity-card.automation { background: rgba(16,217,160,0.08); border-color: rgba(16,217,160,0.25); color: var(--green2); }
+.identity-card.automation:hover { box-shadow: 0 8px 30px rgba(16,217,160,0.18); border-color: var(--green); }
+.identity-card.midlevel { background: rgba(251,146,60,0.08); border-color: rgba(251,146,60,0.25); color: var(--orange); }
+.identity-card.midlevel:hover { box-shadow: 0 8px 30px rgba(251,146,60,0.18); border-color: var(--orange); }
+.identity-icon { width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; background: rgba(255,255,255,0.06); }
+.identity-title { font-size: 0.88rem; font-weight: 700; }
+.identity-label { font-size: 0.65rem; opacity: 0.6; font-weight: 400; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 1px; }
+
+/* CERT GRID */
+.cert-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+@media (max-width: 860px) { .cert-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 540px) { .cert-grid { grid-template-columns: 1fr; } }
+.cert-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 8px; padding: 20px 22px;
+  text-decoration: none; display: flex; align-items: flex-start; gap: 16px;
+  transition: all 0.28s; position: relative; overflow: hidden;
+  opacity: 0; transform: translateY(18px);
+}
+.cert-card.cert-visible { opacity: 1; transform: translateY(0); }
+.cert-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  opacity: 0; transition: opacity 0.3s;
+}
+.cert-card.istqb-card::before { background: linear-gradient(90deg, #D31246, #005289, #D31246); background-size: 200%; animation: cert-flow 3s linear infinite; }
+.cert-card.apache-card::before { background: linear-gradient(90deg, #D22128, #ff8c35, #D22128); background-size: 200%; animation: cert-flow 3s linear infinite; }
+.cert-card.scrum-card::before { background: linear-gradient(90deg, #00A5D9, #0073B1, #00A5D9); background-size: 200%; animation: cert-flow 3s linear infinite; }
+.cert-card.katalon-card::before { background: linear-gradient(90deg, #269D3B, #1a7a2e, #269D3B); background-size: 200%; animation: cert-flow 3s linear infinite; }
+.cert-card.selenium-card::before { background: linear-gradient(90deg, #43B02A, #ffffff30, #43B02A); background-size: 200%; animation: cert-flow 3s linear infinite; }
+@keyframes cert-flow { 0%{background-position:0%} 100%{background-position:200%} }
+.cert-card.istqb-card:hover { border-color: rgba(0,82,137,0.5); box-shadow: 0 16px 48px rgba(0,0,0,0.5), 0 0 30px rgba(0,82,137,0.15); }
+.cert-card.apache-card:hover { border-color: rgba(210,33,40,0.4); box-shadow: 0 16px 48px rgba(0,0,0,0.5), 0 0 30px rgba(210,33,40,0.12); }
+.cert-card.scrum-card:hover { border-color: rgba(0,165,217,0.4); box-shadow: 0 16px 48px rgba(0,0,0,0.5), 0 0 30px rgba(0,165,217,0.12); }
+.cert-card.katalon-card:hover { border-color: rgba(38,157,59,0.4); box-shadow: 0 16px 48px rgba(0,0,0,0.5), 0 0 30px rgba(38,157,59,0.12); }
+.cert-card.selenium-card:hover { border-color: rgba(67,176,42,0.4); box-shadow: 0 16px 48px rgba(0,0,0,0.5), 0 0 30px rgba(67,176,42,0.12); }
+.cert-card:hover { transform: translateY(-4px) !important; }
+.cert-card:hover::before { opacity: 1; }
+.cert-icon {
+  width: 48px; height: 48px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.6rem; flex-shrink: 0; font-weight: 900;
+  font-family: 'Unbounded', sans-serif; letter-spacing: 0.02em; text-align: center; line-height: 1.2;
+}
+.cert-icon.istqb-ico { background: linear-gradient(135deg, #005289, #003d6b); border: 1px solid rgba(0,82,137,0.5); color: white; }
+.cert-icon.apache-ico { background: linear-gradient(135deg, #D22128, #a01820); border: 1px solid rgba(210,33,40,0.4); color: white; }
+.cert-icon.scrum-ico { background: linear-gradient(135deg, #00A5D9, #007ba3); border: 1px solid rgba(0,165,217,0.4); color: white; }
+.cert-icon.katalon-ico { background: linear-gradient(135deg, #269D3B, #1a7a2e); border: 1px solid rgba(38,157,59,0.4); color: white; }
+.cert-icon.selenium-ico { background: linear-gradient(135deg, #43B02A, #2e8019); border: 1px solid rgba(67,176,42,0.4); color: white; }
+.cert-name { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 0.95rem; color: var(--white); line-height: 1.3; }
+.cert-sub { margin-top: 3px; font-size: 0.78rem; color: var(--text2); font-family: 'JetBrains Mono', monospace; }
+.cert-badge { margin-top: 9px; display: inline-block; font-size: 0.63rem; padding: 2px 9px; border-radius: 3px; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.08em; }
+.cert-badge.istqb-badge { background: rgba(0,82,137,0.15); color: #4aa3d4; border: 1px solid rgba(0,82,137,0.3); }
+.cert-badge.apache-badge { background: rgba(210,33,40,0.12); color: #f87171; border: 1px solid rgba(210,33,40,0.3); }
+.cert-badge.scrum-badge { background: rgba(0,165,217,0.1); color: #60d0f0; border: 1px solid rgba(0,165,217,0.3); }
+.cert-badge.katalon-badge { background: rgba(38,157,59,0.1); color: #6ee88a; border: 1px solid rgba(38,157,59,0.3); }
+.cert-badge.selenium-badge { background: rgba(67,176,42,0.1); color: #86efac; border: 1px solid rgba(67,176,42,0.3); }
+
+/* INTERACTIVE SKILLS */
+.skills-universe { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 768px) { .skills-universe { grid-template-columns: 1fr; } }
+.skill-category.full-width { grid-column: 1 / -1; }
+.skill-category {
+  position: relative; overflow: hidden;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 14px; padding: 22px 24px;
+  transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1); cursor: default;
+}
+.skill-category::after {
+  content: ''; position: absolute; inset: 0; border-radius: 14px;
+  background: var(--cat-glow, rgba(14,165,233,0.04));
+  opacity: 0; transition: opacity 0.35s; pointer-events: none;
+}
+.skill-category:hover { border-color: var(--cat-border, var(--border2)); transform: translateY(-3px); box-shadow: 0 12px 50px rgba(0,0,0,0.4); }
+.skill-category:hover::after { opacity: 1; }
+.skill-category-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; flex-wrap: wrap; gap: 8px; }
+.skill-category-title { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 500; display: flex; align-items: center; gap: 10px; }
+.cat-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.skill-level-bar { height: 3px; border-radius: 2px; overflow: hidden; background: rgba(255,255,255,0.06); width: 80px; flex-shrink: 0; }
+.skill-level-fill { height: 100%; border-radius: 2px; background: var(--cat-color, var(--accent)); width: 0%; transition: width 1.2s cubic-bezier(0.22, 1, 0.36, 1); }
+.skill-category.skill-anim .skill-level-fill { width: var(--skill-pct); }
+.skill-tags-animated { display: flex; flex-wrap: wrap; gap: 8px; }
+.skill-pill {
+  font-size: 0.78rem; padding: 6px 14px; border-radius: 100px;
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  color: var(--text2); font-family: 'JetBrains Mono', monospace;
+  font-weight: 400; letter-spacing: 0.02em; cursor: default;
+  transition: all 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform: translateY(12px) scale(0.92); opacity: 0; position: relative; overflow: hidden;
+}
+.skill-pill::before { content: ''; position: absolute; inset: 0; border-radius: 100px; background: var(--pill-glow, rgba(14,165,233,0.12)); opacity: 0; transition: opacity 0.2s; pointer-events: none; }
+.skill-pill:hover { transform: translateY(-2px) scale(1.04) !important; opacity: 1 !important; border-color: var(--cat-color, var(--accent)); color: var(--white); box-shadow: 0 4px 14px rgba(0,0,0,0.3); }
+.skill-pill:hover::before { opacity: 1; }
+.skill-category.skill-anim .skill-pill { transform: translateY(0) scale(1); opacity: 1; }
+.cat-automation { --cat-color: #0ea5e9; --cat-border: rgba(14,165,233,0.3); --cat-glow: rgba(14,165,233,0.05); --pill-glow: rgba(14,165,233,0.12); --skill-pct: 88%; }
+.cat-automation .skill-category-title { color: #0ea5e9; }
+.cat-automation .cat-dot { background: #0ea5e9; box-shadow: 0 0 8px #0ea5e9; }
+.cat-perf { --cat-color: #fb923c; --cat-border: rgba(251,146,60,0.3); --cat-glow: rgba(251,146,60,0.04); --pill-glow: rgba(251,146,60,0.12); --skill-pct: 92%; }
+.cat-perf .skill-category-title { color: #fb923c; }
+.cat-perf .cat-dot { background: #fb923c; box-shadow: 0 0 8px #fb923c; }
+.cat-api { --cat-color: #10d9a0; --cat-border: rgba(16,217,160,0.3); --cat-glow: rgba(16,217,160,0.04); --pill-glow: rgba(16,217,160,0.12); --skill-pct: 85%; }
+.cat-api .skill-category-title { color: #10d9a0; }
+.cat-api .cat-dot { background: #10d9a0; box-shadow: 0 0 8px #10d9a0; }
+.cat-ai { --cat-color: #a78bfa; --cat-border: rgba(167,139,250,0.3); --cat-glow: rgba(167,139,250,0.06); --pill-glow: rgba(167,139,250,0.14); --skill-pct: 90%; }
+.cat-ai .skill-category-title { color: #a78bfa; }
+.cat-ai .cat-dot { background: #a78bfa; box-shadow: 0 0 8px #a78bfa; }
+.cat-design { --cat-color: #f0c040; --cat-border: rgba(240,192,64,0.3); --cat-glow: rgba(240,192,64,0.04); --pill-glow: rgba(240,192,64,0.1); --skill-pct: 80%; }
+.cat-design .skill-category-title { color: #f0c040; }
+.cat-design .cat-dot { background: #f0c040; box-shadow: 0 0 8px #f0c040; }
+.cat-tools { --cat-color: #38bdf8; --cat-border: rgba(56,189,248,0.3); --cat-glow: rgba(56,189,248,0.04); --pill-glow: rgba(56,189,248,0.12); --skill-pct: 82%; }
+.cat-tools .skill-category-title { color: #38bdf8; }
+.cat-tools .cat-dot { background: #38bdf8; box-shadow: 0 0 8px #38bdf8; }
+
+/* ════════════════════════════════════════
+   EXPERIENCE
+════════════════════════════════════════ */
+.exp-list { display: flex; flex-direction: column; gap: 20px; }
+.exp-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 28px 30px;
+  display: grid; grid-template-columns: 68px 1fr; gap: 22px;
+  transition: all 0.28s; position: relative; overflow: hidden;
+}
+.exp-card::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+  background: linear-gradient(180deg, var(--accent), var(--purple), transparent);
+  opacity: 0; transition: opacity 0.3s; border-radius: 10px 0 0 10px;
+}
+.exp-card:hover { border-color: var(--border2); box-shadow: 0 8px 40px rgba(0,0,0,0.4); }
+.exp-card:hover::before { opacity: 1; }
+.exp-logo {
+  width: 56px; height: 56px; border-radius: 12px;
+  background: var(--bg3); border: 1px solid var(--border2);
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Unbounded', sans-serif; font-size: 0.72rem;
+  font-weight: 900; color: var(--accent2); letter-spacing: 0.02em;
+}
+.exp-header { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+.exp-org { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.15rem; color: var(--white); }
+.exp-org a { color: inherit; text-decoration: none; transition: color 0.2s; }
+.exp-org a:hover { color: var(--accent2); }
+.exp-role {
+  font-size: 0.85rem; color: var(--accent2); margin-top: 4px; font-weight: 600;
+  font-family: 'JetBrains Mono', monospace; letter-spacing: 0.04em;
+}
+.exp-meta { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text3); display: flex; gap: 14px; flex-wrap: wrap; margin-top: 2px; }
+.exp-desc { margin-top: 14px; font-size: 0.9rem; color: var(--text2); line-height: 1.85; }
+.exp-bullets { margin-top: 12px; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.exp-bullets li {
+  font-size: 0.9rem; color: var(--text);
+  padding-left: 22px; position: relative; line-height: 1.75;
+}
+.exp-bullets li::before {
+  content: '▸'; position: absolute; left: 0;
+  color: var(--accent); font-size: 0.8rem; line-height: 1.7; font-weight: 700;
+}
+.exp-bullets li strong { color: var(--white); font-weight: 600; }
+
+/* ════════════════════════════════════════
+   SKILLS
+════════════════════════════════════════ */
+.skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.skill-group {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 20px 22px; transition: all 0.25s;
+  position: relative; overflow: hidden;
+}
+.skill-group::after {
+  content: ''; position: absolute; top: 0; right: 0;
+  width: 80px; height: 80px;
+  background: radial-gradient(circle, rgba(14,165,233,0.05) 0%, transparent 70%);
+  border-radius: 50%; transform: translate(20px, -20px);
+  pointer-events: none;
+}
+.skill-group:hover { border-color: var(--border2); box-shadow: 0 4px 24px rgba(0,0,0,0.3); }
+.skill-group-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+  color: var(--accent2); letter-spacing: 0.12em; text-transform: uppercase;
+  margin-bottom: 14px; font-weight: 500; display: flex; align-items: center; gap: 7px;
+}
+.skill-group.ai-testing { border-color: rgba(167,139,250,0.2); }
+.skill-group.ai-testing .skill-group-label { color: var(--purple); }
+.skill-group.ai-testing::after { background: radial-gradient(circle, rgba(167,139,250,0.07) 0%, transparent 70%); }
+.skill-group.ai-testing:hover { border-color: rgba(167,139,250,0.4); }
+.skill-tags { display: flex; flex-wrap: wrap; gap: 7px; }
+.skill-tag {
+  font-size: 0.78rem; padding: 5px 12px; border-radius: 4px;
+  background: var(--bg3); border: 1px solid var(--border);
+  color: var(--text2); font-family: 'JetBrains Mono', monospace;
+  transition: all 0.18s; font-weight: 400; letter-spacing: 0.02em;
+  cursor: default;
+}
+.skill-tag:hover { border-color: var(--accent); color: var(--accent2); background: rgba(14,165,233,0.07); transform: translateY(-1px); }
+.skill-tag.ai { border-color: rgba(167,139,250,0.2); color: var(--purple2); background: rgba(167,139,250,0.06); }
+.skill-tag.ai:hover { border-color: var(--purple); color: var(--purple); }
+
+/* ════════════════════════════════════════
+   PROJECTS TABLE
+════════════════════════════════════════ */
+.proj-table-wrap {
+  overflow-x: auto; border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--card);
+}
+table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+thead { background: var(--bg3); }
+thead th {
+  text-align: left; padding: 15px 20px;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.67rem;
+  color: var(--text3); letter-spacing: 0.14em; text-transform: uppercase;
+  border-bottom: 1px solid var(--border); font-weight: 400;
+}
+tbody tr { border-bottom: 1px solid var(--border); transition: background 0.15s; }
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: rgba(14,165,233,0.04); }
+tbody td { padding: 15px 20px; color: var(--text2); vertical-align: middle; line-height: 1.5; }
+.proj-link { color: var(--white); text-decoration: none; font-weight: 600; transition: color 0.2s; }
+.proj-link:hover { color: var(--accent2); }
+.domain-tag {
+  display: inline-block; font-size: 0.68rem; padding: 3px 10px; border-radius: 4px;
+  background: var(--bg3); border: 1px solid var(--border); color: var(--text2);
+  font-family: 'JetBrains Mono', monospace;
+}
+.scale-chip {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.75rem;
+  color: var(--green); font-weight: 500;
+}
+.proj-new {
+  display: inline-block; font-size: 0.58rem; padding: 1px 7px; border-radius: 3px;
+  background: rgba(16,217,160,0.1); color: var(--green);
+  border: 1px solid rgba(16,217,160,0.2); font-family:'JetBrains Mono',monospace; vertical-align: middle; margin-left: 6px;
+}
+
+/* ════════════════════════════════════════
+   RECOMMENDATIONS
+════════════════════════════════════════ */
+.reco-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 16px; }
+.reco-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 30px; position: relative;
+  transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1); overflow: hidden;
+  opacity: 0; transform: translateY(22px);
+}
+.reco-card.reco-visible { opacity: 1; transform: translateY(0); }
+.reco-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0; transition: opacity 0.3s;
+}
+.reco-card:hover { border-color: var(--border2); transform: translateY(-5px) !important; box-shadow: 0 16px 48px rgba(0,0,0,0.45); }
+.reco-card:hover::before { opacity: 1; }
+.reco-quote {
+  font-size: 5rem; color: var(--accent); opacity: 0.1;
+  line-height: 0.85; font-family: 'Unbounded', sans-serif;
+  position: absolute; top: 12px; right: 18px;
+  pointer-events: none; user-select: none;
+}
+.reco-text {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.97rem; color: var(--text); line-height: 1.95;
+  font-style: italic; margin-bottom: 22px; font-weight: 400;
+  letter-spacing: 0.01em;
+}
+.reco-author {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem; font-weight: 700; color: var(--white);
+  letter-spacing: 0.01em;
+}
+.reco-title {
+  font-size: 0.72rem; color: var(--accent2); margin-top: 5px;
+  font-family: 'JetBrains Mono', monospace; letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+/* ════════════════════════════════════════
+   CONTACT
+════════════════════════════════════════ */
+.contact-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+.contact-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 22px 24px; text-decoration: none;
+  display: flex; align-items: center; gap: 16px; transition: all 0.25s;
+  overflow: hidden; min-width: 0;
+}
+.contact-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 12px 36px rgba(14,165,233,0.15); }
+.contact-icon {
+  width: 46px; height: 46px; border-radius: 10px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center; font-size: 1.2rem;
+}
+.contact-icon.li { background: rgba(10,102,194,0.14); border: 1px solid rgba(10,102,194,0.3); }
+.contact-icon.em { background: rgba(234,67,53,0.1); border: 1px solid rgba(234,67,53,0.22); }
+.contact-icon.gh { background: rgba(255,255,255,0.05); border: 1px solid var(--border); }
+.contact-icon.cv { background: rgba(14,165,233,0.1); border: 1px solid rgba(14,165,233,0.25); }
+.contact-icon.wa { background: rgba(37,211,102,0.1); border: 1px solid rgba(37,211,102,0.3); }
+.contact-label { font-size: 0.68rem; color: var(--text3); font-family: 'JetBrains Mono', monospace; text-transform: uppercase; letter-spacing: 0.1em; }
+.contact-value { font-size: 0.88rem; color: var(--white); font-weight: 600; margin-top: 3px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.contact-card > div:last-child { min-width: 0; overflow: hidden; flex: 1; }
+
+/* ════════════════════════════════════════
+   FOOTER
+════════════════════════════════════════ */
+footer {
+  margin-top: 90px; border-top: 1px solid var(--border);
+  padding: 36px 0; text-align: center;
+}
+.footer-inner {
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;
+}
+.footer-brand {
+  font-family: 'Unbounded', sans-serif; font-size: 0.85rem;
+  font-weight: 700; color: var(--text2);
+}
+.footer-brand em { color: var(--accent); font-style: normal; }
+.footer-text { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; color: var(--text2); letter-spacing: 0.05em; }
+.footer-text a { color: var(--accent2); text-decoration: none; font-weight: 600; }
+.footer-text a:hover { color: var(--accent3); text-decoration: underline; }
+.footer-copy { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; color: var(--text2); opacity: 0.75; }
+
+/* ════════════════════════════════════════
+   CURRENTLY LEARNING BLOCK
+════════════════════════════════════════ */
+.learning-block {
+  margin-top: 28px;
+  background: var(--card);
+  border: 1px solid rgba(167,139,250,0.2);
+  border-radius: 12px;
+  padding: 22px 28px;
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  position: relative; overflow: hidden;
+}
+.learning-block::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, var(--purple), var(--accent), var(--green));
+}
+.learning-block-icon {
+  font-size: 1.6rem; flex-shrink: 0;
+}
+.learning-block-body { flex: 1; }
+.learning-block-title {
+  font-family: 'Unbounded', sans-serif; font-weight: 700;
+  font-size: 0.9rem; color: var(--white); letter-spacing: -0.01em;
+  margin-bottom: 5px;
+}
+.learning-block-desc {
+  font-size: 0.88rem; color: var(--text2); line-height: 1.65;
+}
+.learning-block-badge {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.62rem;
+  letter-spacing: 0.09em; text-transform: uppercase;
+  padding: 4px 12px; border-radius: 20px;
+  background: rgba(167,139,250,0.12); color: var(--purple2);
+  border: 1px solid rgba(167,139,250,0.28); flex-shrink: 0;
+}
+
+/* ════════════════════════════════════════
+   SCROLL REVEAL
+════════════════════════════════════════ */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.65s ease, transform 0.65s ease; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+/* ════════════════════════════════════════
+   RESPONSIVE
+════════════════════════════════════════ */
+/* ════════════════════════════════════════
+   DARK/LIGHT TOGGLE
+════════════════════════════════════════ */
+.theme-toggle {
+  position: fixed; bottom: 28px; right: 28px; z-index: 500;
+  width: 52px; height: 52px; border-radius: 50%;
+  background: var(--card); border: 1.5px solid var(--border2);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  font-size: 1.25rem; transition: all 0.3s; outline: none;
+  color: var(--text);
+}
+.theme-toggle:hover {
+  border-color: var(--accent); box-shadow: 0 4px 28px rgba(14,165,233,0.3);
+  transform: rotate(20deg) scale(1.08);
+}
+
+/* ════════════════════════════════════════
+   TYPING ANIMATION
+════════════════════════════════════════ */
+.typing-role {
+  display: inline-block;
+  color: var(--accent2);
+  position: relative;
+  min-width: 260px;
+}
+.typing-role::after {
+  content: '|';
+  color: var(--accent);
+  animation: cursor-blink 0.7s ease-in-out infinite;
+  margin-left: 2px;
+}
+@keyframes cursor-blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+/* ════════════════════════════════════════
+   STATS COUNTER
+════════════════════════════════════════ */
+.stat-num.counting { color: var(--accent2); }
+@keyframes count-pop { 0%{transform:scale(1)} 50%{transform:scale(1.15)} 100%{transform:scale(1)} }
+.stat-num.pop { animation: count-pop 0.3s ease; }
+
+/* ════════════════════════════════════════
+   BUG REPORT SHOWCASE
+════════════════════════════════════════ */
+.bug-showcase {
+  margin-top: 48px; background: var(--card);
+  border: 1px solid var(--border2); border-radius: 12px;
+  overflow: hidden; position: relative;
+}
+.bug-showcase::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--red), var(--orange), var(--accent));
+}
+.bug-showcase-header {
+  padding: 20px 28px 16px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+}
+.bug-showcase-title {
+  font-family: 'Unbounded', sans-serif; font-size: 0.85rem;
+  font-weight: 700; color: var(--white); letter-spacing: 0.01em;
+}
+.bug-id {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+  color: var(--text3); background: var(--bg3);
+  padding: 3px 10px; border-radius: 4px; letter-spacing: 0.08em;
+  border: 1px solid var(--border);
+}
+.bug-severity {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem;
+  font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em;
+  padding: 4px 12px; border-radius: 20px;
+}
+.sev-critical { background: rgba(248,113,113,0.15); color: var(--red); border: 1px solid rgba(248,113,113,0.3); }
+.sev-high { background: rgba(251,146,60,0.15); color: var(--orange); border: 1px solid rgba(251,146,60,0.3); }
+.bug-status {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
+  padding: 3px 10px; border-radius: 20px; margin-left: auto;
+  background: rgba(16,217,160,0.1); color: var(--green);
+  border: 1px solid rgba(16,217,160,0.25); letter-spacing: 0.08em;
+}
+.bug-body { padding: 24px 28px; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media(max-width:600px){ .bug-body { grid-template-columns: 1fr; } }
+.bug-section-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
+  color: var(--text3); text-transform: uppercase; letter-spacing: 0.14em;
+  margin-bottom: 10px; display: flex; align-items: center; gap: 7px;
+}
+.bug-section-label::before {
+  content: ''; width: 3px; height: 12px; border-radius: 2px;
+  background: var(--accent); flex-shrink: 0;
+}
+.bug-steps { list-style: none; display: flex; flex-direction: column; gap: 7px; }
+.bug-steps li {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.8rem;
+  color: var(--text2); padding: 8px 14px; border-radius: 6px;
+  background: var(--bg3); border: 1px solid var(--border);
+  display: flex; gap: 10px; align-items: flex-start; line-height: 1.5;
+}
+.step-num {
+  font-size: 0.65rem; font-weight: 700; color: var(--accent);
+  background: rgba(14,165,233,0.12); width: 20px; height: 20px;
+  border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; margin-top: 1px;
+}
+.bug-expected, .bug-actual {
+  font-size: 0.85rem; color: var(--text2);
+  padding: 14px 16px; border-radius: 8px; line-height: 1.7;
+}
+.bug-expected {
+  background: rgba(16,217,160,0.06); border: 1px solid rgba(16,217,160,0.2);
+}
+.bug-actual {
+  background: rgba(248,113,113,0.06); border: 1px solid rgba(248,113,113,0.2);
+  color: var(--red);
+}
+.bug-env-row {
+  padding: 14px 28px 20px; border-top: 1px solid var(--border);
+  display: flex; gap: 20px; flex-wrap: wrap;
+}
+.bug-env-pill {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem;
+  color: var(--text3); background: var(--bg3);
+  border: 1px solid var(--border); padding: 4px 12px; border-radius: 4px;
+}
+.bug-showcase-cta {
+  padding: 16px 28px; border-top: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;
+  background: rgba(14,165,233,0.03);
+}
+.bug-cta-text {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; color: var(--text3);
+}
+.bug-cta-text em { color: var(--accent2); font-style: normal; }
+
+/* ════════════════════════════════════════
+   VERIFICATION BADGES
+════════════════════════════════════════ */
+.verify-badge {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem;
+  padding: 5px 14px; border-radius: 20px; cursor: pointer;
+  text-decoration: none; transition: all 0.25s;
+  background: rgba(16,217,160,0.08); border: 1px solid rgba(16,217,160,0.2);
+  color: var(--green2); letter-spacing: 0.06em;
+  position: relative; overflow: hidden;
+}
+.verify-badge:hover {
+  background: rgba(16,217,160,0.16); border-color: var(--green2);
+  box-shadow: 0 0 16px rgba(16,217,160,0.25); transform: translateY(-1px);
+}
+.verify-check {
+  width: 16px; height: 16px; border-radius: 50%;
+  background: var(--green2); display: inline-flex; align-items: center; justify-content: center;
+  font-size: 0.6rem; color: #000; font-weight: 900; flex-shrink: 0;
+  transition: transform 0.3s;
+}
+.verify-badge:hover .verify-check { transform: scale(1.25) rotate(10deg); }
+.verify-badge.verified-anim .verify-check {
+  animation: verified-pop 0.5s ease;
+}
+@keyframes verified-pop {
+  0%{transform:scale(1)} 40%{transform:scale(1.5) rotate(20deg)} 100%{transform:scale(1) rotate(0deg)}
+}
+
+@media (max-width: 768px) {
+  .hero-layout { flex-direction: column; align-items: flex-start; gap: 36px; }
+  .skills-grid { grid-template-columns: 1fr; }
+  .nav-links { display: none; }
+  .hero-stats { flex-direction: column; }
+  .stat { border-right: none; border-bottom: 1px solid var(--border); }
+  .stat:last-child { border-bottom: none; }
+  .exp-card { grid-template-columns: 1fr; }
+  .exp-logo { display: none; }
+  .floating-badge { display: none; }
+}
+@media (max-width: 480px) {
+  .wrap { padding: 0 20px; }
+  .hero-name { font-size: 2.2rem; }
+  .sec-title { font-size: 1.5rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- Dark/Light Toggle -->
+<button class="theme-toggle" id="themeToggle" title="Toggle dark/light mode" aria-label="Toggle theme">🌙</button>
+
+<!-- Particles -->
+<div class="particles" id="particles"></div>
+
+<!-- Floating Badges -->
+<div class="floating-badge fb-istqb">
+  <span class="fb-dot"></span> ISTQB® CTFL &amp; CTFL-AT
+</div>
+<div class="floating-badge fb-open">
+  <span class="fb-dot pulse"></span> Open to Work
+</div>
+<div class="floating-badge fb-users">
+  <span class="fb-dot"></span> 50k+ Users Tested
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">
+      masaid<em>.</em>zeb
+      <span class="nav-badge">✓ ISTQB</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certs">Certs</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#bugreport">Bug Report</a></li>
+      <li><a href="#reco">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<!-- ══════════════ HERO ══════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-eyebrow">
+    <div class="eyebrow-tag">QA Engineer</div>
+    <div class="eyebrow-status"><span class="status-dot"></span> Open to Opportunities</div>
+    <div class="eyebrow-loc">📍 Islamabad, PK</div>
+  </div>
+
+  <div class="hero-layout">
+    <div class="hero-avatar-area">
+      <div class="avatar-frame">
+        <div class="avatar-glow"></div>
+        <img class="avatar-img"
+          src="https://avatars.githubusercontent.com/u/175556629?v=4"
+          alt="Masaid Zeb"
+          onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22148%22 height=%22148%22%3E%3Crect width=%22148%22 height=%22148%22 rx=%2216%22 fill=%22%230a0e15%22/%3E%3Ctext x=%2274%22 y=%2290%22 font-size=%2252%22 text-anchor=%22middle%22 fill=%22%230ea5e9%22 font-family=%22sans-serif%22 font-weight=%22900%22%3EMZ%3C/text%3E%3C/svg%3E'"
+        />
+        <div class="avatar-corner tl"></div>
+        <div class="avatar-corner tr"></div>
+        <div class="avatar-corner bl"></div>
+        <div class="avatar-corner br"></div>
+      </div>
+    </div>
+
+    <div class="hero-text">
+      <h1 class="hero-name">Masaid <span class="accent">Zeb</span></h1>
+      <div class="hero-subtitle"><span class="typing-role" id="typing-role">QA Engineer</span></div>
+      <p class="hero-desc">
+        Mid-level QA Engineer with <strong>2+ years</strong> delivering quality across
+        web, mobile, API, AI/LLM, and high-load systems. ISTQB® certified in Foundation &amp; Agile.
+        Trusted with national-scale government portals and enterprise AI products.
+      </p>
+      <div class="hero-cta">
+        <a href="https://www.linkedin.com/in/masaid-sqa/" target="_blank" class="btn btn-primary">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/masaid2244" target="_blank" class="btn btn-ghost">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://drive.google.com/file/d/1zFTNjm3xoB45RxYG-pzRsidMPWnrsEVQ/view" target="_blank" class="btn btn-gold">↓ Download CV</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num" data-target="2" data-suffix="+">2<em>+</em></div>
+          <div class="stat-label">Years Exp.</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="10" data-suffix="+">10<em>+</em></div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="50" data-suffix="k">50<em>k</em></div>
+          <div class="stat-label">Peak Users</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-target="2" data-suffix="">2</div>
+          <div class="stat-label">ISTQB-Certified</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ EXPERIENCE ══════════════ -->
+<section id="experience" class="reveal">
+  <div class="sec-head">
+    <div class="sec-label">Professional History</div>
+    <div class="sec-title">Experience</div>
+  </div>
+  <div class="exp-list">
+
+    <div class="exp-card">
+      <div class="exp-logo">AXI</div>
+      <div>
+        <div class="exp-header">
+          <div>
+            <div class="exp-org"><a href="https://axitechnologies.ai/" target="_blank">AXI Technologies</a></div>
+            <div class="exp-role">Mid-Level QA Engineer</div>
+          </div>
+          <div class="exp-meta"><span>📍 Pakistan</span><span>🤖 AI / SaaS</span></div>
+        </div>
+        <p class="exp-desc">AI product company building LLM-powered chatbots, intelligent CV screening tools, and enterprise automation solutions.</p>
+        <ul class="exp-bullets">
+          <li>Validated <strong>AI Chatbots &amp; LLM systems</strong> — AXI Chatbot, CV Screening Bot, Pak-Austria Chatbot — including intent testing, hallucination detection, and knowledge-base regression</li>
+          <li>Led full end-to-end QA for the <strong>NTS CBT (Computer-Based Testing)</strong> system handling high-stakes national exams — zero critical failures on live exam days; load tested with JMeter validating <strong>15,000+ concurrent users</strong></li>
+          <li>Tested <strong>Khudi Chat</strong> mobile application on both <strong>iOS and Android</strong> platforms — functional, UI, regression, and cross-platform compatibility testing across multiple device configurations; monitored installs and crash metrics post-release</li>
+          <li>Conducted <strong>AI Testing &amp; LLM validation</strong> — prompt injection testing, response accuracy evaluation, tone/intent drift detection, and regression after model/KB updates</li>
+          <li>Performed <strong>full end-to-end testing</strong> across web and mobile surfaces including API testing (REST), UI automation, and exploratory testing cycles</li>
+          <li>Conducted API testing, UI automation, and full regression cycles after model and KB updates across 3+ AI products</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-card">
+      <div class="exp-logo">PEC</div>
+      <div>
+        <div class="exp-header">
+          <div>
+            <div class="exp-org"><a href="https://www.pec.org.pk/" target="_blank">Pakistan Engineering Council (PEC)</a></div>
+            <div class="exp-role">Junior QA &amp; Automation Engineer</div>
+          </div>
+          <div class="exp-meta"><span>📍 Islamabad</span><span>🏛 Government</span></div>
+        </div>
+        <p class="exp-desc">National regulatory authority for engineering in Pakistan — responsible for engineer registration and professional examinations nationwide.</p>
+        <ul class="exp-bullets">
+          <li>Led end-to-end QA for the <strong>EPE Examination Portal</strong> — Pakistan's first nationwide Computer-Based Test for engineers</li>
+          <li>Built <strong>Selenium (Python)</strong> automation framework for the Engineer Registration Portal, cutting regression cycle time significantly</li>
+          <li>Load tested infrastructure using <strong>JMeter</strong>, validating stability under <strong>50,000+ concurrent users</strong> — one of the highest scale performance tests run on a government portal in Pakistan</li>
+          <li>Applied BVA, equivalence partitioning, and risk-based testing under Agile/Scrum sprints</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ SKILLS ══════════════ -->
+<section id="skills" class="reveal">
+  <div class="sec-head">
+    <div class="sec-label">Technical Proficiency</div>
+    <div class="sec-title">Testing Stack</div>
+  </div>
+  <div class="skills-universe">
+
+    <div class="skill-category cat-automation">
+      <div class="skill-category-header">
+        <div class="skill-category-title"><span class="cat-dot"></span> Test Automation</div>
+        <div class="skill-level-bar"><div class="skill-level-fill"></div></div>
+      </div>
+      <div class="skill-tags-animated">
+        <span class="skill-pill">Cypress</span>
+        <span class="skill-pill">Selenium</span>
+        <span class="skill-pill">Katalon</span>
+        <span class="skill-pill">Page Object Model</span>
+        <span class="skill-pill">BDD</span>
+        <span class="skill-pill">Data-Driven Testing</span>
+      </div>
+    </div>
+
+    <div class="skill-category cat-perf">
+      <div class="skill-category-header">
+        <div class="skill-category-title"><span class="cat-dot"></span> Performance Testing</div>
+        <div class="skill-level-bar"><div class="skill-level-fill"></div></div>
+      </div>
+      <div class="skill-tags-animated">
+        <span class="skill-pill">Apache JMeter</span>
+        <span class="skill-pill">k6</span>
+        <span class="skill-pill">LoadRunner</span>
+        <span class="skill-pill">Load Testing</span>
+        <span class="skill-pill">Stress Testing</span>
+        <span class="skill-pill">Spike Testing</span>
+        <span class="skill-pill">50k+ Concurrent Users</span>
+      </div>
+    </div>
+
+    <div class="skill-category cat-api">
+      <div class="skill-category-header">
+        <div class="skill-category-title"><span class="cat-dot"></span> API Testing</div>
+        <div class="skill-level-bar"><div class="skill-level-fill"></div></div>
+      </div>
+      <div class="skill-tags-animated">
+        <span class="skill-pill">Postman</span>
+        <span class="skill-pill">Swagger / OpenAPI</span>
+        <span class="skill-pill">REST API</span>
+        <span class="skill-pill">API Chaining</span>
+        <span class="skill-pill">Contract Testing</span>
+      </div>
+    </div>
+
+    <div class="skill-category cat-ai">
+      <div class="skill-category-header">
+        <div class="skill-category-title"><span class="cat-dot"></span> AI &amp; LLM Testing</div>
+        <div class="skill-level-bar"><div class="skill-level-fill"></div></div>
+      </div>
+      <div class="skill-tags-animated">
+        <span class="skill-pill">LLM Response Validation</span>
+        <span class="skill-pill">Intent Testing</span>
+        <span class="skill-pill">Hallucination Detection</span>
+        <span class="skill-pill">KB Regression</span>
+        <span class="skill-pill">NLP Evaluation</span>
+        <span class="skill-pill">Prompt Testing</span>
+        <span class="skill-pill">Chatbot QA</span>
+        <span class="skill-pill">AI Model Regression</span>
+      </div>
+    </div>
+
+    <div class="skill-category cat-design">
+      <div class="skill-category-header">
+        <div class="skill-category-title"><span class="cat-dot"></span> Test Design &amp; Strategy</div>
+        <div class="skill-level-bar"><div class="skill-level-fill"></div></div>
+      </div>
+      <div class="skill-tags-animated">
+        <span class="skill-pill">BVA</span>
+        <span class="skill-pill">Equivalence Partitioning</span>
+        <span class="skill-pill">Decision Tables</span>
+        <span class="skill-pill">Risk-Based Testing</span>
+        <span class="skill-pill">Test Charter</span>
+        <span class="skill-pill">RTM</span>
+        <span class="skill-pill">Test Planning</span>
+      </div>
+    </div>
+
+    <div class="skill-category cat-tools">
+      <div class="skill-category-header">
+        <div class="skill-category-title"><span class="cat-dot"></span> Tools, DB &amp; Process</div>
+        <div class="skill-level-bar"><div class="skill-level-fill"></div></div>
+      </div>
+      <div class="skill-tags-animated">
+        <span class="skill-pill">Jira</span>
+        <span class="skill-pill">Zephyr</span>
+        <span class="skill-pill">Bugzilla</span>
+        <span class="skill-pill">MySQL</span>
+        <span class="skill-pill">MongoDB</span>
+        <span class="skill-pill">Git</span>
+        <span class="skill-pill">JavaScript</span>
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">Agile / Scrum</span>
+        <span class="skill-pill">SDLC / STLC</span>
+      </div>
+    </div><!-- /cat-tools -->
+
+    <div class="learning-block reveal">
+      <div class="learning-block-icon">🛡️</div>
+      <div class="learning-block-body">
+        <div class="learning-block-title">Currently Learning: Penetration Testing &amp; Cybersecurity</div>
+        <div class="learning-block-desc">Actively exploring web application penetration testing and ethical hacking — studying OWASP Top 10, hands-on labs via PortSwigger Academy, and building a foundation in offensive security concepts as a natural extension of my QA and vulnerability mindset.</div>
+      </div>
+      <span class="learning-block-badge">⚡ In Progress</span>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ CERTIFICATIONS ══════════════ -->
+<section id="certs" class="reveal">
+  <div class="sec-head">
+    <div class="sec-label">Credentials</div>
+    <div class="sec-title">Certifications</div>
+  </div>
+
+  <div class="cert-marquee-wrap">
+    <div class="cert-marquee-track">
+      <span class="cert-marquee-item"><span class="star">★</span> ISTQB® CTFL <span class="sep">·</span></span>
+      <span class="cert-marquee-item"><span class="star">★</span> ISTQB® CTFL-AT <span class="sep">·</span></span>
+      <span class="cert-marquee-item"><span class="star">★</span> ISTQB® CTFL <span class="sep">·</span></span>
+      <span class="cert-marquee-item"><span class="star">★</span> ISTQB® CTFL-AT <span class="sep">·</span></span>
+      <span class="cert-marquee-item"><span class="star">★</span> ISTQB® CTFL <span class="sep">·</span></span>
+      <span class="cert-marquee-item"><span class="star">★</span> ISTQB® CTFL-AT <span class="sep">·</span></span>
+    </div>
+  </div>
+
+  <div class="identity-cards">
+    <div class="identity-card ai-llm">
+      <div class="identity-icon">🧠</div>
+      <div>
+        <div class="identity-title">AI / LLM Tester</div>
+        <div class="identity-label">Chatbot &amp; GenAI QA</div>
+      </div>
+    </div>
+    <div class="identity-card automation">
+      <div class="identity-icon">⚙️</div>
+      <div>
+        <div class="identity-title">QA Automation Engineer</div>
+        <div class="identity-label">Cypress · Selenium · Katalon</div>
+      </div>
+    </div>
+    <div class="identity-card midlevel">
+      <div class="identity-icon">🚀</div>
+      <div>
+        <div class="identity-title">Mid-Level QA Engineer</div>
+        <div class="identity-label">2+ Years · Web · Mobile · API</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cert-grid">
+    <a href="https://pstb.pk/testers/Certified%20Tester%20Foundation%20Level" target="_blank" class="cert-card istqb-card">
+      <div class="cert-icon istqb-ico">ISTQB</div>
+      <div class="cert-info">
+        <div class="cert-name">ISTQB® CTFL</div>
+        <div class="cert-sub">Certified Tester Foundation Level</div>
+        <div class="cert-badge istqb-badge">ISTQB® Official · Primary</div>
+        <a href="https://pstb.pk/testers/Certified%20Tester%20Foundation%20Level" target="_blank" class="verify-badge" onclick="triggerVerifyAnim(this)" style="margin-top:10px; display:inline-flex;">
+          <span class="verify-check">✓</span> Verify on PSTB
+        </a>
+      </div>
+    </a>
+    <a href="https://scr.istqb.org/?name=masaid" target="_blank" class="cert-card istqb-card">
+      <div class="cert-icon istqb-ico">ISTQB</div>
+      <div class="cert-info">
+        <div class="cert-name">ISTQB® CTFL-AT</div>
+        <div class="cert-sub">Agile Tester Extension</div>
+        <div class="cert-badge istqb-badge">ISTQB® Official · Agile</div>
+        <a href="https://scr.istqb.org/?name=masaid" target="_blank" class="verify-badge" onclick="triggerVerifyAnim(this)" style="margin-top:10px; display:inline-flex;">
+          <span class="verify-check">✓</span> Verify on ISTQB SCR
+        </a>
+      </div>
+    </a>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ PROJECTS ══════════════ -->
+<section id="projects" class="reveal">
+  <div class="sec-head">
+    <div class="sec-label">Portfolio</div>
+    <div class="sec-title">Projects</div>
+  </div>
+  <div class="proj-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Domain</th>
+          <th>Testing Scope</th>
+          <th>Scale</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://docs.google.com/document/d/1nJri4IpjMhxso1xp9jXw0MKYM3AvcREZ1h_lrDLEziU/edit#heading=h.xca2833d3ine" target="_blank" class="proj-link">CBT System — NTS Pakistan</a></td>
+          <td><span class="domain-tag">Gov / EdTech</span></td>
+          <td>Performance, Functional, Anti-Cheat Validation</td>
+          <td><span class="scale-chip">50,000+ users</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://cpd.pec.org.pk/EPECustom" target="_blank" class="proj-link">EPE Examination Portal — PEC</a></td>
+          <td><span class="domain-tag">Government</span></td>
+          <td>E2E QA, Regression, Performance</td>
+          <td><span class="scale-chip">National CBT</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/masaid2244/Engineer_registration_PEC_new_Application" target="_blank" class="proj-link">Engineer Registration Portal — PEC</a></td>
+          <td><span class="domain-tag">Government</span></td>
+          <td>Selenium Automation, Regression Testing</td>
+          <td><span class="scale-chip">Nationwide</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://axitechnologies.ai/" target="_blank" class="proj-link">AI Chatbots &amp; LLM Systems — AXI</a></td>
+          <td><span class="domain-tag">AI / LLM</span></td>
+          <td>LLM Validation, Intent, KB Regression, API</td>
+          <td><span class="scale-chip">3 AI products</span></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="proj-link" style="cursor:default">Evolo AI EdTech Platform</span>
+            <span class="proj-new">Standalone</span>
+          </td>
+          <td><span class="domain-tag">EdTech (USA)</span></td>
+          <td>Cross-platform QA, API, Performance</td>
+          <td><span class="scale-chip">200+ institutes</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/masaid2244/Cypress-Sample-Test-Cases" target="_blank" class="proj-link">Cypress E2E Automation Suite</a></td>
+          <td><span class="domain-tag">Framework</span></td>
+          <td>UI Automation, Data-Driven, POM</td>
+          <td><span class="scale-chip">Open Source</span></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="proj-link" style="cursor:default">Khudi Chat — Messaging like WhatsApp</span>
+            <span class="proj-new">NEW</span>
+          </td>
+          <td><span class="domain-tag">Defense / Mobile</span></td>
+          <td>iOS &amp; Android Mobile Testing, Web Testing, Functional, Regression, Cross-platform</td>
+          <td><span class="scale-chip">Armed Forces PK</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/masaid2244/test-engineering-evidence" target="_blank" class="proj-link">QA Artifacts Repository</a></td>
+          <td><span class="domain-tag">Documentation</span></td>
+          <td>Test Plans, RTM, Bug Reports, Strategy</td>
+          <td><span class="scale-chip">Multi-project</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ BUG REPORT SHOWCASE ══════════════ -->
+<section id="bugreport" class="reveal">
+  <div class="sec-head">
+    <div class="sec-label">Documentation Quality</div>
+    <div class="sec-title">Bug Report <span class="dim">Sample</span></div>
+  </div>
+  <div class="bug-showcase">
+    <div class="bug-showcase-header">
+      <span class="bug-id">#BUG-0247</span>
+      <span class="bug-severity sev-critical">⬤ Critical</span>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:0.8rem;color:var(--white);font-weight:600;">
+        Race condition: duplicate exam submission under high concurrency
+      </span>
+      <span class="bug-status">✓ Resolved</span>
+    </div>
+    <div class="bug-body">
+      <div>
+        <div class="bug-section-label">Steps to Reproduce</div>
+        <ol class="bug-steps">
+          <li><span class="step-num">1</span>Open exam in 2 browser tabs simultaneously (same session)</li>
+          <li><span class="step-num">2</span>Complete all questions in Tab 1, click Submit</li>
+          <li><span class="step-num">3</span>Within 500ms, click Submit in Tab 2 (before redirect)</li>
+          <li><span class="step-num">4</span>Observe database records &amp; candidate score report</li>
+        </ol>
+      </div>
+      <div>
+        <div class="bug-section-label">Expected Result</div>
+        <div class="bug-expected">System accepts only the first submission. Second request returns HTTP 409 Conflict. Candidate score is recorded once. No duplicate entry in exam_submissions table.</div>
+        <div class="bug-section-label" style="margin-top:16px;">Actual Result</div>
+        <div class="bug-actual">Both submissions accepted — score recorded twice. Final score reflects second (incomplete) submission. Candidate fails despite completing exam. Data integrity violation in production DB.</div>
+      </div>
+    </div>
+    <div class="bug-env-row">
+      <span class="bug-env-pill">🖥 Chrome 122 · Firefox 123</span>
+      <span class="bug-env-pill">🌐 Staging + Production</span>
+      <span class="bug-env-pill">⚡ NTS CBT — 50,000+ user load</span>
+      <span class="bug-env-pill">📋 Jira · NTS-2247</span>
+    </div>
+    <div class="bug-showcase-cta">
+      <span class="bug-cta-text">Full QA artifacts · <em>test plans · RTM · bug reports · strategy docs</em></span>
+      <a href="https://github.com/masaid2244/test-engineering-evidence" target="_blank" class="btn btn-ghost" style="font-size:0.8rem;padding:8px 18px;">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        View QA Artifacts Repo →
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ RECOMMENDATIONS ══════════════ -->
+<section id="reco" class="reveal">
+  <div class="sec-head">
+    <div class="sec-label">Peer Feedback</div>
+    <div class="sec-title">Recommendations</div>
+  </div>
+  <div class="reco-grid">
+    <div class="reco-card">
+      <div class="reco-quote">"</div>
+      <p class="reco-text">Recognized for strong ownership, deep problem-solving skills, and consistently improving product stability across releases.</p>
+      <div class="reco-author">Muneeb Ur Rehman</div>
+      <div class="reco-title">Senior React Native Developer &amp; Team Lead — AI Mark Lab</div>
+    </div>
+    <div class="reco-card">
+      <div class="reco-quote">"</div>
+      <p class="reco-text">Led QA independently, strengthened release quality, and clearly communicated risks to stakeholders in a structured, professional manner.</p>
+      <div class="reco-author">Zeeshan Farooqi</div>
+      <div class="reco-title">Product Leader | SaaS Strategy &amp; AI Product Management</div>
+    </div>
+    <div class="reco-card">
+      <div class="reco-quote">"</div>
+      <p class="reco-text">Trusted with mission-critical government systems and consistently delivered reliable results even under tight deadlines and high pressure.</p>
+      <div class="reco-author">Fahad Mustafa</div>
+      <div class="reco-title">QA / Support Engineer — Pakistan Engineering Council</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ══════════════ CONTACT ══════════════ -->
+<section id="contact" class="reveal">
+  <div class="sec-head">
+    <div class="sec-label">Get in Touch</div>
+    <div class="sec-title">Let's Connect</div>
+  </div>
+  <div class="contact-row">
+    <a href="https://www.linkedin.com/in/masaid-sqa/" target="_blank" class="contact-card">
+      <div class="contact-icon li">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#0A66C2"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </div>
+      <div>
+        <div class="contact-label">LinkedIn</div>
+        <div class="contact-value">masaid-sqa</div>
+      </div>
+    </a>
+    <div class="contact-card" id="email-copy-card" onclick="copyEmail()" style="cursor:pointer;">
+      <div class="contact-icon em">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#EA4335"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.909 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+      </div>
+      <div>
+        <div class="contact-label">Email</div>
+        <div class="contact-value" id="email-text">masaid.zeb2244@gmail.com</div>
+        <div id="email-copied-msg" style="display:none; font-family:'JetBrains Mono',monospace; font-size:0.65rem; color:var(--green); margin-top:4px; letter-spacing:0.06em;">✓ Email copied!</div>
+      </div>
+    </div>
+    <a href="https://github.com/masaid2244" target="_blank" class="contact-card">
+      <div class="contact-icon gh">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#c9d1d9"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+      </div>
+      <div>
+        <div class="contact-label">GitHub</div>
+        <div class="contact-value">masaid2244</div>
+      </div>
+    </a>
+    <a href="https://drive.google.com/file/d/1zFTNjm3xoB45RxYG-pzRsidMPWnrsEVQ/view" target="_blank" class="contact-card">
+      <div class="contact-icon cv">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#38bdf8"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/></svg>
+      </div>
+      <div>
+        <div class="contact-label">Resume</div>
+        <div class="contact-value">Download CV</div>
+      </div>
+    </a>
+    <a href="https://wa.me/923240907223" target="_blank" class="contact-card">
+      <div class="contact-icon wa">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      </div>
+      <div>
+        <div class="contact-label">WhatsApp</div>
+        <div class="contact-value" style="white-space:nowrap;">+923240907223</div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">masaid<em>.</em>zeb</div>
+    <div class="footer-text">
+      QA Engineer &nbsp;·&nbsp; ISTQB® CTFL &amp; CTFL-AT &nbsp;·&nbsp;
+      <a href="https://github.com/masaid2244" target="_blank">github.com/masaid2244</a>
+    </div>
+    <div class="footer-copy">© <span id="footer-year"></span> Masaid Zeb</div>
+  </div>
+</footer>
+
+</div><!-- /wrap -->
+
+<script>
+// ── Dynamic footer year
+document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+// ══════════════════════════════════════
+// DARK / LIGHT MODE TOGGLE
+// ══════════════════════════════════════
+const themeBtn = document.getElementById('themeToggle');
+const savedTheme = localStorage.getItem('mz-theme');
+if (savedTheme === 'light') { document.body.classList.add('light-mode'); themeBtn.textContent = '☀️'; }
+
+themeBtn.addEventListener('click', () => {
+  document.body.classList.toggle('light-mode');
+  const isLight = document.body.classList.contains('light-mode');
+  themeBtn.textContent = isLight ? '☀️' : '🌙';
+  localStorage.setItem('mz-theme', isLight ? 'light' : 'dark');
+});
+
+// ══════════════════════════════════════
+// TYPING ANIMATION
+// ══════════════════════════════════════
+(function() {
+  const roles = ['QA Engineer', 'AI Tester', 'Automation Engineer', 'ISTQB® Certified', 'Bug Hunter'];
+  const el = document.getElementById('typing-role');
+  let roleIdx = 0, charIdx = 0, deleting = false;
+
+  function type() {
+    const current = roles[roleIdx];
+    if (!deleting) {
+      el.textContent = current.slice(0, charIdx + 1);
+      charIdx++;
+      if (charIdx === current.length) {
+        deleting = true;
+        setTimeout(type, 1800);
+        return;
+      }
+      setTimeout(type, 80);
+    } else {
+      el.textContent = current.slice(0, charIdx - 1);
+      charIdx--;
+      if (charIdx === 0) {
+        deleting = false;
+        roleIdx = (roleIdx + 1) % roles.length;
+        setTimeout(type, 300);
+        return;
+      }
+      setTimeout(type, 40);
+    }
+  }
+  setTimeout(type, 700);
+})();
+
+// ══════════════════════════════════════
+// STATS COUNTER ANIMATION
+// ══════════════════════════════════════
+function animateCounter(el) {
+  const target = parseInt(el.dataset.target);
+  const suffix = el.dataset.suffix || '';
+  const accentColor = el.querySelector('em') ? el.querySelector('em').textContent : '';
+  const duration = 1400;
+  const start = performance.now();
+
+  function update(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / duration, 1);
+    // Ease out cubic
+    const eased = 1 - Math.pow(1 - progress, 3);
+    const current = Math.round(eased * target);
+    el.innerHTML = current + '<em>' + suffix + '</em>';
+    if (progress < 1) {
+      requestAnimationFrame(update);
+    } else {
+      el.classList.add('pop');
+      setTimeout(() => el.classList.remove('pop'), 300);
+    }
+  }
+  requestAnimationFrame(update);
+}
+
+const statsObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const statNums = e.target.querySelectorAll('.stat-num[data-target]');
+      statNums.forEach((el, i) => {
+        setTimeout(() => animateCounter(el), i * 180);
+      });
+      statsObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.3 });
+const heroStats = document.querySelector('.hero-stats');
+if (heroStats) statsObserver.observe(heroStats);
+
+// ══════════════════════════════════════
+// VERIFICATION BADGE ANIMATION
+// ══════════════════════════════════════
+function triggerVerifyAnim(el) {
+  el.classList.remove('verified-anim');
+  void el.offsetWidth; // reflow
+  el.classList.add('verified-anim');
+  setTimeout(() => el.classList.remove('verified-anim'), 600);
+}
+
+// ── Particles
+(function() {
+  const container = document.getElementById('particles');
+  const colors = ['#0ea5e9','#38bdf8','#10d9a0','#a78bfa'];
+  for (let i = 0; i < 28; i++) {
+    const p = document.createElement('div');
+    p.className = 'particle';
+    const size = Math.random() * 2.5 + 1;
+    p.style.cssText = `
+      left: ${Math.random()*100}%;
+      width: ${size}px; height: ${size}px;
+      background: ${colors[Math.floor(Math.random()*colors.length)]};
+      animation-duration: ${Math.random()*18+12}s;
+      animation-delay: ${Math.random()*12}s;
+      opacity: 0;
+    `;
+    container.appendChild(p);
+  }
+})();
+
+// ── Scroll reveal
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+  });
+}, { threshold: 0.08 });
+document.querySelectorAll('.reveal').forEach(r => observer.observe(r));
+
+// ── Staggered cert card reveal
+const certObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const cards = e.target.querySelectorAll('.cert-card');
+      cards.forEach((c, i) => {
+        setTimeout(() => {
+          c.classList.add('cert-visible');
+          c.style.transition = `opacity 0.45s ease ${i*0.07}s, transform 0.45s ease ${i*0.07}s`;
+        }, i * 60);
+      });
+      certObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.01 });
+document.querySelectorAll('.cert-grid').forEach(g => certObserver.observe(g));
+
+// ── Staggered reco card reveal
+const recoObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const cards = e.target.querySelectorAll('.reco-card');
+      cards.forEach((c, i) => {
+        setTimeout(() => c.classList.add('reco-visible'), i * 120);
+      });
+      recoObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.05 });
+const recoGrid = document.querySelector('.reco-grid');
+if (recoGrid) recoObserver.observe(recoGrid);
+
+// ── Interactive skills animation
+const skillObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('skill-anim');
+      const pills = e.target.querySelectorAll('.skill-pill');
+      pills.forEach((p, i) => {
+        p.style.transitionDelay = `${i * 55}ms`;
+      });
+      skillObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.15 });
+document.querySelectorAll('.skill-category').forEach(s => skillObserver.observe(s));
+
+// ── Copy email to clipboard
+function copyEmail() {
+  const email = 'masaid.zeb2244@gmail.com';
+  navigator.clipboard.writeText(email).then(() => {
+    const msg = document.getElementById('email-copied-msg');
+    const card = document.getElementById('email-copy-card');
+    msg.style.display = 'block';
+    card.style.borderColor = 'var(--green)';
+    setTimeout(() => {
+      msg.style.display = 'none';
+      card.style.borderColor = '';
+    }, 2500);
+  });
+}
+
+window.addEventListener('scroll', () => {
+  const badges = document.querySelectorAll('.floating-badge');
+  const heroBottom = document.querySelector('.hero').getBoundingClientRect().bottom;
+  badges.forEach(b => {
+    b.style.opacity = heroBottom > 120 ? '1' : '0';
+    b.style.transition = 'opacity 0.3s';
+  });
+});
+</script>
+</body>
+</html>
